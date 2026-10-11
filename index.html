@@ -258,6 +258,28 @@ button { font: inherit; }
 .opp-code { font-family: var(--font-display); font-size: 13px; color: var(--ink); margin-right: 8px; letter-spacing: .04em; }
 .chips-sm .chip { font-size: 12px; padding: 4px 10px; }
 .card-opposite .btn-text { padding-inline: 0; margin-top: 8px; }
+/* 16タイプの4象限マップ：左 L／右 F、上 H／下 M。象限はグループ色の淡色、タイルは白 */
+.result .card-map { background: var(--surface); }
+.qmap { display: grid; grid-template-columns: 18px 1fr 18px; grid-template-rows: auto 1fr auto; gap: 4px; align-items: center; justify-items: center; }
+.qaxis { font-size: 11px; font-weight: 700; color: var(--ink); white-space: nowrap; }
+.qaxis-top { grid-column: 2; grid-row: 1; }
+.qaxis-bottom { grid-column: 2; grid-row: 3; }
+.qaxis-left { grid-column: 1; grid-row: 2; writing-mode: vertical-rl; }
+.qaxis-right { grid-column: 3; grid-row: 2; writing-mode: vertical-rl; }
+.qgrid { grid-column: 2; grid-row: 2; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.quad { background: var(--group-soft); border: 1.5px solid var(--group); border-radius: 12px; padding: 6px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; min-width: 0; }
+.qtile {
+  appearance: none; width: 100%; min-width: 0; margin: 0; background: #fff; border: 1.5px solid var(--line); border-radius: 10px;
+  padding: 4px 2px 5px; display: grid; justify-items: center; align-content: start; gap: 2px; cursor: pointer; font: inherit; color: var(--ink); position: relative;
+}
+.qtile img { height: 44px; width: auto; max-width: 100%; display: block; }
+.qtile .qcode { font-family: var(--font-display); font-size: 10px; line-height: 1; }
+.qtile .qname { font-size: 9px; font-weight: 700; line-height: 1.2; text-align: center; word-break: break-all; }
+.qtile.is-me { border: 2.5px solid var(--group); box-shadow: 0 0 0 3px var(--group-soft); }
+.qtile.is-opp { border: 2px dashed var(--group); }
+.qtag { position: absolute; top: -7px; right: -4px; font-style: normal; font-size: 9px; font-weight: 700; line-height: 1.5; color: #fff; background: var(--brand); border-radius: 999px; padding: 0 6px; }
+.qtile.is-opp .qtag { background: var(--ink); }
+.qlegend { margin: 8px 0 0; font-size: 11px; color: var(--muted); line-height: 1.6; }
 /* TCBF2026で出会えるビール一覧（結果画面・16タイプ一覧） */
 .beers-lead { margin: 0 0 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
 .beers-note { margin: 10px 0 0; font-size: 12px; color: var(--muted); line-height: 1.6; }
@@ -671,6 +693,17 @@ button { font: inherit; }
         </div>
       </div>
       <button class="btn-text" type="button" data-action="preview-code" id="oppPreview">真逆のタイプの結果を見る →</button>
+    </div>
+    <div class="card card-map">
+      <p class="card-title">16タイプの中での位置</p>
+      <div class="qmap" role="group" aria-label="16タイプの4象限マップ">
+        <span class="qaxis qaxis-top">H ホップ派</span>
+        <span class="qaxis qaxis-left">L 軽い</span>
+        <div class="qgrid" id="qmap"></div>
+        <span class="qaxis qaxis-right">F 重い</span>
+        <span class="qaxis qaxis-bottom">M モルト派</span>
+      </div>
+      <p class="qlegend">L/F＝飲み口（軽い／重い）・S/B＝苦み（甘め／苦め）・A/C＝香り（華やか／控えめ）・H/M＝原料（ホップ／モルト）。タップするとそのタイプを見られます。</p>
     </div>
     <div class="card">
       <p class="card-title">味覚レーダー</p>
@@ -1205,6 +1238,7 @@ button { font: inherit; }
 
     // 真逆のタイプ：4文字すべてを反対の極に
     const oppCode = res.code.split('').map((ch, i) => (AXES[i].left.code === ch ? AXES[i].right.code : AXES[i].left.code)).join('');
+    markQuadrantMap(res.code, oppCode);
     const o = typeData(oppCode);
     const oc = $('#oppChara', S); oc.src = o.chara; oc.alt = o.name;
     const oppCard = $('.card-opposite', S);
@@ -1509,6 +1543,33 @@ button { font: inherit; }
   }
 
   /* =========================================================
+     16タイプの4象限マップ（結果画面）：左 L／右 F、上 H／下 M。タップでそのタイプをプレビュー
+     ========================================================= */
+  const QUADS = [
+    { key: 'LH', codes: ['LSAH', 'LSCH', 'LBAH', 'LBCH'] },
+    { key: 'FH', codes: ['FSAH', 'FSCH', 'FBAH', 'FBCH'] },
+    { key: 'LM', codes: ['LSAM', 'LSCM', 'LBAM', 'LBCM'] },
+    { key: 'FM', codes: ['FSAM', 'FSCM', 'FBAM', 'FBCM'] },
+  ];
+  function renderQuadrantMap() {
+    const el = $('#qmap'); if (!el) return;
+    el.innerHTML = QUADS.map(q => `<div class="quad" style="--group:${GROUP_COLOR[q.key]};--group-soft:${GROUP_TINT[q.key]}">` +
+      q.codes.map(code => {
+        const t = typeData(code);
+        return `<button type="button" class="qtile" data-action="preview-code" data-code="${code}" aria-label="${esc(t.name)}（${code}）の結果を見る">` +
+          `<img src="${t.chara}" alt="" loading="lazy"><span class="qcode">${code}</span><span class="qname">${esc(t.name)}</span><i class="qtag" hidden></i></button>`;
+      }).join('') + '</div>').join('');
+  }
+  function markQuadrantMap(code, oppCode) {
+    $$('#qmap .qtile').forEach(b => {
+      const me = b.dataset.code === code, opp = b.dataset.code === oppCode;
+      b.classList.toggle('is-me', me); b.classList.toggle('is-opp', opp);
+      const tag = $('.qtag', b);
+      if (tag) { tag.textContent = me ? 'あなた' : opp ? '真逆' : ''; tag.hidden = !(me || opp); }
+    });
+  }
+
+  /* =========================================================
      みんなの診断結果：GAS の集計（GET）を 16タイプのランキングと 4グループの割合で表示
      ========================================================= */
   let statsCache = null;      // { j, at }
@@ -1651,6 +1712,7 @@ button { font: inherit; }
       (items.length ? `<ul class="beers">${items.map(beerHTML).join('')}</ul>` : `<p class="beers-lead">フラッグシップの中には該当がありません。当日はほかの銘柄も出るので、会場で探してみてください。</p>`);
     card.insertBefore(wrap, $('[data-action="preview"]', card));
   });
+  renderQuadrantMap();   // 結果画面の4象限マップ（16タイプ）
   // ヘッダーにもトップ画面と同じグラスを並べる（画像はトップ画面のものを複製）
   { const g = $('#s-intro .glasses'); if (g) { const bar = document.createElement('div'); bar.className = 'topbar-glasses'; bar.setAttribute('aria-hidden', 'true'); bar.innerHTML = g.innerHTML; $('.topbar').insertBefore(bar, $right); } }
   // 集計の受け口が無いときは「みんなの診断結果」への導線を隠す
