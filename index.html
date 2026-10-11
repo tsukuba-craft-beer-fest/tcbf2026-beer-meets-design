@@ -167,6 +167,7 @@ button { font: inherit; }
 .q-text { margin: 4px 0 2px; font-size: 22px; line-height: 1.45; font-weight: 700; text-wrap: balance; }
 .q-text:focus { outline: none; }
 .q-help { margin: -6px 0 0; font-size: 13px; color: var(--muted); }
+.q-img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px; border: 1.5px solid var(--line); background: var(--brand-soft); }
 /* A / B を左右に並べ、その下の4ボタン（横一列）で「近さ」を選ぶ
    ── 縦並びだと A が先に目に入って回答が偏る、というレビューを受けて横並びに */
 .options { display: grid; gap: 10px; }
@@ -437,6 +438,7 @@ button { font: inherit; }
     <div class="progress" aria-hidden="true"><span class="seg current"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div>
     <h2 class="q-text" id="q1-text" tabindex="-1">焼き鳥を頼むなら？</h2>
     <p class="q-help">AとB、気持ちに近いほうを4段階でタップ。</p>
+    <img class="q-img" src="assets/questions/q1.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">塩で、素材の味をさっぱり</p></div>
@@ -461,6 +463,7 @@ button { font: inherit; }
     <div class="q-head"><span class="q-num">Q2</span><span class="q-count">2 / 8</span></div>
     <div class="progress" aria-hidden="true"><span class="seg done"></span><span class="seg current"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div>
     <h2 class="q-text" id="q2-text" tabindex="-1">チョコレートを選ぶなら？</h2>
+    <img class="q-img" src="assets/questions/q2.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">ミルクチョコやホワイトチョコ</p></div>
@@ -485,6 +488,7 @@ button { font: inherit; }
     <div class="q-head"><span class="q-num">Q3</span><span class="q-count">3 / 8</span></div>
     <div class="progress" aria-hidden="true"><span class="seg done"></span><span class="seg done"></span><span class="seg current"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div>
     <h2 class="q-text" id="q3-text" tabindex="-1">好きな香り、パッと3つ言える？</h2>
+    <img class="q-img" src="assets/questions/q3.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">うーん、すぐには出てこない</p></div>
@@ -509,6 +513,7 @@ button { font: inherit; }
     <div class="q-head"><span class="q-num">Q4</span><span class="q-count">4 / 8</span></div>
     <div class="progress" aria-hidden="true"><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg current"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div>
     <h2 class="q-text" id="q4-text" tabindex="-1">気になるのは、どっちの新作お菓子？</h2>
+    <img class="q-img" src="assets/questions/q4.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">柑橘やミントの、すっとする爽やか系</p></div>
@@ -533,6 +538,7 @@ button { font: inherit; }
     <div class="q-head"><span class="q-num">Q5</span><span class="q-count">5 / 8</span></div>
     <div class="progress" aria-hidden="true"><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg current"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div>
     <h2 class="q-text" id="q5-text" tabindex="-1">お風呂上がりの一杯、どう飲む？</h2>
+    <img class="q-img" src="assets/questions/q5.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">キンキンに冷やして、ゴクゴクと一気に</p></div>
@@ -557,6 +563,7 @@ button { font: inherit; }
     <div class="q-head"><span class="q-num">Q6</span><span class="q-count">6 / 8</span></div>
     <div class="progress" aria-hidden="true"><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg current"></span><span class="seg"></span><span class="seg"></span></div>
     <h2 class="q-text" id="q6-text" tabindex="-1">グレープフルーツやマーマレードの、皮のほろ苦さは？</h2>
+    <img class="q-img" src="assets/questions/q6.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">ないほうがうれしい</p></div>
@@ -581,6 +588,7 @@ button { font: inherit; }
     <div class="q-head"><span class="q-num">Q7</span><span class="q-count">7 / 8</span></div>
     <div class="progress" aria-hidden="true"><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg current"></span><span class="seg"></span></div>
     <h2 class="q-text" id="q7-text" tabindex="-1">パクチーやセロリ、ブルーチーズ。香りの強い食べものは？</h2>
+    <img class="q-img" src="assets/questions/q7.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">苦手。控えめなほうがいい</p></div>
@@ -605,6 +613,7 @@ button { font: inherit; }
     <div class="q-head"><span class="q-num">Q8</span><span class="q-count">8 / 8</span></div>
     <div class="progress" aria-hidden="true"><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg done"></span><span class="seg current"></span></div>
     <h2 class="q-text" id="q8-text" tabindex="-1">食欲をそそられるのは、どっちの瞬間？</h2>
+    <img class="q-img" src="assets/questions/q8.webp" alt="" loading="lazy" width="720" height="405">
     <div class="options">
       <div class="poles">
         <div class="pole pole-a"><span class="pole-tag" aria-hidden="true">A</span><p class="pole-text">カットしたレモンやハーブが、ぱっと弾ける瞬間</p></div>
