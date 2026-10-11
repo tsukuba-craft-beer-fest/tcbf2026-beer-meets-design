@@ -92,6 +92,12 @@ button { font: inherit; }
 .wm-text small { font-family: var(--font-body); font-weight: 700; font-size: 10px; letter-spacing: .04em; opacity: .92; }
 .wordmark:focus-visible { outline-color: #fff; }
 .topbar-right { font-size: 13px; color: #fff; opacity: .9; font-variant-numeric: tabular-nums; }
+/* ヘッダーのグラス（トップ画面と同じ7種）。幅に余裕のある画面だけに出す */
+.topbar-glasses { display: none; }
+@media (min-width: 640px) {
+  .topbar-glasses { display: flex; flex: 1; justify-content: center; align-items: flex-end; gap: 8px; }
+  .topbar-glasses img { height: 34px; width: auto; display: block; }
+}
 .view { max-width: 512px; margin: 10px auto 0; padding-inline: 16px; }
 
 /* ---- buttons ---- */
@@ -1626,6 +1632,8 @@ button { font: inherit; }
       (items.length ? `<ul class="beers">${items.map(beerHTML).join('')}</ul>` : `<p class="beers-lead">フラッグシップの中には該当がありません。当日はほかの銘柄も出るので、会場で探してみてください。</p>`);
     card.insertBefore(wrap, $('[data-action="preview"]', card));
   });
+  // ヘッダーにもトップ画面と同じグラスを並べる（画像はトップ画面のものを複製）
+  { const g = $('#s-intro .glasses'); if (g) { const bar = document.createElement('div'); bar.className = 'topbar-glasses'; bar.setAttribute('aria-hidden', 'true'); bar.innerHTML = g.innerHTML; $('.topbar').insertBefore(bar, $right); } }
   // 集計の受け口が無いときは「みんなの診断結果」への導線を隠す
   if (!CONFIG.resultEndpoint) $$('[data-action="stats"]').forEach(el => { el.hidden = true; });
   // 協力ブルワリー一覧（アンケート順）
