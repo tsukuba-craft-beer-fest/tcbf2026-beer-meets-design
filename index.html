@@ -22,6 +22,8 @@
   --brand-mid: #9FC5E3;    /* 青40%＋白60%（強めの罫線） */
   --yellow: #FFE100;       /* アクセント：主要ボタンだけに使う。文字は黒 */
   --yellow-hover: #FFE733; /* 黄80%＋白20% */
+  --yellow-soft: #FFFCE6;  /* 黄10%＋白90% */
+  --yellow-tint: #FFF9CC;  /* 黄20%＋白80% */
   --ground: #FFFFFF;
   --surface: #FFFFFF;
   --ink: #000000;
@@ -178,13 +180,13 @@ button { font: inherit; }
   padding: 12px 12px 14px; box-shadow: var(--shadow);
 }
 .pole-a { border-top: 4px solid var(--hop); }
-.pole-b { border-top: 4px solid var(--malt); }
+.pole-b { border-top: 4px solid var(--yellow); }
 .pole-tag {
   width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
   font-family: var(--font-display); font-size: 14px; color: #fff;
 }
 .pole-a .pole-tag { background: var(--hop); }
-.pole-b .pole-tag { background: var(--malt); }
+.pole-b .pole-tag { background: var(--yellow); color: var(--ink); }
 .pole-text { margin: 0; font-size: 15px; line-height: 1.5; font-weight: 500; }
 .scale { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
 .scale-btn {
@@ -196,11 +198,11 @@ button { font: inherit; }
 .scale-btn .l { font-family: var(--font-display); font-size: 22px; line-height: 1; }
 .scale-btn.a.strong { background: var(--hop); border-color: var(--hop); color: #fff; }
 .scale-btn.a.lean { background: var(--hop-soft); border-color: var(--hop-soft); color: var(--hop); }
-.scale-btn.b.lean { background: var(--malt-soft); border-color: var(--malt-soft); color: var(--malt); }
-.scale-btn.b.strong { background: var(--malt); border-color: var(--malt); color: #fff; }
+.scale-btn.b.lean { background: var(--yellow-soft); border-color: var(--yellow-tint); color: var(--ink); }
+.scale-btn.b.strong { background: var(--yellow); border-color: var(--yellow); color: var(--ink); }
 .scale-btn:hover { filter: brightness(1.04); }
 .scale-btn { position: relative; }
-.scale-btn.a.lean, .scale-btn.b.lean { border-color: var(--brand-tint); }
+.scale-btn.a.lean { border-color: var(--brand-tint); }
 .scale-btn.is-picked { box-shadow: 0 0 0 3px var(--ink); border-color: var(--surface); }
 .scale-btn.is-picked::after {   /* 色だけに頼らず、選んだ回答にチェックを付ける */
   content: "✓"; position: absolute; top: -9px; right: -5px; width: 22px; height: 22px; border-radius: 50%;
