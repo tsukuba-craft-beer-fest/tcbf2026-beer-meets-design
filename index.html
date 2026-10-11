@@ -76,7 +76,7 @@ button { font: inherit; }
 
 /* ---- top bar ---- */
 .topbar {
-  display: flex; align-items: center; justify-content: space-between; min-height: 48px; gap: 12px;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; min-height: 48px; gap: 2px 12px;
   background: var(--brand); color: #fff; margin: 0;
   /* 画面の上端・左右いっぱいの青帯。中身は本文と同じ 480px の列にそろえる */
   padding: 6px max(16px, calc(50% - 240px));
@@ -92,11 +92,12 @@ button { font: inherit; }
 .wm-text small { font-family: var(--font-body); font-weight: 700; font-size: 10px; letter-spacing: .04em; opacity: .92; }
 .wordmark:focus-visible { outline-color: #fff; }
 .topbar-right { font-size: 13px; color: #fff; opacity: .9; font-variant-numeric: tabular-nums; }
-/* ヘッダーのグラス（トップ画面と同じ7種）。幅に余裕のある画面だけに出す */
-.topbar-glasses { display: none; }
+/* ヘッダーのグラス（トップ画面と同じ7種）。狭い画面では2段目に、広い画面では名称と画面名のあいだに並べる */
+.topbar-glasses { order: 1; flex-basis: 100%; display: flex; justify-content: center; align-items: flex-end; gap: 8px; padding: 2px 0; }
+.topbar-glasses img { height: 30px; width: auto; display: block; }
 @media (min-width: 640px) {
-  .topbar-glasses { display: flex; flex: 1; justify-content: center; align-items: flex-end; gap: 8px; }
-  .topbar-glasses img { height: 34px; width: auto; display: block; }
+  .topbar-glasses { order: 0; flex: 1 1 auto; padding: 0; }
+  .topbar-glasses img { height: 34px; }
 }
 .view { max-width: 512px; margin: 10px auto 0; padding-inline: 16px; }
 
