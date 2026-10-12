@@ -518,6 +518,19 @@ a.btn { text-decoration: none; }
 .is-preview-label { margin: 0; font-size: 12px; font-weight: 700; color: var(--muted); }
 .is-preview textarea { width: 100%; font: inherit; font-size: 13px; line-height: 1.6; padding: 8px 10px; border: 1.5px dashed var(--line-strong); border-radius: 10px; background: var(--brand-soft); color: var(--ink); resize: none; }
 .is-note { margin: 0; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.is-modes { display: grid; gap: 8px; }
+.is-mode-btn { appearance: none; margin: 0; text-align: left; cursor: pointer; font: inherit; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line-strong); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; }
+.is-mode-btn b { font-size: 15px; }
+.is-mode-btn span { font-size: 12px; color: var(--muted); }
+.is-mode-btn[aria-pressed="true"] { border-color: var(--brand); background: var(--brand-soft); box-shadow: inset 0 0 0 1px var(--brand); }
+.is-mode { display: grid; gap: 12px; }
+.is-field textarea { width: 100%; font: inherit; font-size: 16px; font-weight: 500; line-height: 1.6; padding: 10px 12px; border: 1.5px solid var(--line-strong); border-radius: 10px; background: #fff; color: var(--ink); resize: vertical; }
+.is-field textarea:focus-visible { outline: 3px solid var(--brand); outline-offset: 1px; }
+.is-checks { display: grid; gap: 6px; }
+.is-check { display: flex; align-items: flex-start; gap: 8px; font-size: 14px; font-weight: 500; line-height: 1.4; padding: 8px 10px; border: 1.5px solid var(--line); border-radius: 10px; background: #fff; cursor: pointer; }
+.is-check input { width: 18px; height: 18px; margin: 1px 0 0; flex: none; accent-color: var(--brand); }
+.is-check small { display: block; font-size: 11px; color: var(--muted); font-weight: 400; }
+.is-check-none { margin: 0; font-size: 12px; color: var(--muted); }
 
 /* ---- modal / toast ---- */
 .modal { position: fixed; inset: 0; background: rgba(0, 0, 0, .55); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 50; }
@@ -1145,20 +1158,34 @@ a.btn { text-decoration: none; }
     </div>
   </div>
   <!-- ビアキャラ図鑑の詳細（データは #tcbf-zukan。中身は JS が組み立てる） -->
-  <!-- ISeeeTL 投稿：お題にひとこと答えて投稿文を作り、コピーしてルームを開く -->
+  <!-- ISeeeTL 投稿：①普通に投稿 ②お題に答えて投稿（飲んだビールのチェック付き）。投稿文を作ってコピーし、ルームを開く -->
   <div id="iseeeModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="isTitle">
     <div class="modal-card bm is-card">
       <button class="bm-close" type="button" data-action="iseee-close" aria-label="閉じる">×</button>
       <h2 class="is-title" id="isTitle">ISeeeTLに投稿する</h2>
-      <p class="is-lead">お題にひとことで答えて、感想のタイムライン「ISeeeTL」に投稿しよう。あなたのビアキャラが返事をくれます。</p>
-      <div class="is-odai">
-        <p class="is-odai-label">お題</p>
-        <p class="is-odai-text" id="isOdai"></p>
-        <button class="btn-text" type="button" data-action="iseee-shuffle">別のお題にする ↻</button>
+      <p class="is-lead">感想のタイムライン「ISeeeTL」に投稿すると、あなたのビアキャラが返事をくれます。投稿のしかたを選んでください。</p>
+      <div class="is-modes" role="group" aria-label="投稿のしかた">
+        <button type="button" class="is-mode-btn" data-action="iseee-mode" data-mode="plain" aria-pressed="true"><b>① 普通に投稿する</b><span>感想を自由に書く</span></button>
+        <button type="button" class="is-mode-btn" data-action="iseee-mode" data-mode="odai" aria-pressed="false"><b>② お題にひとことで答えて投稿する</b><span>お題に答えて、飲んだビールも添える</span></button>
       </div>
-      <label class="is-field"><span>あなたの回答</span><input type="text" id="isAnswer" maxlength="80" placeholder="ひとことで（80文字まで）" autocomplete="off"></label>
+      <div class="is-mode" data-mode="plain">
+        <label class="is-field"><span>感想・コメント</span><textarea id="isComment" rows="3" maxlength="200" placeholder="飲んだビールの感想や、会場で気づいたことなど（200文字まで）"></textarea></label>
+      </div>
+      <div class="is-mode" data-mode="odai" hidden>
+        <div class="is-odai">
+          <p class="is-odai-label">お題</p>
+          <p class="is-odai-text" id="isOdai"></p>
+          <button class="btn-text" type="button" data-action="iseee-shuffle">別のお題にする ↻</button>
+        </div>
+        <label class="is-field"><span>あなたの回答</span><input type="text" id="isAnswer" maxlength="80" placeholder="ひとことで（80文字まで）" autocomplete="off"></label>
+        <div class="is-field">
+          <span>飲んだビール（あてはまるものにチェック）</span>
+          <div class="is-checks" id="isBeers"></div>
+          <input type="text" id="isOther" maxlength="80" placeholder="それ以外に飲んだビール（自由記述）" autocomplete="off" aria-label="それ以外に飲んだビール">
+        </div>
+      </div>
       <p class="is-tag">あなたのタグ：<b id="isTag"></b></p>
-      <div class="is-preview"><p class="is-preview-label">投稿文（自動で作られます）</p><textarea id="isPreview" readonly rows="4" aria-label="投稿文"></textarea></div>
+      <div class="is-preview"><p class="is-preview-label">投稿文（自動で作られます）</p><textarea id="isPreview" readonly rows="5" aria-label="投稿文"></textarea></div>
       <a class="btn btn-primary btn-lg" id="isGo" href="https://bit.ly/tcbf2026-beer-meets-design" target="_blank" rel="noopener" data-action="iseee-go">コピーしてISeeeTLを開く</a>
       <p class="is-note">開いた先の「投稿」で貼り付け、タグから同じキャラを選んでください。初めての投稿では利用ルールへの同意が表示されます。</p>
       <button class="btn btn-ghost btn-lg" type="button" data-action="iseee-close">閉じる</button>
@@ -1509,9 +1536,14 @@ a.btn { text-decoration: none; }
       case 'iseee': openIseee(el); break;
       case 'iseee-close': closeIseee(); break;
       case 'iseee-shuffle': iseeePick(); iseeeCompose(); break;
+      case 'iseee-mode': iseeeSetMode(el.dataset.mode); break;
       case 'iseee-go': {
-        const a = ($('#isAnswer').value || '').trim();
-        if (!a) { e.preventDefault(); toast('回答を入れてください'); $('#isAnswer').focus(); break; }
+        if (!iseeeMain()) {
+          e.preventDefault();
+          toast(isMode === 'odai' ? '回答を入れてください' : '感想・コメントを入れてください');
+          $(isMode === 'odai' ? '#isAnswer' : '#isComment').focus();
+          break;
+        }
         const text = iseeeText();
         copyText(text).then(ok => toast(ok ? '投稿文をコピーしました。投稿欄に貼り付けて、タグから同じキャラを選んでください' : 'コピーできませんでした。投稿文を長押しでコピーしてください'));
         break;   // リンクはそのまま新しいタブで開く
@@ -1991,7 +2023,7 @@ a.btn { text-decoration: none; }
     });
     window.addEventListener('resize', layoutFlow);
   })();
-  /* ---- ISeeeTL 投稿：お題にひとこと答えて投稿文を作る ---- */
+  /* ---- ISeeeTL 投稿：①普通に投稿 ②お題にひとこと答えて投稿（飲んだビール付き） ---- */
   const ODAI = [
     'このビールを動物で例えると？', 'このビールを天気で例えると？', 'このビールを色で表すと？', 'このビールを音楽のジャンルで例えると？',
     'このビールに合う一曲は？', 'このビールを一言でほめると？', 'このビールを飲みたい時間帯は？', 'このビールを飲みたい場所は？',
@@ -2003,15 +2035,34 @@ a.btn { text-decoration: none; }
     '乾杯の相手に送るひとことは？',
   ];
   const $is = $('#iseeeModal');
-  let isOdaiIdx = -1, isReturnFocus = null, isTagText = '';
+  let isOdaiIdx = -1, isReturnFocus = null, isTagText = '', isMode = 'plain';
   function iseeePick() {
     if (ODAI.length < 2) { isOdaiIdx = 0; return; }
     let i; do { i = Math.floor(Math.random() * ODAI.length); } while (i === isOdaiIdx);
     isOdaiIdx = i;
   }
+  function iseeeSetMode(m) {
+    isMode = m === 'odai' ? 'odai' : 'plain';
+    $$('#iseeeModal .is-mode-btn').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === isMode)));
+    $$('#iseeeModal .is-mode').forEach(d => { d.hidden = d.dataset.mode !== isMode; });
+    iseeeCompose();
+  }
+  function iseeeDrank() {   // 飲んだビール（チェック＋自由記述）
+    const picked = $$('#isBeers input:checked').map(c => c.value);
+    const other = ($('#isOther').value || '').trim();
+    if (other) picked.push(other);
+    return picked;
+  }
+  function iseeeMain() {   // 必須の本文（モードごと）
+    return isMode === 'odai' ? ($('#isAnswer').value || '').trim() : ($('#isComment').value || '').trim();
+  }
   function iseeeText() {
-    const a = ($('#isAnswer').value || '').trim();
-    return `【お題】${ODAI[isOdaiIdx] || ''}\n【回答】${a || '（未記入）'}\n${isTagText}`;
+    if (isMode === 'odai') {
+      const a = ($('#isAnswer').value || '').trim(), d = iseeeDrank();
+      return `【お題】${ODAI[isOdaiIdx] || ''}\n【回答】${a || '（未記入）'}` + (d.length ? `\n【飲んだビール】${d.join('、')}` : '') + `\n${isTagText}`;
+    }
+    const c = ($('#isComment').value || '').trim();
+    return `${c || '（未記入）'}\n${isTagText}`;
   }
   function iseeeCompose() {
     $('#isOdai').textContent = ODAI[isOdaiIdx] || '';
@@ -2023,12 +2074,16 @@ a.btn { text-decoration: none; }
     const t = typeData(res.code);
     isTagText = `#${res.code} ${t.name}`;
     $('#isTag').textContent = isTagText;
+    // 飲んだビールの候補：自分のタイプに合うフラッグシップ
+    const bl = beerItems(res.code);
+    $('#isBeers').innerHTML = bl.items.length
+      ? bl.items.map(b => `<label class="is-check"><input type="checkbox" value="${esc(b.beer)}（${esc(b.brewery)}）"><span>${esc(b.beer)}<small>${esc(b.brewery)}　${esc(b.style)}</small></span></label>`).join('')
+      : '<p class="is-check-none">フラッグシップに該当はありません。下の欄に飲んだビールを書いてください。</p>';
     if (isOdaiIdx < 0) iseeePick();
-    iseeeCompose();
+    iseeeSetMode(isMode);
     isReturnFocus = from || document.activeElement;
     $is.hidden = false; $is.scrollTop = 0; $('.modal-card', $is).scrollTop = 0;
-    $('#isAnswer').focus();
-    $live.textContent = 'ISeeeTLに投稿する画面を開きました。お題にひとことで答えてください。';
+    $live.textContent = 'ISeeeTLに投稿する画面を開きました。投稿のしかたを選んでください。';
   }
   function closeIseee() {
     if (!$is || $is.hidden) return;
@@ -2041,7 +2096,8 @@ a.btn { text-decoration: none; }
   }
   if ($is) {
     $is.addEventListener('click', e => { if (e.target === $is) closeIseee(); });
-    $('#isAnswer').addEventListener('input', iseeeCompose);
+    $is.addEventListener('input', iseeeCompose);      // 回答・コメント・チェック・自由記述のどれが変わっても投稿文を更新
+    $is.addEventListener('change', iseeeCompose);
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$is.hidden) closeIseee(); });
   }
 
