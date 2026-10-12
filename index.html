@@ -1810,7 +1810,7 @@ button { font: inherit; }
     let t = yT + H / 2 - i * HX.P;
     t = t - Math.round((t - hxScroll) / H) * H;                              // いちばん近い周期へ
     hxTarget = t; hxPause = performance.now() + 7000;
-    if (reduceMotion()) { hxScroll = t; hxTarget = null; layoutFlow(); }
+    if (reduceMotion() || document.hidden) { hxScroll = t; hxTarget = null; layoutFlow(); }   // アニメーションが止まる環境では即時に反映
   }
   function flowStep(nStep) {
     const cards = hxCards(); if (!cards.length) return;
@@ -1845,7 +1845,7 @@ button { font: inherit; }
       if (x0 == null) return;
       if (Math.abs(e.clientX - x0) > 8) moved = true;
       hxScroll += (e.clientX - xLast) * 0.55; xLast = e.clientX;             // 横にドラッグすると回る
-      if (reduceMotion()) layoutFlow();
+      if (reduceMotion() || document.hidden) layoutFlow();
     });
     el.addEventListener('pointerup', () => {
       if (x0 == null) return;
