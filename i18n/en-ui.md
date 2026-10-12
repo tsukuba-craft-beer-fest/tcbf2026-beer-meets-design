@@ -100,14 +100,15 @@
 | 画像を保存 | Save image | button |
 | 閉じる | Close | button、aria-label button.bm-close、JS |
 | 感想のタイムライン「ISeeeTL」に投稿すると、あなたのビアキャラが返事をくれます。投稿のしかたを選んでください。 | Post to the ISeeeTL timeline and your beer character will reply. Choose how you want to post. | p |
-| ① 普通に投稿する | ① Post normally | b |
-| 飲んだビールを選んで投稿（感想は ISeeeTL で書く） | Pick the beers you had and post (write your comments on ISeeeTL) | span |
+| ① テイスティングコメントを添えて投稿する | ① Post with a tasting comment | b |
+| 飲んだビールを選んで、味や香りの感想をひとこと | Pick the beers you had and add a few words on taste and aroma | span |
 | ② お題にひとことで答えて投稿する | ② Answer a prompt in a few words | b |
 | お題に答えて、飲んだビールも添える | Answer a prompt and add the beers you had | span |
 | お題 | Prompt | p |
 | 別のお題にする ↻ | Another prompt ↻ | button |
 | あなたの回答 | Your answer | span |
 | 飲んだビール（あてはまるものにチェック） | Beers you had (check all that apply) | span |
+| テイスティングコメント | Tasting comment | span |
 | あなたのタグ： | Your tag: | span |
 | 投稿文（自動で作られます） | Your post (written for you) | p |
 | コピーしてISeeeTLを開く | Copy and open ISeeeTL | a |
@@ -137,6 +138,7 @@
 | ひとことで（80文字まで） | In a few words (up to 80 characters) | placeholder input#isAnswer |
 | それ以外に飲んだビール | Other beers you had | aria-label input#isOther |
 | それ以外に飲んだビール（自由記述） | Other beers you had (free text) | placeholder input#isOther |
+| 味や香り、気に入ったところなど（200文字まで） | Taste, aroma, what you liked (up to 200 characters) | placeholder textarea#isComment |
 | 投稿文 | Post text | aria-label textarea#isPreview |
 | 近いタイプ | Close type | JS |
 | くわしく → | Details → | JS |
@@ -153,7 +155,7 @@
 | 暫定結果（4問時点） | Interim result (after 4 questions) | JS |
 | あなたのビールタイプは {code}、{name}。 | Your beer type is {code}, {name}. | JS |
 | 回答を入れてください | Please enter an answer | JS |
-| 飲んだビールにチェックを入れるか、書いてください | Check the beers you had, or write them in | JS |
+| 飲んだビールを選ぶか、テイスティングコメントを入れてください | Pick a beer you had, or write a tasting comment | JS |
 | 投稿文をコピーしました。投稿欄に貼り付けて、タグから同じキャラを選んでください | Copied your post. Paste it into the post box and pick the same character from the tag list | JS |
 | コピーできませんでした。投稿文を長押しでコピーしてください | Could not copy. Press and hold the post text to copy it | JS |
 | {brewery} の紹介を開きました | Opened the profile of {brewery} | JS |
@@ -196,6 +198,7 @@
 | 【回答】 | [Answer] | JS |
 | （未記入） | (blank) | JS |
 | 【飲んだビール】 | [Beers I had] | JS |
+| 【テイスティングコメント】 | [Tasting comment] | JS |
 | フラッグシップに該当はありません。下の欄に飲んだビールを書いてください。 | No flagship beer matches your type. Write the beers you had in the box below. | JS |
 | ISeeeTLに投稿する画面を開きました。投稿のしかたを選んでください。 | Opened the ISeeeTL posting screen. Choose how you want to post. | JS |
 | 診断での説明 | From the quiz | JS |
@@ -261,7 +264,7 @@ EN: Each of the 16 quiz results lives at the festival as a beer character. Slide
 | html.meta.title | ビールタイプ診断（beer meets Design） | Beer Type Quiz (beer meets Design) | <title> |
 | html.intro.title | 8問で、本当のあなたに合う<br>ビールのタイプがわかる。 | 8 questions to find<br>the beer type that truly fits you. | data-i18n-html |
 | html.q.lean | どちらかと<br>いえば | Somewhat | data-i18n-html |
-| html.sep.list | 、 | ,  | JS |
+| html.sep.list | 、 | , | JS |
 | html.sep.colon | ： | : | JS |
 | html.paren.open | （ | ( | JS |
 | html.paren.close | ） | ) | JS |
@@ -282,7 +285,7 @@ EN: You are the <b>{total}{ordTotal}</b> person to take the quiz, and the <b>{mi
 |---|---|---|---|
 | config.eventName | つくばクラフトビアフェスト 2026 | Tsukuba Craft Beer Fest 2026 |  |
 | config.eventDate | 2026.10.16 – 18 ／ つくば駅前・つくばセンター広場 | Oct 16–18, 2026 ／ Tsukuba Center Plaza, by Tsukuba Station |  |
-| config.hashtags | #TCBF2026 #つくばクラフトビアフェスト | #TCBF2026 #TsukubaCraftBeerFest #つくばクラフトビアフェスト | ← 要確認 |
+| config.hashtags | #TCBF2026 #つくばクラフトビアフェスト | #TCBF2026 #TsukubaCraftBeerFest #つくばクラフトビアフェスト |  |
 
 ## axes
 <!-- 4つの軸（結果のタイルとレーダー。短く） -->

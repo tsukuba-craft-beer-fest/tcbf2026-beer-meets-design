@@ -7,112 +7,112 @@
 
 | key | JA | EN | 場所 |
 |---|---|---|---|
-| types.LSCH.name | やさしみスターター | Gentle Starter | タイプ名 ← 要確認 |
+| types.LSCH.name | やさしみスターター | Gentle Starter | タイプ名 |
 | types.LSCH.catch | 軽くて、やさしくて、すっと消える | Light, gentle, and gone in a breath | キャッチ |
 | types.LSCH.desc | 「さっぱり」「飲みやすい」が一番のほめ言葉。ホップの爽やかさがほんのり効いた、クセの少ないビールから入ると失敗しません。 | “Clean” and “easy to drink” are the best compliments you can give. Start with low-fuss beers that carry just a whisper of hop freshness and you can’t go wrong. | 説明 |
 | types.LSCH.styles.0 | ケルシュ | Kölsch | スタイル |
 | types.LSCH.styles.1 | ゴールデンエール | Golden Ale | スタイル |
 | types.LSCH.styles.2 | ライトラガー | Light Lager | スタイル |
 | types.LSCH.hint | 「いちばん飲みやすいのをください」と頼むのが正解。 | Just ask for “the easiest-drinking beer you have.” That’s the right move. | 会場でのヒント |
-| types.LSAH.name | フルーティハンター | Fruity Hunter | タイプ名 ← 要確認 |
+| types.LSAH.name | フルーティハンター | Fruity Hunter | タイプ名 |
 | types.LSAH.catch | 軽やかに、香りを追いかける | Light on its feet, chasing aroma | キャッチ |
 | types.LSAH.desc | 軽い飲み口が好きなのに、香りは華やかなほうがうれしい。柑橘やトロピカルなホップの香りを、ジュース感覚で楽しめるタイプです。 | You like a light body, but you want the aroma to be bold. You enjoy citrusy, tropical hop aromas almost like juice. | 説明 |
 | types.LSAH.styles.0 | セッションIPA | Session IPA | スタイル |
 | types.LSAH.styles.1 | XPA | XPA | スタイル |
 | types.LSAH.styles.2 | フルーツエール | Fruit Ale | スタイル |
 | types.LSAH.hint | 「セッション」「XPA」「柑橘」の文字を見つけたら、迷わずそれ。 | Spot the words “session”, “XPA” or “citrus” on a tap and don’t hesitate. | 会場でのヒント |
-| types.LBCH.name | キレ味マスター | Crisp Master | タイプ名 ← 要確認 |
+| types.LBCH.name | キレ味マスター | Crisp Master | タイプ名 |
 | types.LBCH.catch | 軽いのに、キレがある | Light, yet sharp and crisp | キャッチ |
 | types.LBCH.desc | 余計なものはいらない、キレ重視。香りは控えめで、苦みが鋭く走るラガー系が、実は一番の好みかもしれません。 | No frills, all about the crispness. A lager with restrained aroma and a sharp streak of bitterness may actually be your true favourite. | 説明 |
 | types.LBCH.styles.0 | ピルスナー | Pilsner | スタイル |
 | types.LBCH.styles.1 | ケルシュ | Kölsch | スタイル |
 | types.LBCH.styles.2 | セッションIPA | Session IPA | スタイル |
 | types.LBCH.hint | 「ピルスナー」「ラガー」のタップを探して、よく冷えた一杯を。 | Look for a “pilsner” or “lager” tap and get it well chilled. | 会場でのヒント |
-| types.LBAH.name | 風味のロックンローラー | Hop Rocker | タイプ名 ← 要確認 |
+| types.LBAH.name | 風味のロックンローラー | Hop Rocker | タイプ名 |
 | types.LBAH.catch | 軽いのに、香りも苦みも全開 | Light body, aroma and bitterness turned all the way up | キャッチ |
 | types.LBAH.desc | 軽やかな飲み口に、ホップの香りと苦みがガツンと乗る。ライブみたいな刺激が好きで、ホップそのものを味わいたいタイプです。 | A light body with hop aroma and bitterness hitting hard on top. You like the thrill of a live show and want to taste the hops themselves. | 説明 |
 | types.LBAH.styles.0 | フレッシュホップIPA | Fresh Hop IPA | スタイル |
 | types.LBAH.styles.1 | ペールエール | Pale Ale | スタイル |
 | types.LBAH.styles.2 | ホワイトIPA | White IPA | スタイル |
 | types.LBAH.hint | 「フレッシュホップ」「ペールエール」のタップは要チェック。 | Keep an eye out for “fresh hop” and “pale ale” taps. | 会場でのヒント |
-| types.LSCM.name | まろやかコレクター | Mellow Collector | タイプ名 ← 要確認 |
+| types.LSCM.name | まろやかコレクター | Mellow Collector | タイプ名 |
 | types.LSCM.catch | まろやかで穏やか、飽きがこない | Mellow, calm, never tiring | キャッチ |
 | types.LSCM.desc | 麦のやさしい甘みを、静かに噛みしめたい。飾らない味を集めるのが好きで、毎日飲めるビールにこそ価値を感じるタイプです。 | You want to quietly savour the gentle sweetness of malt. You collect unpretentious flavours and find real value in a beer you could drink every day. | 説明 |
 | types.LSCM.styles.0 | ヘレス | Helles | スタイル |
 | types.LSCM.styles.1 | ドルトムンダー | Dortmunder | スタイル |
 | types.LSCM.styles.2 | クリームエール | Cream Ale | スタイル |
 | types.LSCM.hint | 「ヘレス」「ドルトムンダー」など、金色でやさしいビールから。 | Start with gentle golden beers such as a Helles or a Dortmunder. | 会場でのヒント |
-| types.LSAM.name | やわらかアロマニスト | Soft Aromatist | タイプ名 ← 要確認 |
+| types.LSAM.name | やわらかアロマニスト | Soft Aromatist | タイプ名 |
 | types.LSAM.catch | 甘い香りが、ふわっと広がる | A sweet aroma that drifts out softly | キャッチ |
 | types.LSAM.desc | 麦と酵母が生む、バナナや柑橘のようなやわらかい香りが好み。ホップは主張しないのに香りは華やか。小麦のビールがぴったりです。 | You love the soft banana and citrus notes that malt and yeast create. The hops stay quiet while the aroma blooms. Wheat beers are made for you. | 説明 |
 | types.LSAM.styles.0 | ヴァイツェン | Weizen | スタイル |
 | types.LSAM.styles.1 | ベルジャンウィット | Belgian Wit | スタイル |
 | types.LSAM.styles.2 | フルーツセゾン | Fruit Saison | スタイル |
 | types.LSAM.hint | 「ヴァイツェン」「ウィット」「小麦」の文字が目印。 | Look for “Weizen”, “Wit” or “wheat” on the tap list. | 会場でのヒント |
-| types.LBCM.name | 余韻の番人 | Afterglow Keeper | タイプ名 ← 要確認 |
+| types.LBCM.name | 余韻の番人 | Afterglow Keeper | タイプ名 |
 | types.LBCM.catch | 軽いけれど、渋くて深い | Light, but deep and smoky-dry | キャッチ |
 | types.LBCM.desc | 見た目は黒いのに、飲むと意外と軽い。コーヒーのような焙煎の苦みと、すっと消える余韻を静かに守り続けるタイプです。 | It looks black, yet it drinks surprisingly light. You quietly guard the coffee-like roasted bitterness and the finish that fades away in a breath. | 説明 |
 | types.LBCM.styles.0 | ドライスタウト | Dry Stout | スタイル |
 | types.LBCM.styles.1 | シュバルツ | Schwarzbier | スタイル |
 | types.LBCM.styles.2 | ブラウンエール | Brown Ale | スタイル |
 | types.LBCM.hint | 「黒いけど軽いの、ありますか？」と聞いてみて。 | Ask: “Do you have something dark but light?” | 会場でのヒント |
-| types.LBAM.name | 香味の調律師 | Flavor Tuner | タイプ名 ← 要確認 |
+| types.LBAM.name | 香味の調律師 | Flavor Tuner | タイプ名 |
 | types.LBAM.catch | 香りに個性、後味はドライ | Character in the aroma, a dry finish | キャッチ |
 | types.LBAM.desc | 苦みも香りも強いのに、その出どころはホップではない。ハーブや燻製、酵母の個性を聞き分けて、自分好みに調律するタイプです。 | Strong in both bitterness and aroma, but the source isn’t hops. You can pick out herbs, smoke and yeast character, and tune them to your own taste. | 説明 |
 | types.LBAM.styles.0 | セゾン | Saison | スタイル |
 | types.LBAM.styles.1 | ハーブ／スパイスエール | Herb / Spice Ale | スタイル |
 | types.LBAM.styles.2 | 軽めのラオホ | Light Rauchbier | スタイル |
 | types.LBAM.hint | 「セゾン」「スパイス」「スモーク」のタップは要チェック。 | Keep an eye out for “saison”, “spice” and “smoke” taps. | 会場でのヒント |
-| types.FSCH.name | 濃厚リラックサー | Rich Relaxer | タイプ名 ← 要確認 |
+| types.FSCH.name | 濃厚リラックサー | Rich Relaxer | タイプ名 |
 | types.FSCH.catch | コクはほしい、派手さはいらない | Body, yes. Flashiness, no. | キャッチ |
 | types.FSCH.desc | 飲みごたえはしっかり、でも香りは穏やか。麦とホップのバランスがとれた王道の一杯で、ゆっくりくつろぐのが好きなタイプです。 | Plenty of substance, but a calm aroma. You like to unwind slowly with a classic beer where malt and hops are in balance. | 説明 |
 | types.FSCH.styles.0 | アンバーエール | Amber Ale | スタイル |
 | types.FSCH.styles.1 | ESB（イングリッシュビター） | ESB (English Bitter) | スタイル |
 | types.FSCH.styles.2 | レッドエール | Red Ale | スタイル |
 | types.FSCH.hint | 「アンバー」「レッド」など、赤茶色のビールを。 | Go for reddish-brown beers such as an “amber” or a “red”. | 会場でのヒント |
-| types.FSAH.name | 芳醇コレクター | Juicy Collector | タイプ名 ← 要確認 |
+| types.FSAH.name | 芳醇コレクター | Juicy Collector | タイプ名 |
 | types.FSAH.catch | とろりと濃厚、香りは果実園 | Thick and rich, with an orchard of aroma | キャッチ |
 | types.FSAH.desc | 濃厚な口当たりに、トロピカルな香りが渦を巻く。いまいちばん人気の方向で、一杯ごとの香りの違いを集めたくなるタイプです。 | A rich mouthfeel with tropical aromas swirling through it. This is the hottest direction right now, and you want to collect the aroma of every single glass. | 説明 |
 | types.FSAH.styles.0 | ヘイジーIPA | Hazy IPA | スタイル |
 | types.FSAH.styles.1 | NEIPA | NEIPA | スタイル |
 | types.FSAH.styles.2 | ミルクシェイクIPA | Milkshake IPA | スタイル |
 | types.FSAH.hint | 「ヘイジー」「NE」「ジューシー」が目印。 | “Hazy”, “NE” and “juicy” are your signposts. | 会場でのヒント |
-| types.FBCH.name | クラシックビター派 | Classic Bitter | タイプ名 ← 要確認 |
+| types.FBCH.name | クラシックビター派 | Classic Bitter | タイプ名 |
 | types.FBCH.catch | 苦みは主役、香りは脇役 | Bitterness leads, aroma supports | キャッチ |
 | types.FBCH.desc | 香りより苦みで攻めてくる、骨太なビールが好み。流行に流されず、古典的なIPAをじっくり味わうタイプです。 | You like sturdy beers that come at you with bitterness rather than aroma. Unmoved by trends, you savour a classic IPA at your own pace. | 説明 |
 | types.FBCH.styles.0 | ウエストコーストIPA | West Coast IPA | スタイル |
 | types.FBCH.styles.1 | イングリッシュIPA | English IPA | スタイル |
 | types.FBCH.styles.2 | ブラックIPA | Black IPA | スタイル |
 | types.FBCH.hint | 「IPA」の中でも「ウエストコースト」「ドライ」を選ぶと◎。 | Among the IPAs, pick a “West Coast” or a “dry” one. | 会場でのヒント |
-| types.FBAH.name | コクキレ剣豪 | Hop Swordmaster | タイプ名 ← 要確認 |
+| types.FBAH.name | コクキレ剣豪 | Hop Swordmaster | タイプ名 |
 | types.FBAH.catch | 香りも苦みもボディも、全部強い | Aroma, bitterness, body: everything strong | キャッチ |
 | types.FBAH.desc | 香りも苦みもボディも最大。ホップをたっぷり使ったパンチのあるビールを、真正面から受け止められる人です。 | Aroma, bitterness and body all at maximum. You can take a punchy, hop-loaded beer head on. | 説明 |
 | types.FBAH.styles.0 | ダブルIPA | Double IPA | スタイル |
 | types.FBAH.styles.1 | インペリアルIPA | Imperial IPA | スタイル |
 | types.FBAH.styles.2 | DDH IPA | DDH IPA | スタイル |
 | types.FBAH.hint | 「ダブル」「インペリアル」「DDH」の文字を探して。 | Look for the words “double”, “imperial” or “DDH”. | 会場でのヒント |
-| types.FSCM.name | 麦の哲学者 | Malt Philosopher | タイプ名 ← 要確認 |
+| types.FSCM.name | 麦の哲学者 | Malt Philosopher | タイプ名 |
 | types.FSCM.catch | 麦の甘みを、深く考える | Thinking deeply about malt sweetness | キャッチ |
 | types.FSCM.desc | 麦の甘みが厚く広がる、王道のどっしり系が好み。派手さより奥行き。一杯の中の麦の物語を、じっくり読み解くタイプです。 | You like classic, full-bodied beers with a thick spread of malt sweetness. Depth over flash. You read the story of the malt in every glass. | 説明 |
 | types.FSCM.styles.0 | ボック | Bock | スタイル |
 | types.FSCM.styles.1 | ドッペルボック | Doppelbock | スタイル |
 | types.FSCM.styles.2 | スコッチエール | Scotch Ale | スタイル |
 | types.FSCM.hint | 「ボック」「スコッチ」は麦の甘みが濃い証拠。 | “Bock” and “Scotch” are proof of rich malt sweetness. | 会場でのヒント |
-| types.FSAM.name | モルトダンディ | Malt Dandy | タイプ名 ← 要確認 |
+| types.FSAM.name | モルトダンディ | Malt Dandy | タイプ名 |
 | types.FSAM.catch | 一杯で、デザート級の満足感 | Dessert-level satisfaction in one glass | キャッチ |
 | types.FSAM.desc | 重く甘く、香りも豊か。ドライフルーツやカラメルのような香りの濃厚なビールを、余裕たっぷりに楽しむ紳士タイプです。 | Heavy, sweet and richly aromatic. A gentleman who enjoys dense beers with notes of dried fruit and caramel, with plenty of poise. | 説明 |
 | types.FSAM.styles.0 | ベルジャンダブル | Belgian Dubbel | スタイル |
 | types.FSAM.styles.1 | バーレイワイン | Barley Wine | スタイル |
 | types.FSAM.styles.2 | ヴァイツェンボック | Weizenbock | スタイル |
 | types.FSAM.hint | 度数高めが多いので、小さいサイズでいろいろ試すのがおすすめ。 | These are often strong, so try several in small sizes. | 会場でのヒント |
-| types.FBCM.name | ダークマイスター | Dark Meister | タイプ名 ← 要確認 |
+| types.FBCM.name | ダークマイスター | Dark Meister | タイプ名 |
 | types.FBCM.catch | 香ばしさと苦みが、決め手 | Roastiness and bitterness seal the deal | キャッチ |
 | types.FBCM.desc | 焙煎した麦の深い苦みと重厚なボディが決め手。静かで渋い黒ビールを、スーツを着るように自然に着こなすタイプです。 | The deep bitterness of roasted malt and a heavy body are what win you over. You wear quiet, smoky dark beers as naturally as a suit. | 説明 |
 | types.FBCM.styles.0 | スタウト | Stout | スタイル |
 | types.FBCM.styles.1 | ポーター | Porter | スタイル |
 | types.FBCM.styles.2 | ピーテッドスモークエール | Peated Smoked Ale | スタイル |
 | types.FBCM.hint | 「ポーター」「スタウト」のタップへ。 | Head for the “porter” and “stout” taps. | 会場でのヒント |
-| types.FBAM.name | クラフトレジェンド | Craft Legend | タイプ名 ← 要確認 |
+| types.FBAM.name | クラフトレジェンド | Craft Legend | タイプ名 |
 | types.FBAM.catch | 重厚で華やか、最後の一杯に | Heavy and bold, for the last beer of the night | キャッチ |
 | types.FBAM.desc | 焙煎や燻製の強烈な香りと苦みを、まるごと受け止める。沼の最深部にいる人で、樽熟成やインペリアル系の贅沢な一杯が似合います。 | You take on the intense aroma and bitterness of roast and smoke, all of it. You live at the deepest point of the craft beer rabbit hole, and barrel-aged or imperial beers suit you best. | 説明 |
 | types.FBAM.styles.0 | ラオホ | Rauchbier | スタイル |

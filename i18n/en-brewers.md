@@ -7,10 +7,10 @@
 
 | key | JA | EN | 場所 |
 |---|---|---|---|
-| beers.1.brewery | 那須高原ビール | Nasu Kohgen Beer | ← 要確認 |
-| beers.1.beer | 那須高原ビール愛 | Nasu Kohgen Beer Ai | ← 要確認 |
+| beers.1.brewery | 那須高原ビール | Nasu Kohgen Beer |  |
+| beers.1.beer | 那須高原ビール愛 | Nasu Kohgen Beer Ai |  |
 | beers.1.style | 那須ソフトラガー | Nasu Soft Lager |  |
-| beers.2.brewery | ホップドッグブルーイング | HOPDOG BREWING | ← 要確認 |
+| beers.2.brewery | ホップドッグブルーイング | HOPDOG BREWING |  |
 | beers.2.beer | FARM to YOU DDH IPA | = |  |
 | beers.2.style | インターナショナルIPA | International IPA |  |
 | beers.3.brewery | NAT.BREW | = |  |
@@ -19,23 +19,23 @@
 | beers.4.brewery | Romeo Brewery | = |  |
 | beers.4.beer | Sansho IPA | = |  |
 | beers.4.style | Sansho IPA | = |  |
-| beers.5.brewery | 牛久醸造場 | Ushiku Brewery | ← 要確認 |
+| beers.5.brewery | 牛久醸造場 | Ushiku Brewery |  |
 | beers.5.beer | Wandervogel IPA | = |  |
 | beers.5.style | Hazy IPA | = |  |
 | beers.6.brewery | DD4D BREWING | = |  |
 | beers.6.beer | Don Jalapeño | = |  |
 | beers.6.style | Jalapeño IPA | = |  |
-| beers.7.brewery | ロコビア | Locobeer | ← 要確認 |
-| beers.7.beer | 佐倉・香りの生 | Sakura Kaori no Nama | ← 要確認 |
+| beers.7.brewery | ロコビア | Locobeer |  |
+| beers.7.beer | 佐倉・香りの生 | Sakura Kaori no Nama |  |
 | beers.7.style | ケルシュ | Kölsch |  |
-| beers.8.brewery | フリー・スピリッツ・ブリューイング | Free Spirits Brewing | ← 要確認 |
-| beers.8.beer | ホワイトキャッスルエール | White Castle Ale | ← 要確認 |
+| beers.8.brewery | フリー・スピリッツ・ブリューイング | Free Spirits Brewing |  |
+| beers.8.beer | ホワイトキャッスルエール | White Castle Ale |  |
 | beers.8.style | 柚子ベルジャンエール | Yuzu Belgian Ale |  |
 | beers.9.brewery | Twin Peaks Mountain Brewing | = |  |
-| beers.9.beer | 博士のヴァイツェン | Hakase no Weizen (Doctor’s Weizen) | ← 要確認 |
+| beers.9.beer | 博士のヴァイツェン | Hakase no Weizen (Doctor’s Weizen) |  |
 | beers.9.style | 南ドイツスタイルのヘーフェヴァイツェン | South German Hefeweizen |  |
 | beers.10.brewery | HORSEHEAD LABS（ホースヘッドラブズ） | HORSEHEAD LABS |  |
-| beers.10.beer | 酒粕IPA | Sake Kasu IPA | ← 要確認 |
+| beers.10.beer | 酒粕IPA | Sake Kasu IPA |  |
 | beers.10.style | Sake Lees IPA | = |  |
 | beers.11.brewery | RotoBrewery | = |  |
 | beers.11.beer | アールグレイエール | Earl Grey Ale |  |
@@ -44,25 +44,25 @@
 | beers.12.beer | Juicy pop | = |  |
 | beers.12.style | HezyIPA | Hazy IPA |  |
 | beers.13.brewery | KOSHU BEER | = |  |
-| beers.13.beer | 甲州サワーエール | Koshu Sour Ale | ← 要確認 |
+| beers.13.beer | 甲州サワーエール | Koshu Sour Ale |  |
 | beers.13.style | サワー | Sour |  |
 | beers.14.brewery | Shimoda Brewing Company | = |  |
 | beers.14.beer | Green Room | = |  |
 | beers.14.style | XPA | = |  |
-| beers.15.brewery | ホップガーデンブルワリー | Hop Garden Brewery | ← 要確認 |
+| beers.15.brewery | ホップガーデンブルワリー | Hop Garden Brewery |  |
 | beers.15.beer | Abukuma GREEN | = |  |
 | beers.15.style | Fresh hop IPA | Fresh Hop IPA |  |
-| beers.16.brewery | 本庄銀座ブルワリー | Honjo Ginza Brewery | ← 要確認 |
+| beers.16.brewery | 本庄銀座ブルワリー | Honjo Ginza Brewery |  |
 | beers.16.beer | BABY | = |  |
 | beers.16.style | India Pale Ale | = |  |
 | beers.17.brewery | BLUE MAGIC | = |  |
 | beers.17.beer | BLUE MAGIC SP | = |  |
-| beers.17.style | ？？？ | ?? | ← 要確認 |
-| beers.18.brewery | スモーク・クラフト | Smoke Craft | ← 要確認 |
-| beers.18.beer | オフピート | Off Peat | ← 要確認 |
+| beers.17.style | ？？？ | ?? |  |
+| beers.18.brewery | スモーク・クラフト | Smoke Craft |  |
+| beers.18.beer | オフピート | Off Peat |  |
 | beers.18.style | ピーテッド・スモークエール | Peated Smoked Ale |  |
-| beers.19.brewery | カンパネラブリューイング | Campanella Brewing | ← 要確認 |
-| beers.19.beer | 東松島ドルトムンダーデメテル | Higashimatsushima Dortmunder Demeter | ← 要確認 |
+| beers.19.brewery | カンパネラブリューイング | Campanella Brewing |  |
+| beers.19.beer | 東松島ドルトムンダーデメテル | Higashimatsushima Dortmunder Demeter |  |
 | beers.19.style | ドルトムンダー（ラガー） | Dortmunder (Lager) |  |
 | beers.20.brewery | Brewery Tumugi | = |  |
 | beers.20.beer | KUMEJIMA IPA | = |  |
@@ -70,34 +70,34 @@
 | beers.21.brewery | BrewBeast | = |  |
 | beers.21.beer | IMPACT | = |  |
 | beers.21.style | HAZY IPA | Hazy IPA |  |
-| beers.22.brewery | つくばブルワリー | Tsukuba Brewery | ← 要確認 |
-| beers.22.beer | 金色姫IPA | Konjiki-hime IPA | ← 要確認 |
+| beers.22.brewery | つくばブルワリー | Tsukuba Brewery |  |
+| beers.22.beer | 金色姫IPA | Konjiki-hime IPA |  |
 | beers.22.style | IPA | = |  |
 | beers.23.brewery | NASU BOULDER BREWING | = |  |
-| beers.23.beer | なすですな　ペールエール | Nasu Desu Na Pale Ale | ← 要確認 |
+| beers.23.beer | なすですな　ペールエール | Nasu Desu Na Pale Ale |  |
 | beers.23.style | ペールエール | Pale Ale |  |
 | beers.24.brewery | NAMACHAん Brewing | = |  |
-| beers.24.beer | なまちゃんのラオホ | Namachan’s Rauch | ← 要確認 |
+| beers.24.beer | なまちゃんのラオホ | Namachan’s Rauch |  |
 | beers.24.style | Bamberg-Style Maerzen Rauchbier | = |  |
 | beers.25.brewery | ONE DROP | = |  |
-| beers.25.beer | 内浦セゾン | Uchiura Saison | ← 要確認 |
+| beers.25.beer | 内浦セゾン | Uchiura Saison |  |
 | beers.25.style | fruits seison | Fruit Saison |  |
 | beers.26.brewery | Platanus Brewing | = |  |
 | beers.26.beer | Hello, World | = |  |
 | beers.26.style | セゾン | Saison |  |
-| beers.27.brewery | 奈良醸造 | Nara Brewing Co. | ← 要確認 |
+| beers.27.brewery | 奈良醸造 | Nara Brewing Co. |  |
 | beers.27.beer | FUNCTION | = |  |
 | beers.27.style | American-Belgo-Style Ale | = |  |
 | beers.28.brewery | 808BREWERY | = |  |
 | beers.28.beer | ８０８IPA | 808 IPA |  |
 | beers.28.style | West Coast IPA | = |  |
 | beers.29.brewery | In a daze Brewing | = |  |
-| beers.29.beer | 森の座 | Mori no Za | ← 要確認 |
+| beers.29.beer | 森の座 | Mori no Za |  |
 | beers.29.style | Pale Ale w/ Local Red Pine needle | = |  |
-| beers.30.brewery | さかづきBrewing | Sakazuki Brewing | ← 要確認 |
+| beers.30.brewery | さかづきBrewing | Sakazuki Brewing |  |
 | beers.30.beer | shy girl | = |  |
 | beers.30.style | ボヘミアン・ピルスナー | Bohemian Pilsner |  |
-| beers.31.brewery | トコシエ醸造 | Tokoshie Brewing | ← 要確認 |
+| beers.31.brewery | トコシエ醸造 | Tokoshie Brewing |  |
 | beers.31.beer | 未定 | TBD |  |
 | beers.31.style | 未定 | TBD |  |
 | beers.32.brewery | REPUBREW | = |  |
@@ -109,17 +109,17 @@
 
 | key | JA | EN | 場所 |
 |---|---|---|---|
-| brewers.1.brewery | 那須高原ビール | Nasu Kohgen Beer | ← 要確認 |
+| brewers.1.brewery | 那須高原ビール | Nasu Kohgen Beer |  |
 | brewers.1.company | 那須高原ビール株式会社 | Nasu Kohgen Beer Co., Ltd. | 那須高原ビール |
 | brewers.1.location | 栃木県 那須 | Nasu, Tochigi | 那須高原ビール |
-| brewers.1.beer | 那須高原ビール愛 | Nasu Kohgen Beer Ai | 那須高原ビール ← 要確認 |
+| brewers.1.beer | 那須高原ビール愛 | Nasu Kohgen Beer Ai | 那須高原ビール |
 | brewers.1.style | 那須ソフトラガー | Nasu Soft Lager | 那須高原ビール |
 | brewers.1.pr | 愛子様の誕生を記念して醸造したソフトラガービールです。優しい香りと味が特徴のとても飲みやすいらがーびーるです。 | A soft lager brewed to celebrate the birth of Princess Aiko. Gentle in aroma and flavour, and very easy to drink. | 那須高原ビール |
 | brewers.1.aroma | ゴヨウつつじのような上品な香りです。 | An elegant aroma reminiscent of goyo-tsutsuji (five-leaf azalea). | 那須高原ビール |
 | brewers.1.food | クリームチーズやお魚料理 | Cream cheese and fish dishes | 那須高原ビール |
 | brewers.1.pour | ピルスナーグラス、7度、初めに泡を、そしてゆっくりと注ぎます。 | Pilsner glass, 7°C. Start with the foam, then pour slowly. | 那須高原ビール |
 | brewers.1.story | 那須深山の清らかな雪解け水と厳選した原材料をもとに那須の愛をいっぱいに詰め込んで醸造した完全無濾過の非加熱処理の地ビールです。 | A completely unfiltered, unpasteurised craft beer brewed with pure snowmelt water from the Nasu mountains and carefully selected ingredients, packed with love for Nasu. | 那須高原ビール |
-| brewers.2.brewery | ホップドッグブルーイング | HOPDOG BREWING | ← 要確認 |
+| brewers.2.brewery | ホップドッグブルーイング | HOPDOG BREWING |  |
 | brewers.2.company | HOPDOG BREWING合同会社 | HOPDOG BREWING LLC | ホップドッグブルーイング |
 | brewers.2.location | 秋田県 秋田市 | Akita City, Akita | ホップドッグブルーイング |
 | brewers.2.beer | FARM to YOU DDH IPA | = | ホップドッグブルーイング |
@@ -144,7 +144,7 @@
 | brewers.4.food | 麻婆豆腐、ポルケッタ | Mapo tofu, porchetta | Romeo Brewery |
 | brewers.4.pour | チューリップグラスで8℃前後で、香りを楽しみながら飲んでください。 | Tulip glass at around 8°C. Enjoy the aroma as you drink. | Romeo Brewery |
 | brewers.4.trivia | 店主は筑波大学出身ということもあり、毎年楽しみなビアフェスです。気軽に話しかけてください！ | The owner is a University of Tsukuba graduate, so this beer festival is a highlight every year. Come and say hello! | Romeo Brewery |
-| brewers.5.brewery | 牛久醸造場 | Ushiku Brewery | ← 要確認 |
+| brewers.5.brewery | 牛久醸造場 | Ushiku Brewery |  |
 | brewers.5.company | 株式会社麦と葡萄 | Mugi to Budo Co., Ltd. | 牛久醸造場 |
 | brewers.5.location | 茨城県 牛久市 | Ushiku, Ibaraki | 牛久醸造場 |
 | brewers.5.beer | Wandervogel IPA | = | 牛久醸造場 |
@@ -161,20 +161,20 @@
 | brewers.6.aroma | 新鮮なハラペーニョの青い香りと、ホップ由来の柑橘香の調和をお楽しみください。 | Enjoy the harmony of fresh, green jalapeño and citrusy hop aroma. | DD4D BREWING |
 | brewers.6.food | 唐揚げ、フライドポテト、ハンバーガー、ソーセージ、お肉、スパイシー料理 | Fried chicken, fries, burgers, sausages, meat, spicy food | DD4D BREWING |
 | brewers.6.pour | パイントグラスに泡少なめ。 | Pint glass with a small head. | DD4D BREWING |
-| brewers.7.brewery | ロコビア | Locobeer | ← 要確認 |
+| brewers.7.brewery | ロコビア | Locobeer |  |
 | brewers.7.company | 合同会社ロコビア | Locobeer LLC | ロコビア |
 | brewers.7.location | 千葉県 佐倉市 | Sakura, Chiba | ロコビア |
-| brewers.7.beer | 佐倉・香りの生 | Sakura Kaori no Nama | ロコビア ← 要確認 |
+| brewers.7.beer | 佐倉・香りの生 | Sakura Kaori no Nama | ロコビア |
 | brewers.7.style | ケルシュ | Kölsch | ロコビア |
 | brewers.7.pr | ノーブルホップのアロマと、控えめなホップの苦味も特徴。麦わら色のスッキリとしたボディにフルーツの香りが爽やかなビールです。 | Noble hop aroma with restrained hop bitterness. A straw-coloured, clean-bodied beer with a fresh, fruity aroma. | ロコビア |
 | brewers.7.aroma | 果実を思わせる様なフルーティな香りと背後に香るノーブルホップの香り | A fruity aroma reminiscent of fresh fruit, with noble hops in the background | ロコビア |
 | brewers.7.food | 何でもＯＫ | Anything goes | ロコビア |
 | brewers.7.pour | シュタンゲ、8℃、厚い泡 | Stange glass, 8°C, thick head | ロコビア |
 | brewers.7.region | 佐倉市唯一のブルワリーです。 | The only brewery in Sakura City. | ロコビア |
-| brewers.8.brewery | フリー・スピリッツ・ブリューイング | Free Spirits Brewing | ← 要確認 |
+| brewers.8.brewery | フリー・スピリッツ・ブリューイング | Free Spirits Brewing |  |
 | brewers.8.company | HTW株式会社 | HTW Inc. | フリー・スピリッツ・ブリューイング |
 | brewers.8.location | 兵庫県 姫路市 | Himeji, Hyogo | フリー・スピリッツ・ブリューイング |
-| brewers.8.beer | ホワイトキャッスルエール | White Castle Ale | フリー・スピリッツ・ブリューイング ← 要確認 |
+| brewers.8.beer | ホワイトキャッスルエール | White Castle Ale | フリー・スピリッツ・ブリューイング |
 | brewers.8.style | 柚子ベルジャンエール | Yuzu Belgian Ale | フリー・スピリッツ・ブリューイング |
 | brewers.8.aroma | 華やかな柚子の香りとベルジャン酵母由来のフルーティーさが特徴です。 | Bold yuzu aroma with the fruitiness of Belgian yeast. | フリー・スピリッツ・ブリューイング |
 | brewers.8.food | 魚料理 | Fish dishes | フリー・スピリッツ・ブリューイング |
@@ -182,7 +182,7 @@
 | brewers.9.brewery | Twin Peaks Mountain Brewing | = |  |
 | brewers.9.company | Twin Peaks Mountain Brewing合同会社 | Twin Peaks Mountain Brewing LLC | Twin Peaks Mountain Brewing |
 | brewers.9.location | 茨城県 つくば | Tsukuba, Ibaraki | Twin Peaks Mountain Brewing |
-| brewers.9.beer | 博士のヴァイツェン | Hakase no Weizen (Doctor’s Weizen) | Twin Peaks Mountain Brewing ← 要確認 |
+| brewers.9.beer | 博士のヴァイツェン | Hakase no Weizen (Doctor’s Weizen) | Twin Peaks Mountain Brewing |
 | brewers.9.style | 南ドイツスタイルのヘーフェヴァイツェン | South German Hefeweizen | Twin Peaks Mountain Brewing |
 | brewers.9.pr | 南ドイツの白小麦エール：バナナのような香りと、やさしい甘み、なめらかな口当たりが特徴です。 | A South German wheat ale with banana-like aroma, gentle sweetness and a smooth mouthfeel. | Twin Peaks Mountain Brewing |
 | brewers.9.aroma | バナナ | Banana | Twin Peaks Mountain Brewing |
@@ -192,7 +192,7 @@
 | brewers.10.brewery | HORSEHEAD LABS（ホースヘッドラブズ） | HORSEHEAD LABS |  |
 | brewers.10.company | HORSEHEAD LABS株式会社 | HORSEHEAD LABS Inc. | HORSEHEAD LABS（ホースヘッドラブズ） |
 | brewers.10.location | 静岡県（東海道・蒲原宿） | Shizuoka (Kambara-juku on the old Tokaido road) | HORSEHEAD LABS（ホースヘッドラブズ） |
-| brewers.10.beer | 酒粕IPA | Sake Kasu IPA | HORSEHEAD LABS（ホースヘッドラブズ） ← 要確認 |
+| brewers.10.beer | 酒粕IPA | Sake Kasu IPA | HORSEHEAD LABS（ホースヘッドラブズ） |
 | brewers.10.style | Sake Lees IPA | = | HORSEHEAD LABS（ホースヘッドラブズ） |
 | brewers.10.aroma | 隠し味の静岡産紅ほっぺ苺が優しく香り、酒粕由来の豊潤な風味が特徴です。 | A gentle note of Shizuoka Beni-hoppe strawberries as a hidden touch, with the rich flavour of sake lees. | HORSEHEAD LABS（ホースヘッドラブズ） |
 | brewers.10.food | 焼き鳥、おでん | Yakitori, oden | HORSEHEAD LABS（ホースヘッドラブズ） |
@@ -225,7 +225,7 @@
 | brewers.13.brewery | KOSHU BEER | = |  |
 | brewers.13.company | KOSHU BEER | KOSHU BEER | KOSHU BEER |
 | brewers.13.location | 山梨県 甲州市 | Koshu, Yamanashi | KOSHU BEER |
-| brewers.13.beer | 甲州サワーエール | Koshu Sour Ale | KOSHU BEER ← 要確認 |
+| brewers.13.beer | 甲州サワーエール | Koshu Sour Ale | KOSHU BEER |
 | brewers.13.style | サワー | Sour | KOSHU BEER |
 | brewers.13.pr | 白ワイン用葡萄「甲州」を使用したサワーエール。スパークリングワインを軽くしたような甘さ無し、苦み無しのスッキリしたテイストです。 | A sour ale made with Koshu, a white wine grape. Like a lighter sparkling wine: no sweetness, no bitterness, just a clean taste. | KOSHU BEER |
 | brewers.13.aroma | 白い葡萄、梅 | White grape, ume plum | KOSHU BEER |
@@ -239,7 +239,7 @@
 | brewers.14.aroma | 白ワインのような爽やかな青い香り、グレープフルーツのような柑橘調の香り | A fresh green note like white wine, with grapefruit-like citrus | Shimoda Brewing Company |
 | brewers.14.food | エスニックフード | Southeast Asian food | Shimoda Brewing Company |
 | brewers.14.pour | パイントグラス、4℃くらいから飲み始め | Pint glass, start drinking at around 4°C | Shimoda Brewing Company |
-| brewers.15.brewery | ホップガーデンブルワリー | Hop Garden Brewery | ← 要確認 |
+| brewers.15.brewery | ホップガーデンブルワリー | Hop Garden Brewery |  |
 | brewers.15.company | 株式会社ホップジャパン | Hop Japan Co., Ltd. | ホップガーデンブルワリー |
 | brewers.15.location | 福島県 田村市都路町 | Miyakoji, Tamura, Fukushima | ホップガーデンブルワリー |
 | brewers.15.beer | Abukuma GREEN | = | ホップガーデンブルワリー |
@@ -248,7 +248,7 @@
 | brewers.15.aroma | みずみずしいフレッシュホップならでは爽やかな香り、その中で仕込みごとに異なるホップを使用しているので一期一会のホップアロマが楽しめます。 | The fresh, lively aroma only fresh hops can give. Each batch uses a different hop, so every aroma is a once-in-a-lifetime encounter. | ホップガーデンブルワリー |
 | brewers.15.food | Fish＆Chips, シーザーサラダなど | Fish and chips, Caesar salad and the like | ホップガーデンブルワリー |
 | brewers.15.pour | USパイントグラス、8℃、泡は作らず | US pint glass, 8°C, no head | ホップガーデンブルワリー |
-| brewers.16.brewery | 本庄銀座ブルワリー | Honjo Ginza Brewery | ← 要確認 |
+| brewers.16.brewery | 本庄銀座ブルワリー | Honjo Ginza Brewery |  |
 | brewers.16.company | 本庄銀座ブルワリー | Honjo Ginza Brewery | 本庄銀座ブルワリー |
 | brewers.16.location | 埼玉県 本庄市 | Honjo, Saitama | 本庄銀座ブルワリー |
 | brewers.16.beer | BABY | = | 本庄銀座ブルワリー |
@@ -262,24 +262,24 @@
 | brewers.17.company | 宇都宮ブルワリー株式会社 | Utsunomiya Brewery Co., Ltd. | BLUE MAGIC |
 | brewers.17.location | 栃木県 宇都宮市 | Utsunomiya, Tochigi | BLUE MAGIC |
 | brewers.17.beer | BLUE MAGIC SP | = | BLUE MAGIC |
-| brewers.17.style | ？？？（アルコール度数 ？？？） | ?? (ABV ???) | BLUE MAGIC ← 要確認 |
+| brewers.17.style | ？？？（アルコール度数 ？？？） | ?? (ABV ???) | BLUE MAGIC |
 | brewers.17.aroma | 千載一遇で一期一会なビールを見つけたあなたの嗅覚は素敵です | Your nose is a fine one for finding a beer this rare, a once-in-a-lifetime encounter | BLUE MAGIC |
 | brewers.17.food | 会話 | Conversation | BLUE MAGIC |
 | brewers.17.pour | 泡無しで香り・味わいダイレクト | No head, so the aroma and flavour hit you directly | BLUE MAGIC |
-| brewers.18.brewery | スモーク・クラフト | Smoke Craft | ← 要確認 |
+| brewers.18.brewery | スモーク・クラフト | Smoke Craft |  |
 | brewers.18.company | 所沢ビール株式会社 | Tokorozawa Beer Co., Ltd. | スモーク・クラフト |
 | brewers.18.location | 埼玉県 所沢市 | Tokorozawa, Saitama | スモーク・クラフト |
-| brewers.18.beer | オフピート | Off Peat | スモーク・クラフト ← 要確認 |
+| brewers.18.beer | オフピート | Off Peat | スモーク・クラフト |
 | brewers.18.style | ピーテッド・スモークエール | Peated Smoked Ale | スモーク・クラフト |
 | brewers.18.pr | 幻の国産ピートでつくる、「ウイスキー会社が恐れる」ビール。是非体験してみて！ | Made with rare Japanese peat: the beer “whisky makers fear”. Come and experience it! | スモーク・クラフト |
 | brewers.18.aroma | 超個性の極み。スモーククラフトの真骨頂です。 | The height of individuality. This is Smoke Craft at its purest. | スモーク・クラフト |
 | brewers.18.food | チョコレート | Chocolate | スモーク・クラフト |
 | brewers.18.pour | ビールらしく、しっかり冷やしてどうぞ。 | Like any beer: well chilled, please. | スモーク・クラフト |
 | brewers.18.region | 製造時に発生する使用済み原料(麦)は地元の農家さんに引き取ってもらっています。その麦を肥料にして、持続可能な製造サイクルを実現しています。 | The spent grain from brewing goes to local farmers, who use it as fertiliser, creating a sustainable production cycle. | スモーク・クラフト |
-| brewers.19.brewery | カンパネラブリューイング | Campanella Brewing | ← 要確認 |
+| brewers.19.brewery | カンパネラブリューイング | Campanella Brewing |  |
 | brewers.19.company | 大地と海のカンパネラBrewing株式会社 | Daichi to Umi no Campanella Brewing Co., Ltd. | カンパネラブリューイング |
 | brewers.19.location | 宮城県 東松島市 | Higashimatsushima, Miyagi | カンパネラブリューイング |
-| brewers.19.beer | 東松島ドルトムンダーデメテル | Higashimatsushima Dortmunder Demeter | カンパネラブリューイング ← 要確認 |
+| brewers.19.beer | 東松島ドルトムンダーデメテル | Higashimatsushima Dortmunder Demeter | カンパネラブリューイング |
 | brewers.19.style | ドルトムンダー（ラガー） | Dortmunder (Lager) | カンパネラブリューイング |
 | brewers.19.pr | 東松島市産「希望の大麦」麦芽１００％使用 芳醇なモルトの味わいをお楽しみください | Made with 100% malt from “Barley of Hope” grown in Higashimatsushima. Enjoy the rich malt flavour. | カンパネラブリューイング |
 | brewers.19.aroma | ドイツ産ノーブルホップであるテナトングによるハーバルな優しい香りとモルトの風味を感じられます。 | The gentle herbal aroma of Tettnang, a German noble hop, with malt flavour. | カンパネラブリューイング |
@@ -302,10 +302,10 @@
 | brewers.21.aroma | トロピカル、フルーティー | Tropical, fruity | BrewBeast |
 | brewers.21.food | ピザ、から揚げ | Pizza, fried chicken | BrewBeast |
 | brewers.21.pour | チューリップ型グラス | Tulip glass | BrewBeast |
-| brewers.22.brewery | つくばブルワリー | Tsukuba Brewery | ← 要確認 |
+| brewers.22.brewery | つくばブルワリー | Tsukuba Brewery |  |
 | brewers.22.company | 株式会社ペブルス | Pebbles Co., Ltd. | つくばブルワリー |
 | brewers.22.location | 茨城県 つくば | Tsukuba, Ibaraki | つくばブルワリー |
-| brewers.22.beer | 金色姫IPA | Konjiki-hime IPA | つくばブルワリー ← 要確認 |
+| brewers.22.beer | 金色姫IPA | Konjiki-hime IPA | つくばブルワリー |
 | brewers.22.style | IPA | = | つくばブルワリー |
 | brewers.22.aroma | グレープフルーツのような香りが最初に感じ、桃やマンゴーのような芳醇なフルーツを思わせるような香りが特徴 | Grapefruit-like aroma at first, followed by rich fruit notes reminiscent of peach and mango | つくばブルワリー |
 | brewers.22.food | ジューシーなお肉料理全般 | Juicy meat dishes of all kinds | つくばブルワリー |
@@ -313,7 +313,7 @@
 | brewers.23.brewery | NASU BOULDER BREWING | = |  |
 | brewers.23.company | 那須ボルダー計画株式会社 | Nasu Boulder Keikaku Co., Ltd. | NASU BOULDER BREWING |
 | brewers.23.location | 栃木県 那須 | Nasu, Tochigi | NASU BOULDER BREWING |
-| brewers.23.beer | なすですな　ペールエール | Nasu Desu Na Pale Ale | NASU BOULDER BREWING ← 要確認 |
+| brewers.23.beer | なすですな　ペールエール | Nasu Desu Na Pale Ale | NASU BOULDER BREWING |
 | brewers.23.style | ペールエール | Pale Ale | NASU BOULDER BREWING |
 | brewers.23.aroma | キレのペールエール。スッキリと飲みやすい | A crisp pale ale. Clean and easy to drink | NASU BOULDER BREWING |
 | brewers.23.food | バーガー | Burgers | NASU BOULDER BREWING |
@@ -322,7 +322,7 @@
 | brewers.24.brewery | NAMACHAん Brewing | = |  |
 | brewers.24.company | 株式会社スモークビアファクトリー | Smoke Beer Factory Co., Ltd. | NAMACHAん Brewing |
 | brewers.24.location | 東京都 豊島区 | Toshima, Tokyo | NAMACHAん Brewing |
-| brewers.24.beer | なまちゃんのラオホ | Namachan’s Rauch | NAMACHAん Brewing ← 要確認 |
+| brewers.24.beer | なまちゃんのラオホ | Namachan’s Rauch | NAMACHAん Brewing |
 | brewers.24.style | Bamberg-Style Maerzen Rauchbier | = | NAMACHAん Brewing |
 | brewers.24.pr | 燻製専門店でつくる自家燻製麦芽を使用し口いっぱいに広がるスモーキーな味わいが楽しめる、日本では珍しい燻製ビールです。 | A rare Japanese smoked beer made with malt we smoke ourselves at our smokehouse, with a smoky flavour that fills your mouth. | NAMACHAん Brewing |
 | brewers.24.aroma | ブナで燻製した自家製燻製麦芽による燻製香。 | Smoky aroma from our house-smoked malt, smoked over beech. | NAMACHAん Brewing |
@@ -331,7 +331,7 @@
 | brewers.25.brewery | ONE DROP | = |  |
 | brewers.25.company | 株式会社ONEDROP | ONEDROP Inc. | ONE DROP |
 | brewers.25.location | 静岡県 沼津市 | Numazu, Shizuoka | ONE DROP |
-| brewers.25.beer | 内浦セゾン | Uchiura Saison | ONE DROP ← 要確認 |
+| brewers.25.beer | 内浦セゾン | Uchiura Saison | ONE DROP |
 | brewers.25.style | fruits seison | Fruit Saison | ONE DROP |
 | brewers.25.aroma | 爽やかでジューシー、豊かな甘い香り。みかんの爽やかさとセゾン特有のスパイシーさが調和したビールです。 | Fresh, juicy and richly sweet in aroma. Fresh mikan citrus in harmony with the spiciness typical of a saison. | ONE DROP |
 | brewers.25.food | 唐揚げなどの揚げ物はもちろん、サーモンカルパッチョなどの酸味系のおつまみとも合いそうです。 | Fried food such as fried chicken, of course, but also tangy snacks such as salmon carpaccio. | ONE DROP |
@@ -345,7 +345,7 @@
 | brewers.26.aroma | レモンの香り。レモンを絞って数滴入れていただくと味変で楽しめます！ | Lemon. Squeeze a few drops of lemon into it for a change of flavour! | Platanus Brewing |
 | brewers.26.food | 白身魚のカルパッチョ、鶏のハーブ焼き | White fish carpaccio, herb-roasted chicken | Platanus Brewing |
 | brewers.26.pour | 注ぎ方はお好みで！数滴レモンを絞ってビールに入れると味変になります！ | Pour it however you like! A few drops of fresh lemon in the beer changes the flavour! | Platanus Brewing |
-| brewers.27.brewery | 奈良醸造 | Nara Brewing Co. | ← 要確認 |
+| brewers.27.brewery | 奈良醸造 | Nara Brewing Co. |  |
 | brewers.27.company | 奈良醸造株式会社 | Nara Brewing Co., Ltd. | 奈良醸造 |
 | brewers.27.location | 奈良県 奈良市 | Nara City, Nara | 奈良醸造 |
 | brewers.27.beer | FUNCTION | = | 奈良醸造 |
@@ -366,12 +366,12 @@
 | brewers.29.brewery | In a daze Brewing | = |  |
 | brewers.29.company | In a daze Brewing合同会社 | In a daze Brewing LLC | In a daze Brewing |
 | brewers.29.location | 長野県伊那市 | Ina, Nagano | In a daze Brewing |
-| brewers.29.beer | 森の座 | Mori no Za | In a daze Brewing ← 要確認 |
+| brewers.29.beer | 森の座 | Mori no Za | In a daze Brewing |
 | brewers.29.style | Pale Ale w/ Local Red Pine needle | = | In a daze Brewing |
 | brewers.29.aroma | 採ったばかりの赤松の松葉や松ぼっくりなどを漬け込んだ商品なので、爽やかな森の香りが楽しめます。 | Steeped with freshly gathered red pine needles and cones, so you can enjoy a fresh forest aroma. | In a daze Brewing |
 | brewers.29.food | お寿司、きのこを使った料理、チーズを使った料理 | Sushi, mushroom dishes, cheese dishes | In a daze Brewing |
 | brewers.29.pour | お気に入りのグラスで。枡なんかも、より木の香りが強くなりそう。 | In your favourite glass. A wooden masu cup might bring out the woody aroma even more. | In a daze Brewing |
-| brewers.30.brewery | さかづきBrewing | Sakazuki Brewing | ← 要確認 |
+| brewers.30.brewery | さかづきBrewing | Sakazuki Brewing |  |
 | brewers.30.company | 合同会社さかづき | Sakazuki LLC | さかづきBrewing |
 | brewers.30.location | 東京都 足立区（北千住） | Kitasenju, Adachi, Tokyo | さかづきBrewing |
 | brewers.30.beer | shy girl | = | さかづきBrewing |
@@ -381,7 +381,7 @@
 | brewers.30.food | ポテトフライ、鶏のから揚げ、ホタテ貝の串焼きなｄｐ | Fries, fried chicken, grilled scallop skewers and so on | さかづきBrewing |
 | brewers.30.pour | トールタイプのグラス、低温でクリーミーな泡をたてて注いでほしい | A tall glass, poured cold with a creamy head | さかづきBrewing |
 | brewers.30.trivia | 特にないんですm(__)m | Nothing in particular, sorry! | さかづきBrewing |
-| brewers.31.brewery | トコシエ醸造 | Tokoshie Brewing | ← 要確認 |
+| brewers.31.brewery | トコシエ醸造 | Tokoshie Brewing |  |
 | brewers.31.company | トコシエ醸造株式会社 | Tokoshie Brewing Co., Ltd. | トコシエ醸造 |
 | brewers.31.location | 茨城県 龍ヶ崎 | Ryugasaki, Ibaraki | トコシエ醸造 |
 | brewers.31.beer | 未定 | TBD | トコシエ醸造 |
