@@ -626,7 +626,7 @@ html[lang="en"] .is-tag > span { margin-right: .35em; }
       <span class="wm-text"><b>ビールタイプ診断</b><small>beer meets Design</small></span>
     </button>
     <div class="topbar-right" id="topbarRight"></div>
-    <button class="lang-btn" type="button" data-action="lang" lang="en" aria-label="Switch to English" hidden>EN</button>
+    <button class="lang-btn" type="button" data-action="lang" lang="en" aria-label="Switch to English">EN</button>
   </header>
 
   <main id="view" class="view">
@@ -1361,7 +1361,7 @@ html[lang="en"] .is-tag > span { margin-right: .35em; }
      tr(文言)＝翻訳、trf(文言, 差し込み)＝{n} などを差し込む、trk(キー)＝タグ入りの定型文、cfg(キー)＝設定の文言
      ========================================================= */
   const I18N = readJSON('tcbf-i18n') || {};
-  const LANG_AUTO = false;   // true にすると初回訪問をブラウザの言語で自動判定する（英語版の確認が済んだら有効にする）
+  const LANG_AUTO = true;    // 初回訪問はブラウザの言語で自動判定（?lang= と前回の選択が優先）。false にすると日本語で始まる
   let LANG = 'ja';
   const LOCALE = () => (LANG === 'en' ? 'en-US' : 'ja-JP');
   const KEYED_JA = {
