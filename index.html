@@ -1770,7 +1770,7 @@ button { font: inherit; }
     const step = (el.clientWidth || 360) < 420 ? 92 : 118;   // 隣のカードとの横ずれ
     $$('.zk-fcard', el).forEach(card => {
       const no = Number(card.dataset.no);
-      if (!shown.has(no)) { card.hidden = true; return; }
+      if (!shown.has(no)) { card.hidden = true; card.classList.remove('is-active'); return; }
       card.hidden = false;
       const i = zkFlowItems.findIndex(c => c.no === no), d = i - zkFlowActive, a = Math.abs(d);
       card.style.transform = `translateX(${d * step}px) translateZ(${-a * 110}px) rotateY(${d === 0 ? 0 : (d > 0 ? -38 : 38)}deg)`;
