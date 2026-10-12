@@ -501,6 +501,23 @@ a.btn { text-decoration: none; }
 .zk-lines li { padding: 7px 10px; border-radius: 10px; background: var(--brand-soft); line-height: 1.5; }
 .zk-lines .tag { display: inline-block; margin-right: 6px; font-size: 11px; font-weight: 700; padding: 0 7px; border-radius: 999px; background: var(--group); color: var(--ink); }
 .zk-trivia { margin: 0; font-size: 13px; color: var(--ink-2); line-height: 1.7; }
+/* ISeeeTL 投稿（お題） */
+.is-card { gap: 12px; }
+.is-title { margin: 0; padding-right: 36px; font-size: 18px; line-height: 1.3; font-weight: 700; }
+.is-lead { margin: 0; font-size: 13px; line-height: 1.6; color: var(--ink-2); }
+.is-odai { background: var(--brand-soft); border-radius: 12px; padding: 12px 14px; display: grid; gap: 4px; }
+.is-odai-label { margin: 0; font-family: var(--font-display); font-size: 11px; letter-spacing: .06em; color: var(--brand); }
+.is-odai-text { margin: 0; font-size: 17px; font-weight: 700; line-height: 1.5; }
+.is-odai .btn-text { justify-self: start; padding: 4px 0 0; font-size: 13px; }
+.is-field { display: grid; gap: 4px; font-size: 13px; font-weight: 700; }
+.is-field input { width: 100%; font: inherit; font-size: 16px; font-weight: 500; padding: 10px 12px; border: 1.5px solid var(--line-strong); border-radius: 10px; background: #fff; color: var(--ink); }
+.is-field input:focus-visible { outline: 3px solid var(--brand); outline-offset: 1px; }
+.is-tag { margin: 0; font-size: 13px; color: var(--ink-2); }
+.is-tag b { color: var(--brand); }
+.is-preview { display: grid; gap: 4px; }
+.is-preview-label { margin: 0; font-size: 12px; font-weight: 700; color: var(--muted); }
+.is-preview textarea { width: 100%; font: inherit; font-size: 13px; line-height: 1.6; padding: 8px 10px; border: 1.5px dashed var(--line-strong); border-radius: 10px; background: var(--brand-soft); color: var(--ink); resize: none; }
+.is-note { margin: 0; font-size: 12px; line-height: 1.6; color: var(--muted); }
 
 /* ---- modal / toast ---- */
 .modal { position: fixed; inset: 0; background: rgba(0, 0, 0, .55); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 50; }
@@ -826,7 +843,7 @@ a.btn { text-decoration: none; }
       <button class="btn btn-primary btn-lg" type="button" data-action="share" data-show="own">結果をシェアする</button>
       <div class="actions-2 actions-share">
         <a class="btn btn-ghost" id="linkX" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener">Xに投稿する</a>
-        <a class="btn btn-ghost" href="https://bit.ly/tcbf2026-beer-meets-design" target="_blank" rel="noopener">ISeeeTLに投稿する</a>
+        <button class="btn btn-ghost" type="button" data-action="iseee">ISeeeTLに投稿する</button>
       </div>
       <div class="actions-2" data-show="partial link" hidden>
         <button class="btn btn-ghost" type="button" data-action="share">結果をシェア</button>
@@ -1128,6 +1145,25 @@ a.btn { text-decoration: none; }
     </div>
   </div>
   <!-- ビアキャラ図鑑の詳細（データは #tcbf-zukan。中身は JS が組み立てる） -->
+  <!-- ISeeeTL 投稿：お題にひとこと答えて投稿文を作り、コピーしてルームを開く -->
+  <div id="iseeeModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="isTitle">
+    <div class="modal-card bm is-card">
+      <button class="bm-close" type="button" data-action="iseee-close" aria-label="閉じる">×</button>
+      <h2 class="is-title" id="isTitle">ISeeeTLに投稿する</h2>
+      <p class="is-lead">お題にひとことで答えて、感想のタイムライン「ISeeeTL」に投稿しよう。あなたのビアキャラが返事をくれます。</p>
+      <div class="is-odai">
+        <p class="is-odai-label">お題</p>
+        <p class="is-odai-text" id="isOdai"></p>
+        <button class="btn-text" type="button" data-action="iseee-shuffle">別のお題にする ↻</button>
+      </div>
+      <label class="is-field"><span>あなたの回答</span><input type="text" id="isAnswer" maxlength="80" placeholder="ひとことで（80文字まで）" autocomplete="off"></label>
+      <p class="is-tag">あなたのタグ：<b id="isTag"></b></p>
+      <div class="is-preview"><p class="is-preview-label">投稿文（自動で作られます）</p><textarea id="isPreview" readonly rows="4" aria-label="投稿文"></textarea></div>
+      <a class="btn btn-primary btn-lg" id="isGo" href="https://bit.ly/tcbf2026-beer-meets-design" target="_blank" rel="noopener" data-action="iseee-go">コピーしてISeeeTLを開く</a>
+      <p class="is-note">開いた先の「投稿」で貼り付け、タグから同じキャラを選んでください。初めての投稿では利用ルールへの同意が表示されます。</p>
+      <button class="btn btn-ghost btn-lg" type="button" data-action="iseee-close">閉じる</button>
+    </div>
+  </div>
   <div id="zukanModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="zkName">
     <div class="modal-card bm zk-card" id="zkCard"></div>
   </div>
@@ -1469,6 +1505,16 @@ a.btn { text-decoration: none; }
         $$('.zk-rel-tabs .zk-filter').forEach(b => b.setAttribute('aria-pressed', String(b === el)));
         $$('#zkRelations .zk-pairs').forEach(u => { u.hidden = u.dataset.key !== el.dataset.key; });
         break;
+      }
+      case 'iseee': openIseee(el); break;
+      case 'iseee-close': closeIseee(); break;
+      case 'iseee-shuffle': iseeePick(); iseeeCompose(); break;
+      case 'iseee-go': {
+        const a = ($('#isAnswer').value || '').trim();
+        if (!a) { e.preventDefault(); toast('回答を入れてください'); $('#isAnswer').focus(); break; }
+        const text = iseeeText();
+        copyText(text).then(ok => toast(ok ? '投稿文をコピーしました。投稿欄に貼り付けて、タグから同じキャラを選んでください' : 'コピーできませんでした。投稿文を長押しでコピーしてください'));
+        break;   // リンクはそのまま新しいタブで開く
       }
       case 'zukan-prev': flowStep(-1); break;
       case 'zukan-next': flowStep(1); break;
@@ -1945,6 +1991,60 @@ a.btn { text-decoration: none; }
     });
     window.addEventListener('resize', layoutFlow);
   })();
+  /* ---- ISeeeTL 投稿：お題にひとこと答えて投稿文を作る ---- */
+  const ODAI = [
+    'このビールを動物で例えると？', 'このビールを天気で例えると？', 'このビールを色で表すと？', 'このビールを音楽のジャンルで例えると？',
+    'このビールに合う一曲は？', 'このビールを一言でほめると？', 'このビールを飲みたい時間帯は？', 'このビールを飲みたい場所は？',
+    'このビールに合うおつまみは？', 'このビールの香りを一言で言うと？', 'このビールを人にすすめるなら、どんな人？', 'このビールを飲んだ瞬間の気分は？',
+    'このビールを季節で例えると？', 'このビールを映画のジャンルで例えると？', 'このビールにキャッチコピーをつけると？', 'このビールを飲みながら話したいことは？',
+    '今日の一杯に点数をつけると？（10点満点）', 'このビールの「余韻」を言葉にすると？', 'このビールを誰と飲みたい？', 'このビールと一緒に食べたい会場グルメは？',
+    '自分のビアキャラ、当たってる？（当たり／はずれ＋理由）', '次に飲んでみたいスタイルは？', 'このビールを漢字一文字で表すと？', 'このビールを飲んで思い出したことは？',
+    'このビールを擬音語で表すと？（例：シュワッ）', 'ビール初心者にひとことアドバイスするなら？', 'つくばクラフトビアフェストの好きなところは？', '今日いちばん印象に残ったブルワリーは？',
+    '乾杯の相手に送るひとことは？',
+  ];
+  const $is = $('#iseeeModal');
+  let isOdaiIdx = -1, isReturnFocus = null, isTagText = '';
+  function iseeePick() {
+    if (ODAI.length < 2) { isOdaiIdx = 0; return; }
+    let i; do { i = Math.floor(Math.random() * ODAI.length); } while (i === isOdaiIdx);
+    isOdaiIdx = i;
+  }
+  function iseeeText() {
+    const a = ($('#isAnswer').value || '').trim();
+    return `【お題】${ODAI[isOdaiIdx] || ''}\n【回答】${a || '（未記入）'}\n${isTagText}`;
+  }
+  function iseeeCompose() {
+    $('#isOdai').textContent = ODAI[isOdaiIdx] || '';
+    $('#isPreview').value = iseeeText();
+  }
+  function openIseee(from) {
+    if (!$is) return;
+    const res = currentResult(); if (!res.ok) return;
+    const t = typeData(res.code);
+    isTagText = `#${res.code} ${t.name}`;
+    $('#isTag').textContent = isTagText;
+    if (isOdaiIdx < 0) iseeePick();
+    iseeeCompose();
+    isReturnFocus = from || document.activeElement;
+    $is.hidden = false; $is.scrollTop = 0; $('.modal-card', $is).scrollTop = 0;
+    $('#isAnswer').focus();
+    $live.textContent = 'ISeeeTLに投稿する画面を開きました。お題にひとことで答えてください。';
+  }
+  function closeIseee() {
+    if (!$is || $is.hidden) return;
+    $is.hidden = true;
+    if (isReturnFocus && isReturnFocus.focus) isReturnFocus.focus();
+  }
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); return true; } catch (e) { /* 下でフォールバック */ }
+    try { const ta = $('#isPreview'); ta.focus(); ta.select(); const ok = document.execCommand('copy'); ta.blur(); return ok; } catch (e) { return false; }
+  }
+  if ($is) {
+    $is.addEventListener('click', e => { if (e.target === $is) closeIseee(); });
+    $('#isAnswer').addEventListener('input', iseeeCompose);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$is.hidden) closeIseee(); });
+  }
+
   const $zk = $('#zukanModal');
   let zkReturnFocus = null;
   function openZukan(no, from) {
