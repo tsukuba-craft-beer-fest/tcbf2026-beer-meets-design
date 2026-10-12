@@ -284,7 +284,11 @@ button { font: inherit; }
 .beers-lead { margin: 0 0 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
 .beers-note { margin: 10px 0 0; font-size: 12px; color: var(--muted); line-height: 1.6; }
 .beers { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
-.beer { display: block; padding: 8px 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; line-height: 1.5; }
+.beer { display: flex; align-items: center; gap: 10px; padding: 8px 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; line-height: 1.5; }
+.beer-text { flex: 1; min-width: 0; }
+.beer-thumbs { flex: none; display: flex; align-items: center; gap: 6px; }
+.beer-logo, .modal-card .beer-logo { width: 44px; height: 44px; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 2px; display: block; }
+.beer-photo, .modal-card .beer-photo { width: 44px; height: 56px; object-fit: cover; border: 1px solid var(--line); border-radius: 8px; display: block; }   /* .modal-card img の全幅指定より優先 */
 .beer-brewery { display: block; font-size: 12px; color: var(--muted); }
 .beer-name { font-weight: 700; font-size: 14px; }
 .beer-style { font-size: 12px; color: var(--ink-2); margin-left: 8px; }
@@ -1162,7 +1166,15 @@ button { font: inherit; }
     [0, 1, 2, 3].forEach(i => { const c = flipAt(code, i); beersFor(c).forEach(b => items.push({ ...b, near: c })); });
     return { exact: false, items };
   }
-  const beerHTML = b => `<li class="beer is-link" role="button" tabindex="0" data-action="brewer" data-no="${b.no}"><span class="beer-brewery">${esc(b.brewery)}</span><span class="beer-name">${esc(b.beer)}</span><span class="beer-style">${esc(b.style)}</span>${b.near ? `<span class="beer-type">近いタイプ ${b.near} ${esc(typeData(b.near).name)}</span>` : ''}<span class="beer-more">くわしく →</span></li>`;
+  const brewerOf = no => BREWERS.find(x => String(x.no) === String(no));
+  // 出会えるビール一覧の1行：テキスト＋右にロゴとビール写真（assets/brewers/。単体HTMLでは非表示になるだけ）
+  const beerHTML = b => {
+    const br = brewerOf(b.no) || {};
+    const thumbs = (br.logo || br.photo)
+      ? `<span class="beer-thumbs" aria-hidden="true">${br.logo ? `<img class="beer-logo" src="${br.logo}" alt="" loading="lazy" onerror="this.remove()">` : ''}${br.photo ? `<img class="beer-photo" src="${br.photo}" alt="" loading="lazy" onerror="this.remove()">` : ''}</span>`
+      : '';
+    return `<li class="beer is-link" role="button" tabindex="0" data-action="brewer" data-no="${b.no}"><span class="beer-text"><span class="beer-brewery">${esc(b.brewery)}</span><span class="beer-name">${esc(b.beer)}</span><span class="beer-style">${esc(b.style)}</span>${b.near ? `<span class="beer-type">近いタイプ ${b.near} ${esc(typeData(b.near).name)}</span>` : ''}<span class="beer-more">くわしく →</span></span>${thumbs}</li>`;
+  };
 
   function typeData(code) {
     const card = $(`.type-card[data-code="${code}"]`);
