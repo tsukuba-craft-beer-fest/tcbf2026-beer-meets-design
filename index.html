@@ -1750,7 +1750,7 @@ button { font: inherit; }
   }
 
   /* ---- カードセレクター：二重らせんに巻き付いたカードが、漂いながら登っていく ---- */
-  const HX = { R: 112, P: 36, turns: 1.6, speed: 14 };   // 半径 / カード間の高さ / 1周期あたりの回転数 / 登る速さ(px/s)
+  const HX = { R: 112, P: 36, turns: 3.2, speed: 10 };   // 半径 / カード間の高さ / 1周期あたりの回転数 / 登る速さ(px/s)
   let zkFlowItems = [], hxScroll = 0, hxTarget = null, hxLast = 0, hxPause = 0, hxRaf = 0, hxFront = -1;
   function renderFlow() {
     const el = $('#zkFlow'); if (!el || !ZUKAN.chars.length) return;
@@ -1788,7 +1788,7 @@ button { font: inherit; }
       card.style.filter = blur > 0.4 ? `blur(${blur.toFixed(1)}px) saturate(1.3)` : '';
       card.style.zIndex = String(Math.round(zn * 100));
       card.classList.remove('is-active');
-      if (zn > bestZ && Math.abs(y) < stageH * 0.42) { bestZ = zn; best = i; }
+      if (zn > bestZ && Math.abs(y) < stageH * 0.45) { bestZ = zn; best = i; }
     });
     if (best >= 0) {
       cards[best].classList.add('is-active');
