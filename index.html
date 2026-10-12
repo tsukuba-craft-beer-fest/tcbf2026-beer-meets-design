@@ -1165,11 +1165,8 @@ a.btn { text-decoration: none; }
       <h2 class="is-title" id="isTitle">ISeeeTLに投稿する</h2>
       <p class="is-lead">感想のタイムライン「ISeeeTL」に投稿すると、あなたのビアキャラが返事をくれます。投稿のしかたを選んでください。</p>
       <div class="is-modes" role="group" aria-label="投稿のしかた">
-        <button type="button" class="is-mode-btn" data-action="iseee-mode" data-mode="plain" aria-pressed="true"><b>① 普通に投稿する</b><span>感想を自由に書く</span></button>
+        <button type="button" class="is-mode-btn" data-action="iseee-mode" data-mode="plain" aria-pressed="true"><b>① 普通に投稿する</b><span>飲んだビールを選んで投稿（感想は ISeeeTL で書く）</span></button>
         <button type="button" class="is-mode-btn" data-action="iseee-mode" data-mode="odai" aria-pressed="false"><b>② お題にひとことで答えて投稿する</b><span>お題に答えて、飲んだビールも添える</span></button>
-      </div>
-      <div class="is-mode" data-mode="plain">
-        <label class="is-field"><span>感想・コメント</span><textarea id="isComment" rows="3" maxlength="200" placeholder="飲んだビールの感想や、会場で気づいたことなど（200文字まで）"></textarea></label>
       </div>
       <div class="is-mode" data-mode="odai" hidden>
         <div class="is-odai">
@@ -1178,11 +1175,11 @@ a.btn { text-decoration: none; }
           <button class="btn-text" type="button" data-action="iseee-shuffle">別のお題にする ↻</button>
         </div>
         <label class="is-field"><span>あなたの回答</span><input type="text" id="isAnswer" maxlength="80" placeholder="ひとことで（80文字まで）" autocomplete="off"></label>
-        <div class="is-field">
-          <span>飲んだビール（あてはまるものにチェック）</span>
-          <div class="is-checks" id="isBeers"></div>
-          <input type="text" id="isOther" maxlength="80" placeholder="それ以外に飲んだビール（自由記述）" autocomplete="off" aria-label="それ以外に飲んだビール">
-        </div>
+      </div>
+      <div class="is-field">
+        <span>飲んだビール（あてはまるものにチェック）</span>
+        <div class="is-checks" id="isBeers"></div>
+        <input type="text" id="isOther" maxlength="80" placeholder="それ以外に飲んだビール（自由記述）" autocomplete="off" aria-label="それ以外に飲んだビール">
       </div>
       <p class="is-tag">あなたのタグ：<b id="isTag"></b></p>
       <div class="is-preview"><p class="is-preview-label">投稿文（自動で作られます）</p><textarea id="isPreview" readonly rows="5" aria-label="投稿文"></textarea></div>
@@ -1540,8 +1537,8 @@ a.btn { text-decoration: none; }
       case 'iseee-go': {
         if (!iseeeMain()) {
           e.preventDefault();
-          toast(isMode === 'odai' ? '回答を入れてください' : '感想・コメントを入れてください');
-          $(isMode === 'odai' ? '#isAnswer' : '#isComment').focus();
+          toast(isMode === 'odai' ? '回答を入れてください' : '飲んだビールにチェックを入れるか、書いてください');
+          $(isMode === 'odai' ? '#isAnswer' : '#isOther').focus();
           break;
         }
         const text = iseeeText();
@@ -2053,16 +2050,16 @@ a.btn { text-decoration: none; }
     if (other) picked.push(other);
     return picked;
   }
-  function iseeeMain() {   // 必須の本文（モードごと）
-    return isMode === 'odai' ? ($('#isAnswer').value || '').trim() : ($('#isComment').value || '').trim();
+  function iseeeMain() {   // 必須の内容（モードごと）：②は回答、①は飲んだビール
+    return isMode === 'odai' ? ($('#isAnswer').value || '').trim() : iseeeDrank().join('、');
   }
   function iseeeText() {
     if (isMode === 'odai') {
       const a = ($('#isAnswer').value || '').trim(), d = iseeeDrank();
       return `【お題】${ODAI[isOdaiIdx] || ''}\n【回答】${a || '（未記入）'}` + (d.length ? `\n【飲んだビール】${d.join('、')}` : '') + `\n${isTagText}`;
     }
-    const c = ($('#isComment').value || '').trim();
-    return `${c || '（未記入）'}\n${isTagText}`;
+    const d = iseeeDrank();
+    return `【飲んだビール】${d.length ? d.join('、') : '（未記入）'}\n${isTagText}`;
   }
   function iseeeCompose() {
     $('#isOdai').textContent = ODAI[isOdaiIdx] || '';
