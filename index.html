@@ -419,6 +419,12 @@ button { font: inherit; }
 .zk-cls { font-size: 11px; color: var(--muted); font-weight: 700; }
 .zk-quote { font-size: 12px; font-weight: 700; background: var(--group-soft); border-radius: 8px; padding: 4px 8px; width: 100%; line-height: 1.4; }
 .zk-more { font-size: 11px; font-weight: 700; color: var(--brand); }
+.zk-styles { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; }
+.zk-styles i { font-style: normal; font-size: 10px; font-weight: 700; line-height: 1.3; padding: 2px 7px; border-radius: 999px; background: var(--group-soft); border: 1px solid var(--group); }
+.zk-part { margin: 4px 0 -4px; padding-bottom: 4px; font-family: var(--font-display); font-size: 13px; letter-spacing: .06em; color: var(--ink); border-bottom: 2px solid var(--group); }
+.zk-catch { margin: 0; font-size: 15px; font-weight: 700; color: var(--brand); }
+.zk-desc2 { margin: -4px 0 0; font-size: 14px; line-height: 1.7; color: var(--ink-2); }
+.zk-card .hint { margin-top: 10px; }
 .zk-rel-lead { margin: 0 0 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
 .zk-rel h4 { margin: 10px 0 6px; font-size: 13px; color: var(--brand); }
 .zk-rel ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 13px; }
@@ -500,7 +506,7 @@ button { font: inherit; }
       <ul class="meta"><li>8問</li><li>約60秒</li><li>16タイプ</li><li>ビールの質問は出ません</li></ul>
       <button class="btn btn-primary btn-lg" type="button" data-action="start">診断をはじめる</button>
     </div>
-    <div class="intro-links"><button class="btn-text" type="button" data-action="types">16タイプをながめる</button><button class="btn-text" type="button" data-action="brewers">協力ブルワリー一覧</button><button class="btn-text" type="button" data-action="stats">みんなの診断結果</button><button class="btn-text" type="button" data-action="zukan">ビアキャラ図鑑</button></div>
+    <div class="intro-links"><button class="btn-text" type="button" data-action="zukan">ビアキャラ図鑑</button><button class="btn-text" type="button" data-action="brewers">協力ブルワリー一覧</button><button class="btn-text" type="button" data-action="stats">みんなの診断結果</button></div>
   </div>
 </section>
 
@@ -781,7 +787,6 @@ button { font: inherit; }
       <div class="actions-row">
         <a class="btn-text" id="linkX" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener">Xに投稿する</a>
         <button class="btn-text" type="button" data-action="retry" data-show="partial" hidden>もう一度診断する</button>
-        <button class="btn-text" type="button" data-action="types">16タイプ一覧</button>
         <button class="btn-text" type="button" data-action="brewers">協力ブルワリー</button>
         <button class="btn-text" type="button" data-action="stats">みんなの結果</button>
         <button class="btn-text" type="button" data-action="zukan">ビアキャラ図鑑</button>
@@ -794,6 +799,7 @@ button { font: inherit; }
 </section>
 
 <!-- 16タイプ一覧：タイプ名・説明・おすすめの文言はここが原本（結果画面はここから読み取って表示する） -->
+<!-- 16タイプのデータ置き場（名前・キャッチ・説明・スタイル・ヒント・キャラ画像）。typeData() が読む。画面としては使わず、一覧はビアキャラ図鑑に一本化 -->
 <section class="screen" id="s-types" data-screen="types" aria-labelledby="typesTitle" hidden>
   <div class="types">
     <div class="types-head">
@@ -994,7 +1000,6 @@ button { font: inherit; }
     <p class="credit">協力　筑波技術大学</p>
     <div class="actions-row">
       <button class="btn-text" type="button" data-action="start">診断をはじめる</button>
-      <button class="btn-text" type="button" data-action="types">16タイプ一覧</button>
       <button class="btn-text" type="button" data-action="stats">みんなの結果</button>
       <button class="btn-text" type="button" data-action="zukan">ビアキャラ図鑑</button>
       <button class="btn-text" type="button" data-action="home">トップへ</button>
@@ -1022,7 +1027,6 @@ button { font: inherit; }
       <button class="btn-text" type="button" data-action="stats-refresh" id="statsRefresh">更新する</button>
       <button class="btn-text" type="button" data-action="back-result" id="statsBack" hidden>結果画面にもどる</button>
       <button class="btn-text" type="button" data-action="start">診断をはじめる</button>
-      <button class="btn-text" type="button" data-action="types">16タイプ一覧</button>
       <button class="btn-text" type="button" data-action="brewers">協力ブルワリー</button>
       <button class="btn-text" type="button" data-action="zukan">ビアキャラ図鑑</button>
       <button class="btn-text" type="button" data-action="home">トップへ</button>
@@ -1034,7 +1038,7 @@ button { font: inherit; }
     <div class="types-head">
       <p class="eyebrow eyebrow-left">beer meets Design</p>
       <h2 id="zukanTitle">ビアキャラ図鑑</h2>
-      <p>16タイプの診断結果は、それぞれ「ビアキャラ」になって会場にすんでいます。カードをタップすると、くわしいプロフィールが見られます。</p>
+      <p>16タイプの診断結果は、それぞれ「ビアキャラ」になって会場にすんでいます。カードをタップすると、おすすめのスタイルやくわしいプロフィールが見られます。</p>
     </div>
     <div class="zk-filters" id="zkFilters" role="group" aria-label="グループでしぼりこむ"></div>
     <div id="zkGroups"></div>
@@ -1045,7 +1049,6 @@ button { font: inherit; }
     </div>
     <div class="actions-row">
       <button class="btn-text" type="button" data-action="start">診断をはじめる</button>
-      <button class="btn-text" type="button" data-action="types">16タイプ一覧</button>
       <button class="btn-text" type="button" data-action="brewers">協力ブルワリー</button>
       <button class="btn-text" type="button" data-action="home">トップへ</button>
     </div>
@@ -1233,7 +1236,7 @@ button { font: inherit; }
     switch (state.view) {
       case 'question': renderQuestion(); break;
       case 'result': renderResult(); break;
-      case 'types': $right.textContent = '16タイプ'; showScreen(SCREENS.types); break;
+      case 'types': state.view = 'zukan'; $right.textContent = 'ビアキャラ図鑑'; showScreen(SCREENS.zukan); break;   // 旧・16タイプ一覧は図鑑へ
       case 'brewers': $right.textContent = '協力ブルワリー'; showScreen(SCREENS.brewers); break;
       case 'stats': $right.textContent = 'みんなの結果'; showScreen(SCREENS.stats); renderStatsPage(); break;
       case 'zukan': $right.textContent = 'ビアキャラ図鑑'; showScreen(SCREENS.zukan); break;
@@ -1387,7 +1390,7 @@ button { font: inherit; }
         state.q = i < 0 ? 0 : i; state.view = 'question'; render(); break;
       }
       case 'retry': startQuiz(); break;
-      case 'types': state.view = 'types'; render(); break;
+      case 'types': state.view = 'zukan'; render(); break;   // 旧・16タイプ一覧は図鑑へ
       case 'brewers': state.view = 'brewers'; render(); break;
       case 'stats': state.view = 'stats'; render(); break;
       case 'zukan': state.view = 'zukan'; render(); break;
@@ -1684,7 +1687,7 @@ button { font: inherit; }
             `<span class="zk-top"><span>No.${zkPad(ch.no)}</span><span class="code">${ch.code}</span></span>` +
             `<img src="${t.chara}" alt="" loading="lazy">` +
             `<span class="zk-body"><span class="zk-name">${esc(ch.name)}</span><span class="zk-cls">${esc(ch.cls)}</span>` +
-            `<span class="zk-quote">「${esc(ch.kuchiguse)}」</span><span class="zk-more">くわしく見る →</span></span></button>`;
+            `<span class="zk-styles">${t.styles.map(s => `<i>${esc(s)}</i>`).join('')}</span><span class="zk-more">くわしく見る →</span></span></button>`;
         }).join('') + '</div></section>';
     }).join('');
     const li = p => `<li><span class="zk-pair">${zkLink(p[0])} × ${zkLink(p[1])}</span><span class="zk-why">${esc(p[2])}</span></li>`;
@@ -1703,20 +1706,35 @@ button { font: inherit; }
     const card = $('#zkCard');
     card.style.setProperty('--group', GROUP_COLOR[key]); card.style.setProperty('--group-soft', GROUP_TINT[key]);
     const row = (th, td) => `<tr><th>${th}</th><td>${td}</td></tr>`;
+    const bl = beerItems(ch.code);
+    const beersLead = bl.exact
+      ? `${esc(ch.name)} に近いフラッグシップです。当日はほかの銘柄も出るので、会場で探してみてください。`
+      : `フラッグシップの中に ${esc(ch.name)} の銘柄はありませんが、当日はほかの銘柄も並びます。近いタイプを手がかりに、会場で探してみてください。`;
     card.innerHTML =
       `<button class="bm-close" type="button" data-action="zukan-close" aria-label="閉じる">×</button>` +
       `<div class="zk-head"><img src="${t.chara}" alt=""><div><span class="zk-no">No.${zkPad(ch.no)} ・ ${ch.code}</span><h2 id="zkName">${esc(ch.name)}</h2><span class="zk-sub">${esc(ch.cls)} ／ ${esc(g.label)}：${esc(g.type)}</span></div></div>` +
       `<div class="zk-axes">${ch.code.split('').map(k => `<span class="zk-axis">${esc(ZK_AXIS[k] || k)}</span>`).join('')}</div>` +
+      // ---- 診断での説明（旧・16タイプ一覧の内容）
+      `<p class="zk-part">診断での説明</p>` +
+      `<p class="zk-catch">${esc(t.catch)}</p><p class="zk-desc2">${esc(t.desc)}</p>` +
+      `<div class="zk-sec"><h4>おすすめのスタイル</h4><ul class="chips">${t.styles.map(s => `<li class="chip">${esc(s)}</li>`).join('')}</ul>` +
+      `<p class="hint"><strong>会場でのヒント</strong><br>${esc(t.hint)}</p></div>` +
+      `<div class="zk-sec"><h4>TCBF2026で出会えるビール一覧</h4><p class="beers-lead">${beersLead}</p>` +
+      (bl.items.length ? `<ul class="beers">${bl.items.map(beerHTML).join('')}</ul>` : '') +
+      `<p class="beers-note">各ブルワリーのフラッグシップ（1液種目）から選んでいます。当日はこのほかの銘柄も並ぶので、ぜひ会場で探してみてください。</p></div>` +
+      `<button class="btn btn-ghost btn-lg" type="button" data-action="preview-code" data-code="${ch.code}">この結果画面を見る</button>` +
+      // ---- キャラ設定
+      `<p class="zk-part">キャラ設定</p>` +
       `<p class="zk-zukan">${esc(ch.zukan)}</p>` +
       `<div class="zk-sec"><h4>プロフィール</h4><table class="zk-profile"><tbody>` +
       row('一人称', esc(ch.me)) + row('見た目', esc(ch.look)) + row('性格', esc(ch.persona)) + row('すみか', esc(ch.home)) +
-      row('好きなスタイル', esc(ch.styles)) + row('好物', esc(ch.food)) + row('苦手', esc(ch.dislike)) + row('仲良し', zkLink(ch.friend)) + row('ライバル', zkLink(ch.rival)) +
+      row('好物', esc(ch.food)) + row('苦手', esc(ch.dislike)) + row('仲良し', zkLink(ch.friend)) + row('ライバル', zkLink(ch.rival)) +
       `</tbody></table></div>` +
       `<div class="zk-sec"><h4>とくせい</h4><p class="zk-ability"><b>${esc(ch.ability[0])}</b><br>${esc(ch.ability[1])}</p></div>` +
       `<div class="zk-sec"><h4>わざ</h4><ul class="zk-moves">${ch.moves.map(m => `<li><b>${esc(m[0])}</b>${esc(m[1])}</li>`).join('')}</ul></div>` +
       `<div class="zk-sec"><h4>セリフ</h4><ul class="zk-lines"><li><span class="tag">口癖</span>「${esc(ch.kuchiguse)}」</li><li><span class="tag">決めゼリフ</span>「${esc(ch.kime)}」</li>${ch.lines.map(l => `<li>「${esc(l)}」</li>`).join('')}</ul></div>` +
       `<div class="zk-sec"><h4>小ネタ</h4><p class="zk-trivia">${esc(ch.trivia)}</p></div>` +
-      `<div class="actions-2"><button class="btn btn-ghost" type="button" data-action="preview-code" data-code="${ch.code}">この結果画面を見る</button><button class="btn btn-ghost" type="button" data-action="zukan-close">閉じる</button></div>`;
+      `<button class="btn btn-ghost btn-lg" type="button" data-action="zukan-close">閉じる</button>`;
     $zk.hidden = false; $zk.scrollTop = 0; card.scrollTop = 0;
     $('.bm-close', card).focus();
     $live.textContent = `${ch.name} のプロフィールを開きました`;
