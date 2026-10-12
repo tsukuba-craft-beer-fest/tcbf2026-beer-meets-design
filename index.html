@@ -125,6 +125,8 @@ button { font: inherit; }
 .btn-primary, .btn-strong { background: var(--amber); border-color: var(--amber); }
 .btn-primary:hover, .btn-strong:hover { background: var(--amber-hover); }
 .btn-lg { width: 100%; min-height: 56px; font-size: 17px; }
+a.btn { text-decoration: none; }
+.actions-share .btn { font-size: 14px; padding-inline: 8px; }
 .btn-lean { background: var(--surface); border-color: var(--line-strong); color: var(--ink-2); }
 .btn-lean:hover { background: var(--amber-soft); }
 .btn-ghost { background: var(--surface); border-color: var(--line-strong); }
@@ -822,6 +824,10 @@ button { font: inherit; }
       <button class="btn btn-primary btn-lg" type="button" data-action="continue" data-show="partial" hidden>残りの4問に答えて、くわしい結果を見る</button>
       <button class="btn btn-primary btn-lg" type="button" data-action="start" data-show="link" hidden>自分も診断してみる</button>
       <button class="btn btn-primary btn-lg" type="button" data-action="share" data-show="own">結果をシェアする</button>
+      <div class="actions-2 actions-share">
+        <a class="btn btn-ghost" id="linkX" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener">Xに投稿する</a>
+        <a class="btn btn-ghost" href="https://bit.ly/tcbf2026-beer-meets-design" target="_blank" rel="noopener">ISeeeTLに投稿する</a>
+      </div>
       <div class="actions-2" data-show="partial link" hidden>
         <button class="btn btn-ghost" type="button" data-action="share">結果をシェア</button>
         <button class="btn btn-ghost" type="button" data-action="image">結果画像をつくる</button>
