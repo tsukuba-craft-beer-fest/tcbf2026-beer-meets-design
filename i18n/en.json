@@ -1,0 +1,1733 @@
+{
+ "ui": {
+  "ビールタイプ診断": "Beer Type Quiz",
+  "つくばクラフトビアフェスト 2026": "Tsukuba Craft Beer Fest 2026",
+  "ビールの知識はいりません。ふだんの「好み」をえらぶだけで、まだ出会っていないかもしれない「あなたに合うビール」のタイプが見つかります。質問は1問ずつ出てきます。": "No beer knowledge needed. Just pick your everyday preferences, and you will find the type of beer that fits you, maybe one you have never met. Questions come one at a time.",
+  "8問": "8 questions",
+  "約60秒": "About 60 sec",
+  "16タイプ": "16 types",
+  "ビールの質問は出ません": "No beer knowledge needed",
+  "診断をはじめる": "Start the quiz",
+  "絵本 ｜ TCBF2026 × 筑波技術大学": "Picture book ｜ TCBF2026 × Tsukuba University of Technology",
+  "その一杯は、どう届く？": "How Does That Beer Reach You?",
+  "Beer meets Design ができるまでの12ページ。めくって読めます →": "The 12-page story of how Beer meets Design came to be. Flip through it →",
+  "ビアキャラ図鑑": "Beer Characters",
+  "協力ブルワリー一覧": "Partner Breweries",
+  "みんなの診断結果": "Everyone’s Results",
+  "焼き鳥を頼むなら？": "Ordering yakitori. Which do you pick?",
+  "AとB、気持ちに近いほうを4段階でタップ。": "Tap the one of the four buttons that is closest to how you feel between A and B.",
+  "塩で、素材の味をさっぱり": "Salt, to keep it clean and simple",
+  "タレで、こってり濃厚に": "Sweet soy glaze, rich and sticky",
+  "断然": "Definitely",
+  "← ひとつ前にもどる": "← Back one question",
+  "チョコレートを選ぶなら？": "Picking a chocolate?",
+  "ミルクチョコやホワイトチョコ": "Milk or white chocolate",
+  "カカオ70%以上のビター": "Dark, 70% cacao or more",
+  "好きな香り、パッと3つ言える？": "Can you name three scents you love, right now?",
+  "うーん、すぐには出てこない": "Hmm, nothing comes to mind right away",
+  "すぐ出てくる。金木犀、雨上がり、焼きたてパン…": "Easy. Osmanthus, rain on pavement, fresh bread…",
+  "気になるのは、どっちの新作お菓子？": "Which new snack catches your eye?",
+  "柑橘やミントの、すっとする爽やか系": "Citrus or mint, cool and refreshing",
+  "キャラメルや焦がしバターの、香ばしい系": "Caramel or browned butter, toasty and rich",
+  "お風呂上がりの一杯、どう飲む？": "A drink after the bath. How do you take it?",
+  "キンキンに冷やして、ゴクゴクと一気に": "Ice cold, down in big gulps",
+  "ゆっくり、ちびちび味わいながら": "Slowly, sip by sip",
+  "グレープフルーツやマーマレードの、皮のほろ苦さは？": "The bitter edge of grapefruit peel or marmalade?",
+  "ないほうがうれしい": "I’d rather skip it",
+  "そこが一番おいしい": "That’s the best part",
+  "パクチーやセロリ、ブルーチーズ。香りの強い食べものは？": "Cilantro, celery, blue cheese. Strong-smelling foods?",
+  "苦手。控えめなほうがいい": "Not for me. Milder is better",
+  "好き。強いほど楽しい": "Love them. The stronger, the better",
+  "食欲をそそられるのは、どっちの瞬間？": "Which moment makes you hungry?",
+  "カットしたレモンやハーブが、ぱっと弾ける瞬間": "A burst of fresh-cut lemon or herbs",
+  "炊きたてごはんや焼きたてパンの、香ばしい湯気": "The toasty steam of fresh rice or warm bread",
+  "あなたのビールタイプ": "Your beer type",
+  "みんなの診断結果を見る →": "See everyone’s results →",
+  "いつものビールと違う結果でも、それが狙いです。この診断は「まだ試していない、合うかもしれないスタイル」に出会うためのもの。会場でぜひ1杯、試してみてください。": "If the result is different from your usual beer, that is the point. This quiz is about meeting styles you have not tried yet but might love. Go and try one at the festival.",
+  "おすすめのスタイル": "Recommended styles",
+  "会場でのヒント": "Tip for the festival",
+  "真逆のタイプ": "Your opposite type",
+  "ふだん選ばない一杯と、飲み比べ。": "Try the beer you would never pick, side by side.",
+  "真逆のタイプの結果を見る →": "See the opposite type’s result →",
+  "16タイプの中での位置": "Where you sit among the 16 types",
+  "H ホップ派": "H Hop side",
+  "L 軽い": "L Light",
+  "F 重い": "F Full",
+  "M モルト派": "M Malt side",
+  "L/F＝飲み口（軽い／重い）・S/B＝苦み（甘め／苦め）・A/C＝香り（華やか／控えめ）・H/M＝原料（ホップ／モルト）。タップするとそのタイプを見られます。": "L/F = body (light/full), S/B = bitterness (sweet/bitter), A/C = aroma (bold/subtle), H/M = base (hop/malt). Tap a tile to see that type.",
+  "味覚レーダー": "Taste radar",
+  "左上に広がるほど「軽い・甘め・控えめ・ホップ」寄り、右下ほど「重い・苦め・華やか・モルト」寄り": "Stretching to the upper left means light, sweet, subtle and hoppy. Stretching to the lower right means full, bitter, aromatic and malty.",
+  "TCBF2026で出会えるビール一覧": "Beers to find at TCBF2026",
+  "各ブルワリーのフラッグシップ（1液種目）から選んでいます。当日はこのほかの銘柄も並ぶので、ぜひ会場で探してみてください。": "Chosen from each brewery’s flagship beer. Many more beers will be poured on the day, so go explore the festival.",
+  "自分の結果にもどる": "Back to my result",
+  "残りの4問に答えて、くわしい結果を見る": "Answer the last 4 questions for the full result",
+  "自分も診断してみる": "Take the quiz myself",
+  "結果をシェアする": "Share my result",
+  "Xに投稿する": "Post on X",
+  "ISeeeTLに投稿する": "Post on ISeeeTL",
+  "結果をシェア": "Share",
+  "結果画像をつくる": "Make a result image",
+  "もう一度診断する": "Take the quiz again",
+  "協力ブルワリー": "Breweries",
+  "みんなの結果": "Everyone’s results",
+  "絵本": "Picture book",
+  "トップへ": "Home",
+  "判定コード ｜ L/F 飲み口 ・ S/B 苦み ・ C/A 香り ・ H/M 原料": "Type code ｜ L/F body ・ S/B bitterness ・ C/A aroma ・ H/M base",
+  "「苦め」の中身は原料で変わります。ホップ派ならホップの苦み、モルト派なら焙煎（コーヒーやカカオ）の苦みです。": "What “bitter” means depends on the base: hop bitterness on the hop side, roasted bitterness (think coffee or cacao) on the malt side.",
+  "① 軽い × ホップ派": "① Light × Hop",
+  "② 軽い × モルト派": "② Light × Malt",
+  "③ 重い × ホップ派": "③ Full × Hop",
+  "④ 重い × モルト派": "④ Full × Malt",
+  "つくばクラフトビアフェスト 2026 のビールタイプ診断に協力いただいたブルワリーと、フラッグシップの一杯です。当日はこのほかの銘柄も並びます。タイプの色は「飲み口 × 原料」の4グループを表します。": "The breweries that took part in the Beer Type Quiz for Tsukuba Craft Beer Fest 2026, with their flagship beers. Many more beers will be poured on the day. The colour of each type shows its group (body × base).",
+  "協力　筑波技術大学": "In cooperation with Tsukuba University of Technology",
+  "これまでに診断した人の分布です。数字は、診断した人全体に対する割合です。": "How everyone who has taken the quiz is spread across the types. Figures are the share of all participants.",
+  "4グループの割合": "Share of the 4 groups",
+  "16タイプ ランキング": "Ranking of the 16 types",
+  "更新する": "Refresh",
+  "結果画面にもどる": "Back to my result",
+  "16タイプの診断結果は、それぞれ「ビアキャラ」になって会場にすんでいます。カードを左右に動かして選び、タップするとおすすめのスタイルやくわしいプロフィールが見られます。": "Each of the 16 quiz results lives at the festival as a beer character. Slide the cards left or right to choose one, then tap it for recommended styles and a full profile.",
+  "キャラ相関": "Character relationships",
+  "ライバルは4文字すべてが反対の「真逆タイプ」。仲良しは好みの近いキャラ同士です。": "Rivals are complete opposites, with all four letters flipped. Buddies are characters with similar tastes.",
+  "TCBF2026 × 筑波技術大学": "TCBF2026 × Tsukuba University of Technology",
+  "Beer meets Design ができるまでの絵本です。ページの右側をタップ、または左にスワイプするとめくれます。": "A picture book about how Beer meets Design came to be. Tap the right side of a page, or swipe left, to turn it.",
+  "おしまい": "The End",
+  "学生たちのアイデアは、この診断になりました。あなたに合う一杯と、真逆の一杯を見つけてみませんか？": "The students’ idea became this quiz. Why not find the beer that fits you, and the one that is its complete opposite?",
+  "最初から読む": "Read from the start",
+  "テキストで読む（読み上げ・拡大用）": "Read as text (for screen readers and zooming)",
+  "画像を長押し（または右クリック）すると保存できます": "Press and hold the image (or right-click) to save it",
+  "画像を保存": "Save image",
+  "閉じる": "Close",
+  "感想のタイムライン「ISeeeTL」に投稿すると、あなたのビアキャラが返事をくれます。投稿のしかたを選んでください。": "Post to the ISeeeTL timeline and your beer character will reply. Choose how you want to post.",
+  "① 普通に投稿する": "① Post normally",
+  "飲んだビールを選んで投稿（感想は ISeeeTL で書く）": "Pick the beers you had and post (write your comments on ISeeeTL)",
+  "② お題にひとことで答えて投稿する": "② Answer a prompt in a few words",
+  "お題に答えて、飲んだビールも添える": "Answer a prompt and add the beers you had",
+  "お題": "Prompt",
+  "別のお題にする ↻": "Another prompt ↻",
+  "あなたの回答": "Your answer",
+  "飲んだビール（あてはまるものにチェック）": "Beers you had (check all that apply)",
+  "あなたのタグ：": "Your tag:",
+  "投稿文（自動で作られます）": "Your post (written for you)",
+  "コピーしてISeeeTLを開く": "Copy and open ISeeeTL",
+  "開いた先の「投稿」で貼り付け、タグから同じキャラを選んでください。初めての投稿では利用ルールへの同意が表示されます。": "On ISeeeTL, tap “Post”, paste the text and pick the same character from the tag list. On your first post you will be asked to accept the rules. The tag is kept in Japanese to match ISeeeTL.",
+  "フラッグシップ": "Flagship beer",
+  "香りの特徴": "Aroma",
+  "合わせたいフード": "Pairs well with",
+  "おすすめの注ぎ方": "How to serve",
+  "哲学とストーリー": "Philosophy and story",
+  "地域との繋がり": "Local ties",
+  "小ネタ": "Fun facts",
+  "公式サイトを見る →": "Official website →",
+  "ビールタイプ診断（beer meets Design） トップへ": "Beer Type Quiz (beer meets Design). Go to the home screen",
+  "絵本『その一杯は、どう届く？』を読む": "Read the picture book “How Does That Beer Reach You?”",
+  "AとBのどちらに近いか": "How close are you to A or B",
+  "16タイプの4象限マップ": "Map of the 16 types in four quadrants",
+  "グループでしぼりこむ": "Filter by group",
+  "キャラクターを選ぶ。左右にスワイプ、中央のカードをタップでくわしく見る": "Choose a character. Swipe left or right, tap the centre card for details",
+  "前のキャラ": "Previous character",
+  "次のキャラ": "Next character",
+  "絵本『その一杯は、どう届く？』。左右の矢印キーでページをめくる": "Picture book “How Does That Beer Reach You?”. Use the left and right arrow keys to turn pages",
+  "前のページ": "Previous page",
+  "次のページ": "Next page",
+  "結果画像": "Result image",
+  "診断結果の画像": "Image of your quiz result",
+  "投稿のしかた": "How to post",
+  "ひとことで（80文字まで）": "In a few words (up to 80 characters)",
+  "それ以外に飲んだビール": "Other beers you had",
+  "それ以外に飲んだビール（自由記述）": "Other beers you had (free text)",
+  "投稿文": "Post text",
+  "近いタイプ": "Close type",
+  "くわしく →": "Details →",
+  "{name} に近いフラッグシップです。当日はほかの銘柄も出るので、会場で探してみてください。": "Flagship beers close to {name}. Many more beers will be poured on the day, so go explore the festival.",
+  "フラッグシップの中に {name} の銘柄はありませんが、当日はほかの銘柄も並びます。近いタイプを手がかりに、会場で探してみてください。": "No flagship beer matches {name} exactly, but many more beers will be poured on the day. Use the close types as a clue and explore the festival.",
+  "かなり": "strongly",
+  "わりと": "fairly",
+  "やや": "slightly",
+  "質問 {i}、全 {n} 問。{q}": "Question {i} of {n}. {q}",
+  "レーダーチャート。{t}": "Radar chart. {t}",
+  "プレビュー": "Preview",
+  "結果": "Result",
+  "プレビュー（自分の結果ではありません）": "Preview (not your own result)",
+  "暫定結果（4問時点）": "Interim result (after 4 questions)",
+  "あなたのビールタイプは {code}、{name}。": "Your beer type is {code}, {name}.",
+  "回答を入れてください": "Please enter an answer",
+  "飲んだビールにチェックを入れるか、書いてください": "Check the beers you had, or write them in",
+  "投稿文をコピーしました。投稿欄に貼り付けて、タグから同じキャラを選んでください": "Copied your post. Paste it into the post box and pick the same character from the tag list",
+  "コピーできませんでした。投稿文を長押しでコピーしてください": "Could not copy. Press and hold the post text to copy it",
+  "{brewery} の紹介を開きました": "Opened the profile of {brewery}",
+  "私のビールタイプは「{code}：{name}」でした！": "My beer type is “{code}: {name}”!",
+  "本文とリンクをコピーしました": "Copied the text and link",
+  "このブラウザでは共有できないため、結果画像を表示します": "Sharing is not available in this browser, so here is your result image",
+  "画像を作成できませんでした": "Could not create the image",
+  "保存できない場合は、画像を長押しして保存してください": "If it does not save, press and hold the image to save it",
+  "あなたのビールタイプ（暫定・4問時点）": "Your beer type (interim, after 4 questions)",
+  "{name}（{code}）の結果を見る": "See the result for {name} ({code})",
+  "あなた": "You",
+  "真逆": "Opposite",
+  "オレンジ": "Orange",
+  "かるい・ホップ": "Light · Hop",
+  "軽い飲み口とホップの個性をもつ、元気でフットワークの軽い4キャラ": "Four lively, quick-footed characters with a light body and plenty of hop character",
+  "コーラル": "Coral",
+  "かるい・モルト": "Light · Malt",
+  "軽い飲み口に、麦・酵母・焙煎の個性をひそませた、穏やかでこだわり派の4キャラ": "Four calm, particular characters who hide malt, yeast and roast character inside a light body",
+  "グリーン": "Green",
+  "おもい・ホップ": "Full · Hop",
+  "しっかりしたボディにホップの力をのせた、存在感のある4キャラ": "Four characters with real presence, stacking hop power on a solid body",
+  "ブルー": "Blue",
+  "おもい・モルト": "Full · Malt",
+  "重厚なボディに麦や焙煎の深みをたたえた、落ち着きと貫禄のある4キャラ": "Four composed, dignified characters with a heavy body and deep malt and roast flavours",
+  "軽い": "Light",
+  "重い": "Full",
+  "甘め": "Sweet",
+  "苦め": "Bitter",
+  "香り控えめ": "Subtle aroma",
+  "香り華やか": "Bold aroma",
+  "ホップ派": "Hop side",
+  "モルト派": "Malt side",
+  "すべて": "All",
+  "No.{no} {name} のプロフィールを見る": "See the profile of No.{no} {name}",
+  "くわしく見る →": "See details →",
+  "相関の種類": "Type of relationship",
+  "仲良しペア": "Buddies",
+  "ライバルペア（真逆）": "Rivals (opposites)",
+  "【お題】": "[Prompt]",
+  "【回答】": "[Answer]",
+  "（未記入）": "(blank)",
+  "【飲んだビール】": "[Beers I had]",
+  "フラッグシップに該当はありません。下の欄に飲んだビールを書いてください。": "No flagship beer matches your type. Write the beers you had in the box below.",
+  "ISeeeTLに投稿する画面を開きました。投稿のしかたを選んでください。": "Opened the ISeeeTL posting screen. Choose how you want to post.",
+  "診断での説明": "From the quiz",
+  "この結果画面を見る": "See this result screen",
+  "キャラ設定": "Character profile",
+  "プロフィール": "Profile",
+  "一人称": "Calls themself",
+  "見た目": "Looks",
+  "性格": "Personality",
+  "すみか": "Hangout",
+  "好物": "Favourite food",
+  "苦手": "Dislikes",
+  "仲良し": "Buddy",
+  "ライバル": "Rival",
+  "とくせい": "Ability",
+  "わざ": "Moves",
+  "セリフ": "Lines",
+  "ひとこと": "Quote",
+  "口癖": "Catchphrase",
+  "決めゼリフ": "Signature line",
+  "{name} のプロフィールを開きました": "Opened the profile of {name}",
+  "集計の受け口が設定されていません。": "No results server is configured.",
+  "更新中…": "Refreshing…",
+  "集計を読み込み中…": "Loading results…",
+  "集計を取得できませんでした。電波の良いところで「更新する」を押してみてください。": "Could not load the results. Try “Refresh” where the signal is better.",
+  "まだ診断した人がいません。最初の1人になってみませんか？": "Nobody has taken the quiz yet. Want to be the first?",
+  "{n}人": "{n}",
+  "{time} 時点": "as of {time}",
+  "どちらかといえば": "Somewhat",
+  "当日発表": "TBA",
+  "ロゴ・写真・紹介を見る →": "Logo, photo and profile →"
+ },
+ "html": {
+  "meta.title": "Beer Type Quiz (beer meets Design)",
+  "intro.title": "8 questions to find<br>the beer type that truly fits you.",
+  "q.lean": "Somewhat",
+  "sep.list": ",",
+  "sep.colon": ":",
+  "paren.open": "(",
+  "paren.close": ")",
+  "quote.open": "“",
+  "quote.close": "”",
+  "stats.total": "So far <b>{total} people</b> have taken the quiz{when}",
+  "stats.own": "You are the <b>{total}{ordTotal}</b> person to take the quiz, and the <b>{mine}{ordMine}</b> {name}",
+  "stats.other": "<b>{total} people</b> have taken the quiz so far. <b>{mine}</b> of them are {name}"
+ },
+ "config": {
+  "eventName": "Tsukuba Craft Beer Fest 2026",
+  "eventDate": "Oct 16–18, 2026 ／ Tsukuba Center Plaza, by Tsukuba Station",
+  "hashtags": "#TCBF2026 #TsukubaCraftBeerFest #つくばクラフトビアフェスト"
+ },
+ "axes": [
+  {
+   "name": "Body",
+   "left": "Light",
+   "right": "Full"
+  },
+  {
+   "name": "Bitterness",
+   "left": "Sweet",
+   "right": "Bitter"
+  },
+  {
+   "name": "Aroma",
+   "left": "Subtle",
+   "right": "Bold"
+  },
+  {
+   "name": "Base",
+   "left": "Hop side",
+   "right": "Malt side"
+  }
+ ],
+ "types": {
+  "LSCH": {
+   "name": "Gentle Starter",
+   "catch": "Light, gentle, and gone in a breath",
+   "desc": "“Clean” and “easy to drink” are the best compliments you can give. Start with low-fuss beers that carry just a whisper of hop freshness and you can’t go wrong.",
+   "styles": [
+    "Kölsch",
+    "Golden Ale",
+    "Light Lager"
+   ],
+   "hint": "Just ask for “the easiest-drinking beer you have.” That’s the right move."
+  },
+  "LSAH": {
+   "name": "Fruity Hunter",
+   "catch": "Light on its feet, chasing aroma",
+   "desc": "You like a light body, but you want the aroma to be bold. You enjoy citrusy, tropical hop aromas almost like juice.",
+   "styles": [
+    "Session IPA",
+    "XPA",
+    "Fruit Ale"
+   ],
+   "hint": "Spot the words “session”, “XPA” or “citrus” on a tap and don’t hesitate."
+  },
+  "LBCH": {
+   "name": "Crisp Master",
+   "catch": "Light, yet sharp and crisp",
+   "desc": "No frills, all about the crispness. A lager with restrained aroma and a sharp streak of bitterness may actually be your true favourite.",
+   "styles": [
+    "Pilsner",
+    "Kölsch",
+    "Session IPA"
+   ],
+   "hint": "Look for a “pilsner” or “lager” tap and get it well chilled."
+  },
+  "LBAH": {
+   "name": "Hop Rocker",
+   "catch": "Light body, aroma and bitterness turned all the way up",
+   "desc": "A light body with hop aroma and bitterness hitting hard on top. You like the thrill of a live show and want to taste the hops themselves.",
+   "styles": [
+    "Fresh Hop IPA",
+    "Pale Ale",
+    "White IPA"
+   ],
+   "hint": "Keep an eye out for “fresh hop” and “pale ale” taps."
+  },
+  "LSCM": {
+   "name": "Mellow Collector",
+   "catch": "Mellow, calm, never tiring",
+   "desc": "You want to quietly savour the gentle sweetness of malt. You collect unpretentious flavours and find real value in a beer you could drink every day.",
+   "styles": [
+    "Helles",
+    "Dortmunder",
+    "Cream Ale"
+   ],
+   "hint": "Start with gentle golden beers such as a Helles or a Dortmunder."
+  },
+  "LSAM": {
+   "name": "Soft Aromatist",
+   "catch": "A sweet aroma that drifts out softly",
+   "desc": "You love the soft banana and citrus notes that malt and yeast create. The hops stay quiet while the aroma blooms. Wheat beers are made for you.",
+   "styles": [
+    "Weizen",
+    "Belgian Wit",
+    "Fruit Saison"
+   ],
+   "hint": "Look for “Weizen”, “Wit” or “wheat” on the tap list."
+  },
+  "LBCM": {
+   "name": "Afterglow Keeper",
+   "catch": "Light, but deep and smoky-dry",
+   "desc": "It looks black, yet it drinks surprisingly light. You quietly guard the coffee-like roasted bitterness and the finish that fades away in a breath.",
+   "styles": [
+    "Dry Stout",
+    "Schwarzbier",
+    "Brown Ale"
+   ],
+   "hint": "Ask: “Do you have something dark but light?”"
+  },
+  "LBAM": {
+   "name": "Flavor Tuner",
+   "catch": "Character in the aroma, a dry finish",
+   "desc": "Strong in both bitterness and aroma, but the source isn’t hops. You can pick out herbs, smoke and yeast character, and tune them to your own taste.",
+   "styles": [
+    "Saison",
+    "Herb / Spice Ale",
+    "Light Rauchbier"
+   ],
+   "hint": "Keep an eye out for “saison”, “spice” and “smoke” taps."
+  },
+  "FSCH": {
+   "name": "Rich Relaxer",
+   "catch": "Body, yes. Flashiness, no.",
+   "desc": "Plenty of substance, but a calm aroma. You like to unwind slowly with a classic beer where malt and hops are in balance.",
+   "styles": [
+    "Amber Ale",
+    "ESB (English Bitter)",
+    "Red Ale"
+   ],
+   "hint": "Go for reddish-brown beers such as an “amber” or a “red”."
+  },
+  "FSAH": {
+   "name": "Juicy Collector",
+   "catch": "Thick and rich, with an orchard of aroma",
+   "desc": "A rich mouthfeel with tropical aromas swirling through it. This is the hottest direction right now, and you want to collect the aroma of every single glass.",
+   "styles": [
+    "Hazy IPA",
+    "NEIPA",
+    "Milkshake IPA"
+   ],
+   "hint": "“Hazy”, “NE” and “juicy” are your signposts."
+  },
+  "FBCH": {
+   "name": "Classic Bitter",
+   "catch": "Bitterness leads, aroma supports",
+   "desc": "You like sturdy beers that come at you with bitterness rather than aroma. Unmoved by trends, you savour a classic IPA at your own pace.",
+   "styles": [
+    "West Coast IPA",
+    "English IPA",
+    "Black IPA"
+   ],
+   "hint": "Among the IPAs, pick a “West Coast” or a “dry” one."
+  },
+  "FBAH": {
+   "name": "Hop Swordmaster",
+   "catch": "Aroma, bitterness, body: everything strong",
+   "desc": "Aroma, bitterness and body all at maximum. You can take a punchy, hop-loaded beer head on.",
+   "styles": [
+    "Double IPA",
+    "Imperial IPA",
+    "DDH IPA"
+   ],
+   "hint": "Look for the words “double”, “imperial” or “DDH”."
+  },
+  "FSCM": {
+   "name": "Malt Philosopher",
+   "catch": "Thinking deeply about malt sweetness",
+   "desc": "You like classic, full-bodied beers with a thick spread of malt sweetness. Depth over flash. You read the story of the malt in every glass.",
+   "styles": [
+    "Bock",
+    "Doppelbock",
+    "Scotch Ale"
+   ],
+   "hint": "“Bock” and “Scotch” are proof of rich malt sweetness."
+  },
+  "FSAM": {
+   "name": "Malt Dandy",
+   "catch": "Dessert-level satisfaction in one glass",
+   "desc": "Heavy, sweet and richly aromatic. A gentleman who enjoys dense beers with notes of dried fruit and caramel, with plenty of poise.",
+   "styles": [
+    "Belgian Dubbel",
+    "Barley Wine",
+    "Weizenbock"
+   ],
+   "hint": "These are often strong, so try several in small sizes."
+  },
+  "FBCM": {
+   "name": "Dark Meister",
+   "catch": "Roastiness and bitterness seal the deal",
+   "desc": "The deep bitterness of roasted malt and a heavy body are what win you over. You wear quiet, smoky dark beers as naturally as a suit.",
+   "styles": [
+    "Stout",
+    "Porter",
+    "Peated Smoked Ale"
+   ],
+   "hint": "Head for the “porter” and “stout” taps."
+  },
+  "FBAM": {
+   "name": "Craft Legend",
+   "catch": "Heavy and bold, for the last beer of the night",
+   "desc": "You take on the intense aroma and bitterness of roast and smoke, all of it. You live at the deepest point of the craft beer rabbit hole, and barrel-aged or imperial beers suit you best.",
+   "styles": [
+    "Rauchbier",
+    "Imperial Stout",
+    "Barrel-Aged"
+   ],
+   "hint": "If you find “imperial”, “barrel” or “rauch”, it’s worth trying even if you have to share."
+  }
+ },
+ "beers": {
+  "1": {
+   "brewery": "Nasu Kohgen Beer",
+   "beer": "Nasu Kohgen Beer Ai",
+   "style": "Nasu Soft Lager"
+  },
+  "2": {
+   "brewery": "HOPDOG BREWING",
+   "beer": "FARM to YOU DDH IPA",
+   "style": "International IPA"
+  },
+  "3": {
+   "brewery": "NAT.BREW",
+   "beer": "KUMA MASSIGURA",
+   "style": "Hazy IPA"
+  },
+  "4": {
+   "brewery": "Romeo Brewery",
+   "beer": "Sansho IPA",
+   "style": "Sansho IPA"
+  },
+  "5": {
+   "brewery": "Ushiku Brewery",
+   "beer": "Wandervogel IPA",
+   "style": "Hazy IPA"
+  },
+  "6": {
+   "brewery": "DD4D BREWING",
+   "beer": "Don Jalapeño",
+   "style": "Jalapeño IPA"
+  },
+  "7": {
+   "brewery": "Locobeer",
+   "beer": "Sakura Kaori no Nama",
+   "style": "Kölsch"
+  },
+  "8": {
+   "brewery": "Free Spirits Brewing",
+   "beer": "White Castle Ale",
+   "style": "Yuzu Belgian Ale"
+  },
+  "9": {
+   "brewery": "Twin Peaks Mountain Brewing",
+   "beer": "Hakase no Weizen (Doctor’s Weizen)",
+   "style": "South German Hefeweizen"
+  },
+  "10": {
+   "brewery": "HORSEHEAD LABS",
+   "beer": "Sake Kasu IPA",
+   "style": "Sake Lees IPA"
+  },
+  "11": {
+   "brewery": "RotoBrewery",
+   "beer": "Earl Grey Ale",
+   "style": "Specialty"
+  },
+  "12": {
+   "brewery": "Yellowbeerworks",
+   "beer": "Juicy pop",
+   "style": "Hazy IPA"
+  },
+  "13": {
+   "brewery": "KOSHU BEER",
+   "beer": "Koshu Sour Ale",
+   "style": "Sour"
+  },
+  "14": {
+   "brewery": "Shimoda Brewing Company",
+   "beer": "Green Room",
+   "style": "XPA"
+  },
+  "15": {
+   "brewery": "Hop Garden Brewery",
+   "beer": "Abukuma GREEN",
+   "style": "Fresh Hop IPA"
+  },
+  "16": {
+   "brewery": "Honjo Ginza Brewery",
+   "beer": "BABY",
+   "style": "India Pale Ale"
+  },
+  "17": {
+   "brewery": "BLUE MAGIC",
+   "beer": "BLUE MAGIC SP",
+   "style": "??"
+  },
+  "18": {
+   "brewery": "Smoke Craft",
+   "beer": "Off Peat",
+   "style": "Peated Smoked Ale"
+  },
+  "19": {
+   "brewery": "Campanella Brewing",
+   "beer": "Higashimatsushima Dortmunder Demeter",
+   "style": "Dortmunder (Lager)"
+  },
+  "20": {
+   "brewery": "Brewery Tumugi",
+   "beer": "KUMEJIMA IPA",
+   "style": "Session IPA"
+  },
+  "21": {
+   "brewery": "BrewBeast",
+   "beer": "IMPACT",
+   "style": "Hazy IPA"
+  },
+  "22": {
+   "brewery": "Tsukuba Brewery",
+   "beer": "Konjiki-hime IPA",
+   "style": "IPA"
+  },
+  "23": {
+   "brewery": "NASU BOULDER BREWING",
+   "beer": "Nasu Desu Na Pale Ale",
+   "style": "Pale Ale"
+  },
+  "24": {
+   "brewery": "NAMACHAん Brewing",
+   "beer": "Namachan’s Rauch",
+   "style": "Bamberg-Style Maerzen Rauchbier"
+  },
+  "25": {
+   "brewery": "ONE DROP",
+   "beer": "Uchiura Saison",
+   "style": "Fruit Saison"
+  },
+  "26": {
+   "brewery": "Platanus Brewing",
+   "beer": "Hello, World",
+   "style": "Saison"
+  },
+  "27": {
+   "brewery": "Nara Brewing Co.",
+   "beer": "FUNCTION",
+   "style": "American-Belgo-Style Ale"
+  },
+  "28": {
+   "brewery": "808BREWERY",
+   "beer": "808 IPA",
+   "style": "West Coast IPA"
+  },
+  "29": {
+   "brewery": "In a daze Brewing",
+   "beer": "Mori no Za",
+   "style": "Pale Ale w/ Local Red Pine needle"
+  },
+  "30": {
+   "brewery": "Sakazuki Brewing",
+   "beer": "shy girl",
+   "style": "Bohemian Pilsner"
+  },
+  "31": {
+   "brewery": "Tokoshie Brewing",
+   "beer": "TBD",
+   "style": "TBD"
+  },
+  "32": {
+   "brewery": "REPUBREW",
+   "beer": "69IPA",
+   "style": "West Coast IPA"
+  }
+ },
+ "brewers": {
+  "1": {
+   "brewery": "Nasu Kohgen Beer",
+   "company": "Nasu Kohgen Beer Co., Ltd.",
+   "location": "Nasu, Tochigi",
+   "beer": "Nasu Kohgen Beer Ai",
+   "style": "Nasu Soft Lager",
+   "pr": "A soft lager brewed to celebrate the birth of Princess Aiko. Gentle in aroma and flavour, and very easy to drink.",
+   "aroma": "An elegant aroma reminiscent of goyo-tsutsuji (five-leaf azalea).",
+   "food": "Cream cheese and fish dishes",
+   "pour": "Pilsner glass, 7°C. Start with the foam, then pour slowly.",
+   "story": "A completely unfiltered, unpasteurised craft beer brewed with pure snowmelt water from the Nasu mountains and carefully selected ingredients, packed with love for Nasu.",
+   "trivia": "Nasu Kohgen Beer Ai was brewed with a special recipe to celebrate the birth of Princess Aiko.\nThe label shows the goyo-tsutsuji azalea, her personal emblem.\nThe emblem was chosen, we hear, from the azaleas blooming at the imperial villa in Nasu, with the wish that she would grow up as pure and gentle as the flower.\nOur motto has been to brew with love and happiness folded into every delicious drop.\nThe beautiful name given to Princess Aiko was one of the things that inspired this beer."
+  },
+  "2": {
+   "brewery": "HOPDOG BREWING",
+   "company": "HOPDOG BREWING LLC",
+   "location": "Akita City, Akita",
+   "beer": "FARM to YOU DDH IPA",
+   "style": "International IPA",
+   "pr": "Part of our “FARM TO YOU” series using ingredients from our home prefecture of Akita, brewed generously with hops from Yokote. Hop character reminiscent of tropical fruit, citrus and grapefruit. A fruity, intense hop aroma with solid bitterness.",
+   "aroma": "Tropical notes of mango and pineapple with a citrus edge of grapefruit and orange. Bold hop aroma and solid bitterness.",
+   "food": "Simmered Hinai chicken giblets",
+   "pour": "Slightly warmer at 10°C, in a glass that lifts the aroma.",
+   "story": "A craft beer and hard cider brewery born in 2023 inside a renovated bathhouse, the last public bath in Akita City. We brew with hops from Yokote, one of Japan’s leading hop regions, and fruit from Akita!",
+   "region": "A small brewery born from the renovation of Hoshi-no-yu, the last public bathhouse in Akita City. Akita is actually one of Japan’s top hop-growing prefectures, and apples are grown widely too. We use local hops and Akita fruit to share flavours you can only find here.",
+   "trivia": "The bathhouse closed in 2021, but once or twice a month someone still walks in asking “Is the bath open today?”. Locals still seem to remember us as the bathhouse."
+  },
+  "3": {
+   "brewery": "NAT.BREW",
+   "company": "NAT.Development Co., Ltd.",
+   "location": "Inami, Nanto, Toyama",
+   "beer": "KUMA MASSIGURA",
+   "style": "Hazy IPA",
+   "pr": "Hazy in appearance, with bold hop aroma and the juicy flavour of dried persimmon. If more bears start showing up around Inami, blame this beer and its persimmons.",
+   "aroma": "Fruity hop aroma leads the way",
+   "food": "Fried chicken and the like",
+   "pour": "Tulip glass, served at around 8°C",
+   "story": "“Indigenous brewing.” With the skills of a former winemaker and small-batch brewing, we aim to co-create beers that let you feel the terroir: the culture that is born only from this land and these people. Let’s drink up everything the land gives us! “The ecosystem of the land. Conversation between people. And in between, there is beer!” We bring plenty of homegrown beer from Inami, Nanto. Cheers!",
+   "region": "KUMA MASSIGURA uses dried persimmon, a local speciality, making use of blemished fruit that can’t be sold. Processed goods like these are subject to production limits set by the cooperative, so even in a bumper year the shipment volume is fixed, and more and more fruit goes unsold even after being dried. The result is persimmons left to ripen on the tree, drawing bears and other wildlife preparing for hibernation into the orchards and causing damage for residents. We ask farmers to ship the good fruit to the cooperative while NAT.BREW buys the blemished fruit under contract, hoping to help solve a local problem, even a little.",
+   "trivia": "The dried persimmons are boiled with the wort. We brew so that the fruity hop aroma stays central while the sweetness and distinctive thickness of the persimmon come through in the beer."
+  },
+  "4": {
+   "brewery": "Romeo Brewery",
+   "company": "Romeo Brewery LLC",
+   "location": "Tokyo (near Tokyo Skytree)",
+   "beer": "Sansho IPA",
+   "style": "Sansho IPA",
+   "pr": "Brewed with green Sichuan pepper. A sharp tingle and a fresh mandarin-like aroma with a clean finish. Our most popular beer, and it goes with any dish.",
+   "aroma": "A strong green Sichuan pepper aroma that brings mapo tofu to mind",
+   "food": "Mapo tofu, porchetta",
+   "pour": "Tulip glass at around 8°C. Enjoy the aroma as you drink.",
+   "story": "Romeo Brewery is a brewpub right under Tokyo Skytree. We brew richly aromatic, distinctive beers that make the most of herbs and spices. We care about the food too: our spiced meat dishes and seasonal pasta are highly recommended. In the bustle of the city, we aim to be a space where the scent of herbs puts your mind at ease.",
+   "trivia": "The owner is a University of Tsukuba graduate, so this beer festival is a highlight every year. Come and say hello!"
+  },
+  "5": {
+   "brewery": "Ushiku Brewery",
+   "company": "Mugi to Budo Co., Ltd.",
+   "location": "Ushiku, Ibaraki",
+   "beer": "Wandervogel IPA",
+   "style": "Hazy IPA",
+   "pr": "An IPA that flies free like a migrating bird. Bold citrus aroma and rich bitterness invite you on a pleasant journey.",
+   "aroma": "Notes of pink grapefruit and guava",
+   "food": "Lotus root chips",
+   "pour": "Balloon glass, 4°C, no head",
+   "story": "Beer and wine, both. Carrying that name, we compromise on neither. Through trial and error we keep chasing “delicious” with sincerity. We polish both crafts in earnest to deliver a glass that brings a smile with every sip. Come and experience our two-way craft at the festival.",
+   "region": "In Ushiku, Ibaraki, we make our drinks while honouring the history and character of the region.\nIn this town, where the history of Japanese wine lives on, we tend our own vineyard and are working to revive Ushiku wine.\nThrough drinks that use local produce and by taking part in events inside and outside the prefecture,\nwe widen our circle of friends and share the appeal of Ushiku one glass at a time."
+  },
+  "6": {
+   "brewery": "DD4D BREWING",
+   "company": "JAPANDEMIC COMPANY Inc.",
+   "location": "Matsuyama, Ehime",
+   "beer": "Don Jalapeño",
+   "style": "Jalapeño IPA",
+   "pr": "A jalapeño beer with a curious kick. Layering refined heat and just the right jalapeño aroma onto beer is no easy feat, but DD4D’s craftsmanship adds an exquisite edge. Fresh jalapeño flavour meets hop bitterness and tropical aroma in an addictive jalapeño IPA.",
+   "aroma": "Enjoy the harmony of fresh, green jalapeño and citrusy hop aroma.",
+   "food": "Fried chicken, fries, burgers, sausages, meat, spicy food",
+   "pour": "Pint glass with a small head.",
+   "story": "DD4D opened in Matsuyama in 1998 as a select shop. Driven by the founder’s belief in “ignoring convention and following the path you believe in”, a craft brewery was completed inside the Chifune-cho store in 2019, and it was reborn as DD4D BREWING & CLOTHING STORE. In 2021 a second brewery opened in the nearby port town of Mitsuhama. Over 300 beers sold nationwide and overseas so far, with many collaborations across sport, apparel, confectionery, film and more.",
+   "region": "Our beers use plenty of ingredients from our home prefecture of Ehime. We don’t insist on local sourcing for its own sake, but we are lucky to be surrounded by wonderful ingredients that suit beer. Beyond the classic iyokan and kawachi bankan citrus, we have used jalapeños, naked barley, and salt and sake yeast from collaborations with local companies. The connections beer creates keep turning into new excitement beyond anything we imagined.",
+   "trivia": "Our team comes from overseas and from all over Japan. Each member brings their own experience, knowledge and passion, and that is what creates DD4D’s distinctive beers and everything around them. By the way, the beer business started in 2019, but the shop has a much longer history as an apparel store, going back to 1998."
+  },
+  "7": {
+   "brewery": "Locobeer",
+   "company": "Locobeer LLC",
+   "location": "Sakura, Chiba",
+   "beer": "Sakura Kaori no Nama",
+   "style": "Kölsch",
+   "pr": "Noble hop aroma with restrained hop bitterness. A straw-coloured, clean-bodied beer with a fresh, fruity aroma.",
+   "aroma": "A fruity aroma reminiscent of fresh fruit, with noble hops in the background",
+   "food": "Anything goes",
+   "pour": "Stange glass, 8°C, thick head",
+   "story": "Founded in 1998. In a brewery of barely 65 square metres we make a wide range of beers. Under the motto “Small Brewery, Big Beer” we brew styles from around the world, from the cutting edge to beers that have long since died out. In our 28th year, we keep taking on new beers.",
+   "region": "The only brewery in Sakura City."
+  },
+  "8": {
+   "brewery": "Free Spirits Brewing",
+   "company": "HTW Inc.",
+   "location": "Himeji, Hyogo",
+   "beer": "White Castle Ale",
+   "style": "Yuzu Belgian Ale",
+   "pr": "A fruit ale inspired by Himeji Castle, the World Heritage site, made with yuzu and sansho pepper harvested in Hyogo. To bring out the full aroma of yuzu grown among beautiful mountains and clear water, we use plenty of yuzu peel and juice for a juicy, easy-drinking beer that shows yuzu at its best.",
+   "aroma": "Bold yuzu aroma with the fruitiness of Belgian yeast.",
+   "food": "Fish dishes",
+   "pour": "Tulip glass, 5°C",
+   "story": "Free Spirits Brewing started brewing in Himeji, Hyogo in October 2022. “Free spirits” means doing things your own way, and our motto is to brew without being bound by fixed ideas. We will do our best to make the event a great one through craft beer. Cheers!",
+   "region": "Our flagship White Castle Ale is a fruit beer made with yuzu harvested in Yasutomi, Himeji and nearby. Himeji is known for yuzu, and we use locally grown fruit with local revitalisation in mind. With depopulation and ageing leaving the countryside short of hands for the harvest, we also lead small groups of volunteers to help pick the yuzu.",
+   "trivia": "Few people know how dangerous yuzu harvesting is: the thorns are serious.\nHelmets, safety glasses and thick gloves are a must. We had no idea on our first harvest and had to borrow all the gear from the farmers."
+  },
+  "9": {
+   "brewery": "Twin Peaks Mountain Brewing",
+   "company": "Twin Peaks Mountain Brewing LLC",
+   "location": "Tsukuba, Ibaraki",
+   "beer": "Hakase no Weizen (Doctor’s Weizen)",
+   "style": "South German Hefeweizen",
+   "pr": "A South German wheat ale with banana-like aroma, gentle sweetness and a smooth mouthfeel.",
+   "aroma": "Banana",
+   "food": "Meat dishes and salads",
+   "pour": "Weizen glass, 8°C. Needs a proper head; the yeast haze is part of the style.",
+   "story": "Twin Peaks Mountain Brewing in Tsukuba, Ibaraki takes its name from Mount Tsukuba and its twin peaks. Our German brewer makes authentic German beer under the German purity law, using only water, malt, hops and yeast with no additives at all. You can taste the passion in the brewing and the generous use of quality ingredients. We import raw materials from the homeland of each style we aim for and brew authentic German-style craft beer fresh. We also make other delicious styles beyond Germany, so craft beer lovers can enjoy a varied range of German and international flavours.",
+   "region": "We use soft water from Lake Kasumigaura. Soft water is ideal for brewing because it suits many beer styles and creates delicious flavour.",
+   "trivia": "Because the craft beer movement started in the USA, many people assume German beer can’t be craft beer. But craft beer is defined by three things: handmade, small-scale and independent. So Twin Peaks Mountain Brewing doesn’t just specialise in German styles; it brews true craft beer."
+  },
+  "10": {
+   "brewery": "HORSEHEAD LABS",
+   "company": "HORSEHEAD LABS Inc.",
+   "location": "Shizuoka (Kambara-juku on the old Tokaido road)",
+   "beer": "Sake Kasu IPA",
+   "style": "Sake Lees IPA",
+   "pr": "A sake brewery-approved series: we visit sake breweries and turn their sake lees into the finest beer. Gold medal at the International Beer Cup, Japanese craft recognised by the world.",
+   "aroma": "A gentle note of Shizuoka Beni-hoppe strawberries as a hidden touch, with the rich flavour of sake lees.",
+   "food": "Yakitori, oden",
+   "pour": "Around 5°C, with a light head, in any glass you like.",
+   "story": "A brewery based in Kambara-juku, the 15th post town on the old Tokaido road at the foot of Mt Fuji. Drawing on the gifts of Shizuoka’s mild mountains and sea, our brewer, a data scientist, uses sensors fitted to the equipment to brew by the numbers. While respecting traditional methods, we keep creating new beers that break the mould, such as our hugely popular Sake Kasu IPA. Winner of many awards at national and international competitions. Come and try a glass we are proud of.",
+   "region": "Our beers are served at local restaurants too, and we hear the sake lees series is especially popular with local customers.",
+   "trivia": "Unlike amazake, the beer keeps its natural drinkability while we treasure the flavour and mellowness that come from the sake lees."
+  },
+  "11": {
+   "brewery": "RotoBrewery",
+   "company": "Hachimitsu Inc.",
+   "location": "Kamiooka, Yokohama, Kanagawa",
+   "beer": "Earl Grey Ale",
+   "style": "Specialty",
+   "pr": "One sip, and you’re on the walk home at sunset. The aroma of Earl Grey and a faint sweetness make an ordinary moment a little richer.",
+   "aroma": "Earl Grey, through and through. You won’t need to search for it.",
+   "food": "Cookies, or a simple sandwich",
+   "pour": "Pour quietly down the side of the glass. The colder, the better.",
+   "story": "Craft beer born in Kamiooka, Yokohama. To grow the craft beer community, we brew a wide variety of styles that go beyond existing beers.",
+   "region": "We are on good terms with the local Keikyu railway and the Keikyu department store.",
+   "trivia": "In August we made a tomato beer in collaboration with a local tomato farmer.\nIt debuted at the beer festival held at Keikyu Department Store in September."
+  },
+  "12": {
+   "brewery": "Yellowbeerworks",
+   "company": "Kato Farm Co., Ltd.",
+   "location": "Fukushima City, Fukushima",
+   "beer": "Juicy pop",
+   "style": "Hazy IPA",
+   "pr": "Grapefruit citrus and a rich, full mouthfeel",
+   "aroma": "Grapefruit",
+   "food": "Meat",
+   "pour": "No head",
+   "story": "A beer that makes punk rockers grin. We are the largest farm in Fukushima City. Beyond every toast, the future of farming.",
+   "region": "Beer made by rice farmers in a brewery surrounded by fields",
+   "trivia": "A beer we have kept refining bit by bit since the early days of brewing"
+  },
+  "13": {
+   "brewery": "KOSHU BEER",
+   "company": "KOSHU BEER",
+   "location": "Koshu, Yamanashi",
+   "beer": "Koshu Sour Ale",
+   "style": "Sour",
+   "pr": "A sour ale made with Koshu, a white wine grape. Like a lighter sparkling wine: no sweetness, no bitterness, just a clean taste.",
+   "aroma": "White grape, ume plum",
+   "food": "Anything that goes with champagne: strawberry shortcake, prosciutto and so on.",
+   "pour": "A wine glass if you are taking your time. Well chilled, no head.",
+   "story": "In Koshu, Yamanashi, we specialise in just two styles: sours fermented with lactic acid bacteria, and stouts. Yamanashi is a kingdom of fruit, famous for grapes, peaches and strawberries, and fruit goes wonderfully with sours. Adding herbs and spices gives complexity while keeping the taste clean. Fruit beers are often expected to be sweet, but we add the fruit before fermentation so the yeast consumes the sugar, leaving no sweetness behind.",
+   "region": "The grapes we use are harvested near the brewery. This area, the Kyoto district, was recognised in 2022 as a Globally Important Agricultural Heritage System for its “fruit farming system adapted to the alluvial fans”.\nA local company turns the grapes into purée so we can brew with them all year round.",
+   "trivia": "1. Why the beer isn’t sweet even though it uses fruit: we add it before fermentation, so the yeast eats up all the sugar.\n2. Why the sour isn’t bitter even though it is beer: no hops.\nHops add strong bitterness and aroma that would get in the way of the delicate fruit aroma."
+  },
+  "14": {
+   "brewery": "Shimoda Brewing Company",
+   "company": "Two Dogs Holdings LLC",
+   "location": "Shimoda, Shizuoka",
+   "beer": "Green Room",
+   "style": "XPA",
+   "pr": "A “Green Room” is the magical moment inside the tunnel of a wave when light through the seawater turns everything green. This pale gold, clear beer packed with refreshing hop aroma and flavour brings that Green Room to mind.",
+   "aroma": "A fresh green note like white wine, with grapefruit-like citrus",
+   "food": "Southeast Asian food",
+   "pour": "Pint glass, start drinking at around 4°C",
+   "story": "We opened our brewery and taproom in 2025 in Shimoda, at the southern tip of the Izu Peninsula. Our brewing team, with over ten years of experience, is committed to delivering the highest-quality beer. This place has breathtaking blue sea and sandy beaches, and we are always asking what beer we would want to drink here. If you like our beer even a little, we hope you will come to this beautiful, nostalgic town, soak in its slow pace of time, and drink a beer just for the sake of it. We always have beer ready for that. Shimoda Brewing is run by Two Dogs Taproom in Roppongi, Tokyo, where you can enjoy 20 taps of Japanese and international beer, always including around six of ours.",
+   "region": "Our Shimoda Lager is made with 100% Japanese malt, bought from Sato Malting in Ishioka, Ibaraki. To source all of that barley from Shimoda itself, we have started a project to use abandoned farmland in the area. This year, with help from locals, we brewed an experimental batch of Shimoda Lager with 80 kg of Shimoda-grown malt.",
+   "trivia": "Our main venue is Two Dogs Taproom in Roppongi, where Shimoda Brewing beer is always on tap. There is also Shimoda Brewing Ikebukuro, where you can enjoy wood-fired pizza with our beer."
+  },
+  "15": {
+   "brewery": "Hop Garden Brewery",
+   "company": "Hop Japan Co., Ltd.",
+   "location": "Miyakoji, Tamura, Fukushima",
+   "beer": "Abukuma GREEN",
+   "style": "Fresh Hop IPA",
+   "pr": "Made only with aromatic hops grown in Tamura. An adventurous fresh hop series that changes its aroma hop with every batch.",
+   "aroma": "The fresh, lively aroma only fresh hops can give. Each batch uses a different hop, so every aroma is a once-in-a-lifetime encounter.",
+   "food": "Fish and chips, Caesar salad and the like",
+   "pour": "US pint glass, 8°C, no head",
+   "story": "A brewery in Miyakoji, Tamura, Fukushima that grows its own hops. We started brewing in 2020 and are now in our sixth year. What makes us special is that we brew with our own fresh hops all year round. Abukuma GREEN (Fresh hop IPA) in particular changes its aroma hop with every monthly batch, so the hop flavour differs depending on when you drink it. Come and enjoy the fresh aroma and taste of fresh hops at the festival!",
+   "region": "Besides fresh hop beers made with locally grown hops, we brew limited-edition beers with fruit and vegetables from Fukushima,\nand special collaboration beers with wineries, sake breweries and distilleries in the prefecture.\nThrough camping and other outdoor experiences, sport, hands-on learning and hop harvesting, we are a brewery where many people meet and connect.",
+   "trivia": "We are Hop Japan, a craft brewery in Tamura, Fukushima that handles everything from growing our own hops to brewing. Our signature feature is a year-round lineup brewed with fresh hops. From fresh hop beers to fruit beers and barrel-aged beers, we brew a wide range of styles. Next to the brewery we also run a campsite and lodges, so you can enjoy craft beer surrounded by mountains and nature. At the festival we will have a lineup for everyone from beer beginners to seasoned fans, so please drop by! Cheers!!"
+  },
+  "16": {
+   "brewery": "Honjo Ginza Brewery",
+   "company": "Honjo Ginza Brewery",
+   "location": "Honjo, Saitama",
+   "beer": "BABY",
+   "style": "India Pale Ale",
+   "pr": "A beer that puts the quality of Honjo’s hard water front and centre. Citrus in the aroma, a solid body and a dry finish.",
+   "aroma": "Citrus aroma in harmony with toasty malt aroma",
+   "food": "Meat",
+   "pour": "A straight-sided glass, around 7°C, best with no head.",
+   "story": "We are Honjo Ginza Brewery from Honjo, Saitama! Coming to Tsukuba has become a yearly tradition. This year too we are bringing plenty of beers that are full-bodied yet crisp, perfect for Tsukuba! Our beer quality keeps levelling up every year. With the festival held in autumn this time, we are also bringing beers perfect for the season. Let’s make it a great one!",
+   "region": "We brew with the hard water of Honjo, where our brewery is located",
+   "trivia": "Our brewery and attached taproom are a six-minute walk from JR Honjo Station. Homely atmosphere, plus plenty of food such as pasta and ajillo. After drinking our beer in Tsukuba, come and visit the taproom!"
+  },
+  "17": {
+   "brewery": "BLUE MAGIC",
+   "company": "Utsunomiya Brewery Co., Ltd.",
+   "location": "Utsunomiya, Tochigi",
+   "beer": "BLUE MAGIC SP",
+   "style": "?? (ABV ???)",
+   "pr": "No regular lineup since day one! Sometimes matching the times and the scene, sometimes not, BLUE MAGIC brews limited beers for the event where we want you to drink them, right then.",
+   "aroma": "Your nose is a fine one for finding a beer this rare, a once-in-a-lifetime encounter",
+   "food": "Conversation",
+   "pour": "No head, so the aroma and flavour hit you directly",
+   "story": "After a few years away… the blue frog is back at TCBF! BLUE MAGIC is a brewpub in the heart of Utsunomiya, making everything from orthodox styles to one-of-a-kind beers born from wild ideas. Beers that go unrecorded but never forgotten, with a creativity you will only find here, at events like this! We will have a lineup that changes every day across the three days. The blue frog might just change your idea of beer!? Let’s raise a glass together in Tsukuba!!"
+  },
+  "18": {
+   "brewery": "Smoke Craft",
+   "company": "Tokorozawa Beer Co., Ltd.",
+   "location": "Tokorozawa, Saitama",
+   "beer": "Off Peat",
+   "style": "Peated Smoked Ale",
+   "pr": "Made with rare Japanese peat: the beer “whisky makers fear”. Come and experience it!",
+   "aroma": "The height of individuality. This is Smoke Craft at its purest.",
+   "food": "Chocolate",
+   "pour": "Like any beer: well chilled, please.",
+   "story": "Smoke Craft throws down the gauntlet to the craft beer world with the sharpest techniques around. A brewery dedicated to smoked beer, leading the smoked beer scene worldwide. Many people have never tried a smoked beer, yet most of ours are competition winners. Our newest beer uses Japanese peat and is called, fittingly, Off Peat. The number of people hooked on this “almost whisky-like” beer is exploding.",
+   "region": "The spent grain from brewing goes to local farmers, who use it as fertiliser, creating a sustainable production cycle."
+  },
+  "19": {
+   "brewery": "Campanella Brewing",
+   "company": "Daichi to Umi no Campanella Brewing Co., Ltd.",
+   "location": "Higashimatsushima, Miyagi",
+   "beer": "Higashimatsushima Dortmunder Demeter",
+   "style": "Dortmunder (Lager)",
+   "pr": "Made with 100% malt from “Barley of Hope” grown in Higashimatsushima. Enjoy the rich malt flavour.",
+   "aroma": "The gentle herbal aroma of Tettnang, a German noble hop, with malt flavour.",
+   "food": "Sausages",
+   "pour": "An ice-cold pilsner glass",
+   "story": "We started our brewery in Higashimatsushima, Miyagi in January 2025. We make craft beer with local primary produce, starting with “Barley of Hope”, grown on land recovered after the disaster.\nHigashimatsushima is a small town of 38,000 people in the Ishinomaki area of Miyagi.\nAround 80% of the land is farmland used for rice, and with the sea and two major rivers meeting at a fishing port, oyster and nori farming thrive in the nutrient-rich waters.\nYet with no processors or farm shops for either produce or seafood, we felt these wonderful primary products were going unknown.\nWe started a craft brewery believing that a processed, enjoyable product could be a way for more people to discover Higashimatsushima.\nOur concept is “make what can only be made in Higashimatsushima”.\nWe believe things grown in the same climate go well together, so we aim for beer that pairs not just with local ingredients but with the culture, scenery and people of Higashimatsushima.\nAmong the many craft beers out there, ours may not be the very best.\nBut we promise it becomes the best beer when you drink it in Higashimatsushima.\nWe hope it gives you a reason to visit.\nThis is our first time at Tsukuba Craft Beer Fest. Cheers!",
+   "region": "Our two-row barley, the main ingredient, is grown by three farming corporations.\nAbout 10 hectares are planted, yielding close to 50 tonnes a year.\nSpent grain from brewing goes back to their rice fields as fertiliser.\nOff-spec barley not fit for brewing is also recycled locally as a beer adjunct or as feed.",
+   "trivia": "■ “Barley of Hope”, born from land recovered after the disaster\nIn rice fields damaged by salt after the Great East Japan Earthquake, the whole community took up growing salt-tolerant two-row barley. Trial cultivation began in 2013, and together with farming corporations we worked out the growing methods and varieties suited to this land, settling on the Tochigi variety Sachiho Golden sown in autumn. Two-row barley dislikes the cold and the early harvests fell far short of those in Kanto or Kyushu. Thanks to the ingenuity of farmers who know this climate well, the harvest has grown to over 50 tonnes a year and is now used in craft whisky as well. Japanese barley is rarely used in craft beer, but raising the value of rotation crops helps stabilise farm businesses. Higashimatsushima is working on “sixth-sector” industry as a whole community.\nThe city was created in 2005 by merging the towns of Yamoto and Naruse, and even twenty years on, people identify more with their district than with the city. So rather than promoting the city as a whole, we plan to release a beer for each district, putting the spotlight on the producers working hard in each one.\nWe are casting the craftspeople who keep making good things despite the climate changes since the disaster as the twelve gods of Greek mythology.\nFour are in production so far:\nDemeter ⇒ Higashimatsushima Dortmunder, 100% Barley of Hope\nHera ⇒ Nobiru Weiss, with wheat from Agreed Naruse in Nobiru\nAthena ⇒ Yamoto Pale Ale, with rice from Meguito in Yamoto\nPoseidon ⇒ Otsuka Oyster Stout, with oysters from Goto Suisan in Otsuka\nIn the end there will be twelve gods: eight districts plus four seasonal beers."
+  },
+  "20": {
+   "brewery": "Brewery Tumugi",
+   "company": "Brewery Tumugi",
+   "location": "Kumejima, Okinawa",
+   "beer": "KUMEJIMA IPA",
+   "style": "Session IPA",
+   "pr": "An IPA with the fresh aroma of Okinawan shikuwasa citrus. The refreshing bitterness from the juice brings the emerald-blue sea of Kumejima to mind.",
+   "aroma": "Fresh citrus aroma from shikuwasa and hops.",
+   "food": "Smoked bacon, smoked cheese",
+   "pour": "Tulip glass, 6°C, small head",
+   "story": "Brewery Tumugi is the first craft brewery on Kumejima. Kumejima tsumugi silk is the island’s important intangible cultural asset. Like that silk, woven with heart, we want to make beer with care that weaves people together. That wish is in every glass.",
+   "region": "Spent grain from brewing goes to a nearby cattle farmer, and the cattle raised on it are served in restaurants as “Kumejima beef steak”.",
+   "trivia": "Our brewer, Shimabukuro, is originally from Ibaraki and was featured on the TV programme “Gutto! Chikyu-bin”, which delivers parcels from parents back home.\nhttps://www.ytv.co.jp/chikyubin/oa/article20241201.html"
+  },
+  "21": {
+   "brewery": "BrewBeast",
+   "company": "Torqst Inc.",
+   "location": "Hanamaki, Iwate",
+   "beer": "IMPACT",
+   "style": "Hazy IPA",
+   "pr": "As the name says, a HAZY IPA with an impactful hop aroma. Dry-hopped with a huge dose of four hops led by Mosaic! Enjoy the rich aroma and a fruity flavour that lives up to it!",
+   "aroma": "Tropical, fruity",
+   "food": "Pizza, fried chicken",
+   "pour": "Tulip glass",
+   "story": "In 2019 we built a brewery in Hanamaki, Iwate with our own hands and started brewing. We named it BrewBeast with the wish to create the best times (best and story) for everyone through brewing craft beer. New energy for the region through craft beer, and a “cool countryside” for Hanamaki.",
+   "region": "We run a taproom next to the brewery for local customers to enjoy.\nMany collaboration beers with local companies too, from a lens maker to a custom car shop and the airport, spreading Hanamaki’s appeal within the city and beyond.\nA second brewery is planned in central Hanamaki, with a park alongside, which we hope will become a place for locals to gather.",
+   "trivia": "When our founder Takahashi started the craft beer business, he had never actually drunk a craft beer (he loves it now).\nThe taproom next to the brewery, “Lit work place”, was renovated by Takahashi himself, a keen DIYer. He built most of the brewery too.\nOther brewers and beer bar folk often visit Hanamaki for collaborations and events. Even with a brew day the next morning, the drinking goes late into the night, and there are Hanamaki tours by day."
+  },
+  "22": {
+   "brewery": "Tsukuba Brewery",
+   "company": "Pebbles Co., Ltd.",
+   "location": "Tsukuba, Ibaraki",
+   "beer": "Konjiki-hime IPA",
+   "style": "IPA",
+   "pr": "Grapefruit-like citrus comes first, followed by a soft aroma of peach and mango. The name comes from Konjiki-hime, the golden princess of Kokage Shrine in Tsukuba.",
+   "aroma": "Grapefruit-like aroma at first, followed by rich fruit notes reminiscent of peach and mango",
+   "food": "Juicy meat dishes of all kinds",
+   "pour": "IPA glass at around 5°C. The aroma opens up even as it warms a little.",
+   "story": "The only brewery in Tsukuba, Ibaraki brewing with natural water from Mount Tsukuba.\nIn pursuit of the happiest glass, we use Mount Tsukuba spring water and Ibaraki malt,\ntaking on beers that are truly Tsukuba, day after day.\nEach one made with heart.\nBeer that connects people.",
+   "region": "For six years, 100% of our spent grain has gone to feed chickens and wild boar, with nothing wasted, in a sustainable cycle.\nWe also work with farmers growing Ibaraki barley and wheat, and brew with Ibaraki-grown grain.\nWe make beers with Tsukuba specialities such as Hitachi Oda rice and Fukure mikan and other fruit.\nThrough beer, we work to be a place that spreads the word about Tsukuba.",
+   "trivia": "Our red food truck is on the road!\nThe only craft beer in Tsukuba brewed with natural water from Mount Tsukuba."
+  },
+  "23": {
+   "brewery": "NASU BOULDER BREWING",
+   "company": "Nasu Boulder Keikaku Co., Ltd.",
+   "location": "Nasu, Tochigi",
+   "beer": "Nasu Desu Na Pale Ale",
+   "style": "Pale Ale",
+   "pr": "The flagship of “Nasu Desu Na”, brewed in a style that originated in England. An exquisite balance of hop aroma and bitterness with a clean, easy-drinking taste.",
+   "aroma": "A crisp pale ale. Clean and easy to drink",
+   "food": "Burgers",
+   "pour": "Well chilled, in a chilled glass. Head as you like it.",
+   "story": "The charm of Nasu Desu Na. We brew easy-drinking, delicious beers with water from the foot of the Nasu mountains. Our limited series with more craft character is popular with seasoned fans too. We also make one of Japan’s few beers using whey (from Nasushiobara). Our many beer competition awards back up the taste and quality. Lastly, we will keep working toward our goal of spreading “Nasu Desu Na” as the word for cheers.",
+   "region": "A certified Nasushiobara City brand business.",
+   "trivia": "Our whey protein beer is a collaboration with Senbonmatsu Farm, a certified Nasushiobara brand business, using their whey.\nThe label has a cow-print pattern, and one of the patches is shaped like a map of Nasushiobara.\nThe cow in our logo is there because Nasu means cows: Nasushiobara is the biggest raw milk producer on Honshu, and the city mascot is a cow.\nThe two humps on its back represent the Nasu mountains (Chausu-dake and Asahi-dake).\nThe bottle is a special twelve-sided one, its shoulders shaped to match the horns of the logo."
+  },
+  "24": {
+   "brewery": "NAMACHAん Brewing",
+   "company": "Smoke Beer Factory Co., Ltd.",
+   "location": "Toshima, Tokyo",
+   "beer": "Namachan’s Rauch",
+   "style": "Bamberg-Style Maerzen Rauchbier",
+   "pr": "A rare Japanese smoked beer made with malt we smoke ourselves at our smokehouse, with a smoky flavour that fills your mouth.",
+   "aroma": "Smoky aroma from our house-smoked malt, smoked over beech.",
+   "food": "Smoked duck",
+   "pour": "Tulip glass, around 10°C, with a generous head",
+   "story": "NAMACHAん Brewing is a craft brewery that started brewing in Toshima, Tokyo in 2018. Based in Toshima, we have brewed beer rooted in the local community. With our new brewery we can now can our beer and deliver NAMACHAん beer across Japan. Our motto is “delicious beer with a little surprise”. From smoked beers to playful beers with fruit and spices, we brew something new every day. We are delighted you can enjoy them at this event! We have a lineup that beginners will enjoy too, so come and say hello 🍻",
+   "region": "As the first brewery in Toshima, Tokyo, we have been supported by the local community since we started brewing. We make collaboration beers with local shops and companies and take part in local festivals.\nMany of our taproom regulars live nearby, some visiting several times a week, so we create more than five new beers a month to keep them happy.",
+   "trivia": "The rauchbier we are bringing is a smoked beer that originated in Germany, and we think very few breweries in Japan make one.\nIt is brewed with smoked malt, and since we do the smoking ourselves, it has a wonderfully pronounced smoky aroma."
+  },
+  "25": {
+   "brewery": "ONE DROP",
+   "company": "ONEDROP Inc.",
+   "location": "Numazu, Shizuoka",
+   "beer": "Uchiura Saison",
+   "style": "Fruit Saison",
+   "pr": "Made generously with mikan citrus harvested in Numazu, Shizuoka. The fresh mikan aroma and the fruity, spicy character of a saison come together in a clean taste. Enjoy Uchiura Saison, available only this season!",
+   "aroma": "Fresh, juicy and richly sweet in aroma. Fresh mikan citrus in harmony with the spiciness typical of a saison.",
+   "food": "Fried food such as fried chicken, of course, but also tangy snacks such as salmon carpaccio.",
+   "pour": "Pour at 4°C, taking care not to lose the carbonation.",
+   "story": "ONE DROP is a craft brewery in Numazu, Shizuoka.\nWhat we value most is creating moments where people connect with each other, and with the region, naturally through beer.\nWe brew approachable beers you never tire of, so that craft beer experts and newcomers alike find them delicious and fun.\nWe also put energy into beers that draw on the ingredients, culture and scenery of Numazu and Shizuoka.\nUsing local fruit and ingredients that come from connections with local businesses, we aim for a glass that lets you feel the air and background of the place, not just the taste.\nThis TCBF is ONE DROP’s first time at the festival.\nWe have beers ready that show the character of Numazu and Shizuoka, and the easy-drinking fun that is ONE DROP.\nEnjoy a glass of ONE DROP at the festival.",
+   "region": "At ONE DROP, we value sharing the appeal of Shizuoka and Numazu through beer.\nOur featured beer, Uchiura Saison, is made with seasonal mikan harvested in Numazu and Shizuoka.\nWe aim for a beer that captures the aroma and taste of mikan in season, and with it the scenery and feel of the season.\nWe have also taken on beers using unused ingredients from local inns and a collaboration with Awashima Marine Park, the aquarium in Numazu.\nOur restaurant even has a space where you can enjoy craft beer while watching the penguins from Awashima Marine Park.\nWe hope to be a reason for people to take an interest in the town of Numazu, through beer.",
+   "trivia": "Our restaurant has a penguin tank, and the penguins are adorable; you can even feed them. Craft beer with cute penguins to watch is something special. Do drop by when you are in Numazu!"
+  },
+  "26": {
+   "brewery": "Platanus Brewing",
+   "company": "Platanus Kikaku Co., Ltd.",
+   "location": "Kure, Hiroshima",
+   "beer": "Hello, World",
+   "style": "Saison",
+   "pr": "A saison-style craft beer brewed with the famed spring water of Kitakata, Fukushima and organic lemons from Kure, Hiroshima!",
+   "aroma": "Lemon. Squeeze a few drops of lemon into it for a change of flavour!",
+   "food": "White fish carpaccio, herb-roasted chicken",
+   "pour": "Pour it however you like! A few drops of fresh lemon in the beer changes the flavour!",
+   "story": "Platanus Brewing is a brewery from Kure, Hiroshima. As a phantom brewery without equipment of its own, we work with partner breweries to plan and sell distinctive beers that draw on local ingredients and stories. With the concept of “rebuilding luxury”, we carefully design not just the taste but the aroma, the packaging and the moment of drinking, proposing a new craft beer experience that brings a little luxury and breathing room into everyday life.",
+   "trivia": "New from Platanus Brewing: “Day Crisp”, a wheat ale that pairs the spiciness of Belgian wit yeast with the fruity aroma of Huell Melon hops. Not too heavy, with a crisp mouthfeel. We deliberately read “Crisp”, the beer term for a clean, refreshing finish, as “Clip”. The collage art on the label was made by analogue collage artist Hasebe, and the word ties the beer’s clean finish to the “clip” of the cut-out collage, the handwork of art. A glass that promises the experience of a good beer will be a special moment clipped out of everyday life. It will be served at Tsukuba Craft Beer Fest in October, so come and try it!"
+  },
+  "27": {
+   "brewery": "Nara Brewing Co.",
+   "company": "Nara Brewing Co., Ltd.",
+   "location": "Nara City, Nara",
+   "beer": "FUNCTION",
+   "style": "American-Belgo-Style Ale",
+   "pr": "Our flagship beer, combining a variety of hops with saison yeast. Gold medal winner in the American-Belgo-Style Ale category at the World Beer Cup 2026.",
+   "aroma": "White wine and white grape notes lead, intricately layered with tropical fruit, berries and citrus",
+   "food": "White fish carpaccio",
+   "pour": "A wine-shaped glass, and pour a proper head",
+   "story": "We are Nara Brewing, a brewery in Nara City that started brewing in June 2018. So that craft beer lovers and beginners alike can enjoy our beer, we brew a wide variety without being bound by categories or styles, under the motto “the joy of choosing a beer!”. From classic beers to beers you can enjoy like dessert, find your favourite among our wide lineup. This is our first time at Tsukuba Craft Beer Fest. Cheers!",
+   "region": "Nara Brewing regularly makes beers with ingredients unique to Nara, such as PHILHARMONY with Yamato tachibana citrus and lemongrass, and EIGHTY EIGHT steeped with Yamato tea,\nbut our ties with the region go beyond ingredients.\nWe actively collaborate with other industries, such as the local sock maker HOiSUM and chef Kawashima of Acordu, one of Nara’s leading gastronomic restaurants.\nCreating new value together with the many people active in Nara, not just making beer, is an important theme of our craft.",
+   "trivia": "Nara Brewing deliberately avoids designs that evoke Nara, such as deer or the Great Buddha.\nBecause beer travels beyond its region into many hands, we value original designs that make you want to pick it up.\nThe cat on the can label of our flagship FUNCTION: look closely at its eyes…???\nIt now appears on all sorts of merchandise, so keep an eye out!"
+  },
+  "28": {
+   "brewery": "808BREWERY",
+   "company": "Sun Foods Co., Ltd.",
+   "location": "Oyama, Tochigi",
+   "beer": "808 IPA",
+   "style": "West Coast IPA",
+   "pr": "Made with barley grown in Oyama. Enjoy a fruity, grassy aroma with solid bitterness!",
+   "aroma": "Citrus-led and grassy",
+   "food": "Burgers and the like",
+   "pour": "Ice cold, no head, in your favourite glass",
+   "story": "In Oyama, Tochigi we value “Drink Local”, using locally grown ingredients in our regular beers. Our limited beers span every style, with the goal of giving your everyday life “a choice of beer!”",
+   "region": "We use ingredients grown in Oyama so that not only craft beer fans but the people of Oyama can discover craft beer, and so that others can discover Oyama.",
+   "trivia": "Whatever the beer, we aim for a clean build."
+  },
+  "29": {
+   "brewery": "In a daze Brewing",
+   "company": "In a daze Brewing LLC",
+   "location": "Ina, Nagano",
+   "beer": "Mori no Za",
+   "style": "Pale Ale w/ Local Red Pine needle",
+   "pr": "“Nature” is one of the themes within our motto, Brew a better life. This is a forest-scented beer steeped with red pine needles gathered from the mountains of the Ina Valley.",
+   "aroma": "Steeped with freshly gathered red pine needles and cones, so you can enjoy a fresh forest aroma.",
+   "food": "Sushi, mushroom dishes, cheese dishes",
+   "pour": "In your favourite glass. A wooden masu cup might bring out the woody aroma even more.",
+   "story": "Back in Tsukuba after two years, from the Ina Valley in Shinshu. Enjoy a glass packed with the character of the Ina Valley that lets you feel our philosophy, Brew a better life. This year we are also planning to serve “beer yeast oyaki” dumplings in collaboration with the local oyaki shop Oyaki-dake. Look forward to pairing craft beer with oyaki!",
+   "region": "Our philosophy is “Brew a better life: a better life brews a better life”, and we make products around four themes: history and culture, people, nature and farming.\nWe believe these four themes make our daily lives better, and that living that way brews a good life.\nOne of the definitions of craft beer in the USA, where the culture began, is engagement with the local community, and that matches our philosophy and what we hold dear.\nWe have made beers themed on local history and culture taught to us by local people, using the traditional Shibihira nanban chilli,\nand beers themed on environmental issues, using red pine at risk of pine wilt.\nAll of this carries our hope that people will not only get to know our region through our products, but also engage with and respect the history and culture of their own regions, learn about local issues, and think about their own way of living.",
+   "trivia": "Mori no Za, made with red pine from the Ina Valley, is on the menu at this event.\nIt actually had a predecessor, a prototype beer.\nThat one was based on a piney (pine resin) IPA with red pine added, and it truly divided opinion.\nWhen we delivered it to a craft beer shop we were told “this is just too piney, it’s not good!”,\nwhile some of our fans to this day say “the prototype was the best!”.\nIn the end, the current recipe is a pale ale base with minimal hops, so the fresh aroma of red pine stands out.\nMori no Za is also sold in cans, and the packaging uses real red pine.\nIt is kyogi, a rare material today: wood sliced paper-thin and applied by hand, sheet by sheet.\nEach piece of red pine is cut and applied individually, so no two cans are the same.\nIf you get hold of one, why not peel the label off and see?"
+  },
+  "30": {
+   "brewery": "Sakazuki Brewing",
+   "company": "Sakazuki LLC",
+   "location": "Kitasenju, Adachi, Tokyo",
+   "beer": "shy girl",
+   "style": "Bohemian Pilsner",
+   "pr": "Clean hop bitterness within the malt sweetness that comes from triple decoction. A classic pilsner born in the Czech lands.",
+   "aroma": "Sweet malt flavour with the delicate, elegant aroma of European hops, herbal and floral",
+   "food": "Fries, fried chicken, grilled scallop skewers and so on",
+   "pour": "A tall glass, poured cold with a creamy head",
+   "story": "A back-alley brewery restaurant in Kitasenju, a downtown district that has thrived as a post town since the Edo period. In a place that sits right beside everyday life in this lively town, we brew every day hoping to add a little colour to the ordinary. What we value most is the “free enjoyment” we see as craft beer’s greatest appeal. Beyond chasing deliciousness, we care about seasonality, variety and food pairing, aiming for beer that brings a smile the moment you taste it, and a place you want to visit every day.",
+   "region": "We arrived as complete outsiders, but once we set up shop and started trading, it was striking how many locals took an interest. Ten years on from founding, people tell us “thank you for opening in Kitasenju, we’re proud to have you here”, and it really is a warm town. Perhaps it is the character of Kitasenju itself, a post town that has welcomed travellers since long ago.",
+   "trivia": "Nothing in particular, sorry!"
+  },
+  "31": {
+   "brewery": "Tokoshie Brewing",
+   "company": "Tokoshie Brewing Co., Ltd.",
+   "location": "Ryugasaki, Ibaraki",
+   "beer": "TBD",
+   "style": "TBD",
+   "pr": "TBD",
+   "aroma": "TBD",
+   "food": "TBD",
+   "pour": "TBD",
+   "story": "Tokoshie Brewing was born in Ryugasaki, Ibaraki in December 2025. Our head brewer, with around ten years of experience, brews beers that pursue a clarity that clears your view as it passes your throat, and a comfort that lasts to the very last drop.",
+   "region": "Tokoshie Brewing values local production and giving back to the community. Not in every beer, but in some, we actively use rice and fresh fruit grown with care by local farmers as adjuncts.\nOn the way to our taproom you can see beautiful rice fields spreading out, and crops from those very fields go into some of our beers.\nWe value the experience of tasting with all five senses: “the scenery I just saw, I am tasting right here, right now”.\nWith the faces of the producers and the rich nature of this land in mind, we keep taking on special flavours that only Tokoshie Brewing can make.",
+   "trivia": "Our name, Tokoshie, means “eternity” in Japanese, and it carries two main wishes.\nOne is for the region: “may this beautiful farmland and the smiles of the people here continue forever into the future”.\nThe other is our passion for the craft: “because there is never a final answer in brewing, we want to be a brewery that keeps challenging itself and evolving forever”."
+  },
+  "32": {
+   "brewery": "REPUBREW",
+   "company": "RePuBrew LLC",
+   "location": "Numazu, Shizuoka",
+   "beer": "69IPA",
+   "style": "West Coast IPA",
+   "pr": "Explosive citrus hop aroma, firm bitterness and malt in the best possible balance!",
+   "aroma": "Citrus-led, with grapefruit and tangerine, and recent batches have picked up a dank note too.",
+   "food": "Mapo tofu, burgers",
+   "pour": "Pint glass, around 10°C, thin head",
+   "story": "We brew in Numazu and Mishima, Shizuoka!\nSustainable brewing using solar power and groundwater, with around 50 beers a year.\nFrom classics to the latest styles, we deliver new discoveries you won’t find anywhere else.",
+   "region": "Spent malt from brewing goes to local farmers as fertiliser, and through the Shizuoka cooperative it is also collected to be turned into feed.\nBeyond our own open-brewery events, we hold events at the brewery together with the local young people’s association, deepening ties with the community.",
+   "trivia": "RePuBrew may be known for hoppy, showy IPAs and high-ABV beers, but we actually love classics too.\nLast year a Helles and a Kölsch, before that an Alt, this year a Dortmunder: brewing dead-straight classics is RePuBrew too.\nWe treasure the classics while creating something new. Come and taste RePu’s classic side too."
+  }
+ },
+ "zukan": {
+  "chars": {
+   "1": {
+    "cls": "Starter beer character",
+    "me": "“boku” (friendly)",
+    "look": "A small, round body made of foam, with a cloud of pale gold bubbles on its head and a single young hop leaf tucked in. Slightly rosy cheeks.",
+    "persona": "Laid-back and never shy. Never dismisses what you like, just gives you a gentle nudge.",
+    "home": "Near the entrance, around the first booth",
+    "food": "Edamame, fried chicken",
+    "dislike": "Long beer lectures",
+    "zukan": "A light body like newborn foam that fades in a moment. Usually found near the festival entrance, gently guiding anyone who is undecided to the first tap. They say it has the potential to grow into any type.",
+    "ability": [
+     "Clean Veil",
+     "Eases the nerves of anyone nearby, making the first beer easy to choose."
+    ],
+    "moves": [
+     [
+      "First Pour",
+      "Leads anyone who is dithering to the first tap"
+     ],
+     [
+      "Foam Cushion",
+      "Wraps bitterness in soft foam"
+     ],
+     [
+      "Smooth Reset",
+      "Cleans the palate after a heavy beer"
+     ]
+    ],
+    "kuchiguse": "Cheers first, okay~",
+    "kime": "The hard stuff can wait!",
+    "lines": [
+     "“Clean” is a compliment, you know~",
+     "Another light one? Or a little adventure this time?"
+    ],
+    "trivia": "The first entry in the guide. With rival No.16, it’s “the first beer” versus “the last beer”.",
+    "neta": "Beer trivia vanishes with the foam~"
+   },
+   "2": {
+    "cls": "Aroma-chasing beer character",
+    "me": "“atai” (sassy)",
+    "look": "Slim and quick. Wears a cape like orange and lemon peel, with an aroma-catching net on its back. Its big nose is always twitching.",
+    "persona": "Pure curiosity, never sits still. Finds a new aroma and forgets every plan.",
+    "home": "Always on the move. Frequently spotted at session IPA taps",
+    "food": "Tacos, cilantro and citrus salad",
+    "dislike": "Places with no aroma",
+    "zukan": "Races around the whole festival on a light body, stopping wherever a tap smells bold and fruity. They say its cape grows brighter with every aroma it has chased. A soft touch who shares every aroma caught in its net with friends right away.",
+    "ability": [
+     "Citrus Sensor",
+     "Can sniff out citrusy hop aroma from far away."
+    ],
+    "moves": [
+     [
+      "Juicy Dash",
+      "Sprints toward wherever the aroma is"
+     ],
+     [
+      "Tropical Sniff",
+      "Pinpoints exactly what the aroma is"
+     ],
+     [
+      "Session Relay",
+      "Links light beers one after another"
+     ]
+    ],
+    "kuchiguse": "Sniff sniff… this way!",
+    "kime": "Already found the next tap!",
+    "lines": [
+     "Hey, doesn’t this smell like grapefruit?",
+     "Light body, full-on aroma. That’s the whole point!"
+    ],
+    "trivia": "Keeps chasing rival Dark Meister around because the coffee aroma of dark beer is just too interesting.",
+    "neta": "No aroma? Then I’m just passing through"
+   },
+   "3": {
+    "cls": "One-slash beer character",
+    "me": "“ore” (cool)",
+    "look": "A straight, sharp silhouette. A clear golden body with a headband of fine bubbles, and a pilsner glass carried on its back like a sword sheath.",
+    "persona": "Quiet and cool. Hates waste. Gets a little bashful when told “that’s nicely chilled”.",
+    "home": "Near the chillers, in the shade with a good breeze",
+    "food": "Salted yakitori, gyoza",
+    "dislike": "Warm glasses, long conversations",
+    "zukan": "Never wastes a single movement. Waits perfectly still inside a well-chilled glass, then flashes a sharp bitterness in the instant of the first sip. The sight of a sweating glass brings the faintest smile.",
+    "ability": [
+     "Ice-Cold Body",
+     "The colder it gets, the stronger it becomes."
+    ],
+    "moves": [
+     [
+      "First-Sip Slash",
+      "A flash of sharp bitterness on the very first sip"
+     ],
+     [
+      "Cold Snap",
+      "Erases the aftertaste in an instant"
+     ],
+     [
+      "Lager Stance",
+      "Waits at low temperature, storing up power"
+     ]
+    ],
+    "kuchiguse": "…Crisp.",
+    "kime": "One sip says it all.",
+    "lines": [
+     "The aroma’s fine. What’s missing is the cold",
+     "…One more. Same again"
+    ],
+    "trivia": "Hates being told “drink more slowly” by rival Malt Dandy. Still drinks the water that gets handed over, though.",
+    "neta": "Warm beer and small talk: I cut both"
+   },
+   "4": {
+    "cls": "Hop-rock beer character",
+    "me": "“orecchi” (rocker)",
+    "look": "Hair spiked up like hop cones. Wears a green biker jacket and cradles a hop vine instead of a guitar.",
+    "persona": "High energy and hot-blooded. Gets hyped faster than anyone when hop harvest comes around.",
+    "home": "Near the stage, in front of the fresh hop taps",
+    "food": "Burgers, fries",
+    "dislike": "Places that are too quiet, beer that has lost its aroma",
+    "zukan": "Hits peak hype when showered in the aroma of freshly harvested hops. A light body, yet it shakes the whole stage with aroma and bitterness. Sightings at beer festivals everywhere spike in autumn.",
+    "ability": [
+     "Fresh Hop Shout",
+     "Every stat goes up when showered in fresh hop aroma."
+    ],
+    "moves": [
+     [
+      "Aroma Guitar Solo",
+      "Strums out aroma and gets the crowd going"
+     ],
+     [
+      "Bitter Beat",
+      "Keeps the rhythm with bitterness"
+     ],
+     [
+      "Harvest Live",
+      "A limited move, only usable during hop harvest"
+     ]
+    ],
+    "kuchiguse": "Yeah, hops!",
+    "kime": "Heard this year’s fresh hops yet?",
+    "lines": [
+     "Aroma is something you listen to!",
+     "Encore? Of course, one more!"
+    ],
+    "trivia": "October at TCBF is fresh hop season. The festival lands in the most energetic time of the year.",
+    "neta": "A mellow beer? Can’t hear it, the volume’s too low"
+   },
+   "5": {
+    "cls": "Everyday beer character",
+    "me": "“watashi” (polite)",
+    "look": "A plump, round, straw-coloured body in an apron, collecting drops of golden foam in a little basket.",
+    "persona": "Calm and meticulous. Treasures days that stay the same.",
+    "home": "Near the rest benches, in front of the Helles tap",
+    "food": "Sausages, pretzels, white bread",
+    "dislike": "Anything too intense",
+    "zukan": "Builds a nest from golden foam gathered bit by bit. Pays no attention to flashy aromas, carefully choosing only beers that can be drunk every day. The nest smells faintly of fresh-baked bread.",
+    "ability": [
+     "Everyday Wear",
+     "Tastes just as good on the fifth glass as the first."
+    ],
+    "moves": [
+     [
+      "Sunny Malt",
+      "Calms the room with gentle malt sweetness"
+     ],
+     [
+      "Golden Stock",
+      "Collects favourite beers and keeps them safe"
+     ],
+     [
+      "Daily Cheers",
+      "Recovers a little energy every day"
+     ]
+    ],
+    "kuchiguse": "The usual is the best, isn’t it",
+    "kime": "It doesn’t have to be fancy. I want to drink it every day",
+    "lines": [
+     "Today’s beer is properly delicious too, isn’t it",
+     "I’ll add that one to my collection"
+    ],
+    "trivia": "Secretly admired by rival Hop Swordmaster, who says “I could never match that calm.”",
+    "neta": "I’ll leave the adventures to someone else, thanks"
+   },
+   "6": {
+    "cls": "Fluffy beer character",
+    "me": "“atashi” (sweet)",
+    "look": "A cloudy white, fluffy body. Ears shaped like ears of wheat, with a banana-yellow ribbon.",
+    "persona": "Easygoing and a bit clingy. But never backs down when it comes to aroma.",
+    "home": "In front of the wheat beer taps, on a sunny patch of grass",
+    "food": "Weisswurst, fruit tarts",
+    "dislike": "Harsh bitterness",
+    "zukan": "Said to be born from a breeze over a wheat field. Without leaning on hops, it spreads banana and clove aromas using yeast alone. Its hazy body is proof of its softness.",
+    "ability": [
+     "Banana Aroma",
+     "Wrapped in the sweet aroma of yeast, it softens everyone’s mood."
+    ],
+    "moves": [
+     [
+      "Wheat Breeze",
+      "Wraps you in a fluffy mouthfeel"
+     ],
+     [
+      "Yeast Bloom",
+      "Makes yeast aroma blossom like a flower"
+     ],
+     [
+      "Hazy Veil",
+      "Hides behind a white haze"
+     ]
+    ],
+    "kuchiguse": "Mmm~ smells so nice",
+    "kime": "Aroma can bloom without any hops, you know",
+    "lines": [
+     "Cloudy means it’s packed with flavour",
+     "Bitter isn’t really my thing… but I won’t give up the aroma"
+    ],
+    "trivia": "Complains that rival Classic Bitter is “way too bitter”, but secretly respects how steady it is.",
+    "neta": "Life is bitter enough already, thanks"
+   },
+   "7": {
+    "cls": "Dark-forest beer character",
+    "me": "“jibun” (formal)",
+    "look": "A slender body wrapped in a black robe, with a brooch of creamy foam on the chest. Carries a lantern shaped like a coffee bean.",
+    "persona": "Polite and quiet. Secretly pleased when people are surprised.",
+    "home": "The roastery at night, the dark beer tap at the edge of the festival",
+    "food": "Raw oysters, fish and chips",
+    "dislike": "The assumption that dark beer means heavy beer",
+    "zukan": "Anyone who sees the black body and expects something heavy is usually surprised. Patrols the roastery at night, quietly guarding a coffee-like roastiness and a finish that fades in a breath.",
+    "ability": [
+     "Dry Finish",
+     "A black body, yet the aftertaste vanishes in a breath."
+    ],
+    "moves": [
+     [
+      "Roast Night Watch",
+      "Keeps a quiet watch over the night with roasted aroma"
+     ],
+     [
+      "Creamy Head",
+      "Wraps the mouthfeel in smooth foam"
+     ],
+     [
+      "Afterglow Door",
+      "Leaves just a trace of aroma after the last sip"
+     ]
+    ],
+    "kuchiguse": "……It isn’t over yet",
+    "kime": "Dark doesn’t always mean heavy, you know",
+    "lines": [
+     "My job is to guard the last breath of every glass",
+     "Surprised? …Then I’m glad"
+    ],
+    "trivia": "Dark Meister’s junior apprentice. With rival Juicy Collector it’s “clear jet black” versus “hazy gold”.",
+    "neta": "Anyone who judges weight by colour gets surprised first"
+   },
+   "8": {
+    "cls": "Tuning beer character",
+    "me": "“shousei” (old-fashioned)",
+    "look": "An antenna shaped like a tuning fork. Little bottles of herbs and spices hang from its body, and a thin wisp of smoke rises from its shoulders.",
+    "persona": "A craftsman at heart, obsessive about detail. Notices the tiniest difference.",
+    "home": "A farmhouse barn, the saison and spice ale taps",
+    "food": "Smoked cheese, herb dishes, spiced curry",
+    "dislike": "Being lumped in as “regular beer”",
+    "zukan": "Herbs, spice, smoke, yeast. Has the ear to pick out these scattered notes and bring them into tune inside a single glass. Knows that aroma can play an ensemble even without the big sound of hops.",
+    "ability": [
+     "Spice Tuner",
+     "Can pick out herb, spice and smoke aromas one by one."
+    ],
+    "moves": [
+     [
+      "Smoke Harmony",
+      "Lets smoky aroma ring out as the bass line"
+     ],
+     [
+      "Farmhouse Rhythm",
+      "Keeps tempo with the dry finish of saison yeast"
+     ],
+     [
+      "Tuning",
+      "Balances the aromas to match your taste"
+     ]
+    ],
+    "kuchiguse": "Yes, now it’s in tune",
+    "kime": "Smoke is the bass, herbs are the treble. See? It’s an ensemble",
+    "lines": [
+     "You can’t fool my ears",
+     "Today’s beer is a semitone sharp, I’d say"
+    ],
+    "trivia": "Rival Rich Relaxer says “you overthink it~”, but always keeps the seat next door free.",
+    "neta": "“Regular beer”? Which key is that in?"
+   },
+   "9": {
+    "cls": "Cosy beer character",
+    "me": "“oira” (easygoing)",
+    "look": "A big, stocky, amber-coloured body. Sleepy eyes, always hugging a small cushion.",
+    "persona": "Easygoing and caring. Doesn’t like being rushed.",
+    "home": "A bench with a view of the sunset",
+    "food": "Roast beef, meat pie, cheddar cheese",
+    "dislike": "Speed-drinking contests",
+    "zukan": "Has a warm amber body, and time slows down just by being nearby. Not fond of flashy aromas, but fussier than anyone about the balance of malt and hops. Strongest at dusk.",
+    "ability": [
+     "Sofa Body",
+     "Slows down time for everyone around."
+    ],
+    "moves": [
+     [
+      "Amber Time",
+      "Calms the room with the amber of dusk"
+     ],
+     [
+      "Balance Rock",
+      "Settles malt and hops into just the right balance"
+     ],
+     [
+      "Breather",
+      "Sits down and slowly recovers"
+     ]
+    ],
+    "kuchiguse": "Come on, have a seat~",
+    "kime": "No rush, no rush. The beer isn’t going anywhere",
+    "lines": [
+     "I just love this amber colour",
+     "Not flashy, but just right, isn’t it?"
+    ],
+    "trivia": "Tells rival Flavor Tuner “you overthink it~”, yet always sits down right next to it.",
+    "neta": "Speed-drinking contest? The participation prize is a hangover~"
+   },
+   "10": {
+    "cls": "Orchard beer character",
+    "me": "“uchi” (chatty)",
+    "look": "A plump, round body of hazy gold, like golden mist. Little mangoes and pineapples grow on its head.",
+    "persona": "Sociable and trend-savvy. Loves new things and records everything.",
+    "home": "The hazy IPA tap with the long queue",
+    "food": "Spicy Thai food, a fruit platter",
+    "dislike": "Old beer that has lost its aroma",
+    "zukan": "A thick, rich body holding a swirl of tropical fruit aroma. They say that every new aroma it meets gets planted and raised in the orchard inside it.",
+    "ability": [
+     "Hazy Mist",
+     "Traps aroma inside a haze."
+    ],
+    "moves": [
+     [
+      "Tropical Whirlpool",
+      "Wraps you in a swirl of aroma"
+     ],
+     [
+      "Juicy Bomb",
+      "Releases a thick burst of juiciness all at once"
+     ],
+     [
+      "Orchard Notes",
+      "Records every aroma it meets, without missing one"
+     ]
+    ],
+    "kuchiguse": "This is… a new fruit!",
+    "kime": "Can I plant that aroma in my orchard?",
+    "lines": [
+     "Hazy? That’s a compliment",
+     "Aroma is all about freshness. Drink it while it’s new!"
+    ],
+    "trivia": "Swaps aroma intel with Fruity Hunter. Rival Afterglow Keeper is its complete opposite in looks and aroma.",
+    "neta": "Hazy? Maybe you just haven’t caught up with the trend"
+   },
+   "11": {
+    "cls": "Old-school beer character",
+    "me": "“washi” (gruff elder)",
+    "look": "A sturdy build in a well-worn leather vest. A white beard of foam, and an old hop sack slung over one shoulder.",
+    "persona": "Stubborn and old-fashioned. Sharp-tongued but takes care of people.",
+    "home": "A harbour pub, the old-style IPA tap",
+    "food": "Curry, nuts, blue cheese",
+    "dislike": "Beer that is too sweet, trendy buzzwords",
+    "zukan": "A stubborn one that guards old-fashioned bitterness no matter how trends change. Has no taste for dressing up with aroma, competing on straight bitterness alone. Many young hops look up to it.",
+    "ability": [
+     "Unshaken Bitterness",
+     "The bitterness never changes, whatever the trend."
+    ],
+    "moves": [
+     [
+      "West Coast Straight",
+      "Takes you on head-first with straight bitterness"
+     ],
+     [
+      "Old School",
+      "Stubbornly keeps to the traditional way"
+     ],
+     [
+      "Bitter Guard",
+      "Bounces sweetness back with bitterness"
+     ]
+    ],
+    "kuchiguse": "Trends? Never heard of ’em",
+    "kime": "Beer is meant to be bitter, lad",
+    "lines": [
+     "Back in my day, THIS was what IPA meant",
+     "Hazy, is it? …Fine, I’ll take one sip"
+    ],
+    "trivia": "Shares silent toasts with Crisp Master. Every time rival Soft Aromatist says “too bitter”, it seriously wonders whether to ease off a little.",
+    "neta": "I don’t chase trends. They come back around on their own"
+   },
+   "12": {
+    "cls": "Two-sword beer character",
+    "me": "“sessha” (samurai)",
+    "look": "Looks like an armoured warrior. A deep golden body with a helmet of white foam, and two swords made of hop cones at the hips.",
+    "persona": "Bold and straightforward. Loves a contest, but always shows respect.",
+    "home": "The dojo, the double IPA tap",
+    "food": "Spare ribs, spicy chicken, aged cheese",
+    "dislike": "Holding back, half-hearted contests",
+    "zukan": "A swordmaster carrying many times the usual hops in both hands. Its all-out strike of aroma, bitterness and body lingers long on the tongue of anyone who takes it. They say the stronger the opponent, the more it burns.",
+    "ability": [
+     "Full Power",
+     "Aroma, bitterness and body all hit maximum."
+    ],
+    "moves": [
+     [
+      "Double Hop Slash",
+      "Unleashes aroma and bitterness at once with two swords"
+     ],
+     [
+      "Imperial Stance",
+      "Takes on any opponent with a heavy body"
+     ],
+     [
+      "DDH Flurry",
+      "A combo move that layers hops twice"
+     ]
+    ],
+    "kuchiguse": "Now, a double it is!",
+    "kime": "Holding back would be an insult to the hops",
+    "lines": [
+     "It is strong, so savour it sip by sip",
+     "Magnificent bitterness. Well done!"
+    ],
+    "trivia": "In the “Full-On Hop Alliance” with Hop Rocker. Secretly envies the calm of rival Mellow Collector.",
+    "neta": "The words “hold back” have been painted over with hops"
+   },
+   "13": {
+    "cls": "Contemplative beer character",
+    "me": "“wagahai” (scholarly)",
+    "look": "A deep amber to brown body. A long beard made of ears of barley, little round glasses and a thick book.",
+    "persona": "Thoughtful and well-read. Talks a little too long.",
+    "home": "The library, a quiet corner of the festival",
+    "food": "Roast pork, beef stew",
+    "dislike": "Ordering “whatever” for the first beer",
+    "zukan": "Sits for hours in front of a single bock, deep in thought. Can read the story of where the malt was grown and how it was roasted from its sweetness alone. Says little, but once it starts, it cannot stop.",
+    "ability": [
+     "Deep Reading",
+     "Reads how the malt was grown and roasted from its sweetness."
+    ],
+    "moves": [
+     [
+      "Malt Meditation",
+      "Focuses deeply, deeply on malt sweetness"
+     ],
+     [
+      "Doppel Logic",
+      "Doubles up its thinking to reach the answer"
+     ],
+     [
+      "Scotch Mist",
+      "Wraps everyone in a sweet caramel aroma"
+     ]
+    ],
+    "kuchiguse": "Hmm… where does this sweetness come from",
+    "kime": "To know malt is to know oneself",
+    "lines": [
+     "In my view, beer is time",
+     "No need to rush an answer. The glass is still half full"
+    ],
+    "trivia": "Complains that rival Hop Rocker’s music is too loud to think, yet goes to the show every single year.",
+    "neta": "Malt does not speak to those who order “whatever”"
+   },
+   "14": {
+    "cls": "Gentleman beer character",
+    "me": "“watakushi” (refined)",
+    "look": "A deep reddish-brown body in a top hat and waistcoat. Carries a pocket watch, with raisins in the breast pocket.",
+    "persona": "Gentlemanly and unhurried. Attentive to everyone around.",
+    "home": "The lounge, the taps with the stronger beers",
+    "food": "Blue cheese, chocolate, dried fruit",
+    "dislike": "Chugging",
+    "zukan": "A gentleman of great poise, wrapped in the aroma of raisins and caramel. Tilts a strong beer slowly from a small glass. Quietly offers a glass of water to anyone drinking too fast.",
+    "ability": [
+     "Dessert Stomach",
+     "Can enjoy a rich beer even after a full meal."
+    ],
+    "moves": [
+     [
+      "Caramel Escort",
+      "Welcomes you with sweet aroma"
+     ],
+     [
+      "Barley Wine Time",
+      "Takes its time and savours slowly"
+     ],
+     [
+      "Chaser Etiquette",
+      "Offers water to look after you"
+     ]
+    ],
+    "kuchiguse": "Oh, do have some water too",
+    "kime": "A hurried glass holds no afterglow",
+    "lines": [
+     "I shall take mine in a small glass",
+     "A piece of chocolate, if you like"
+    ],
+    "trivia": "Always nervous about how fast rival Crisp Master drinks. Still offers water every time.",
+    "neta": "Chugging, you say. I’ll bring extra water"
+   },
+   "15": {
+    "cls": "Roasted beer character",
+    "me": "None (speaks without saying “I”)",
+    "look": "A body like jet-black armour with a black leather apron. Shoulders plated in roasted malt, and only its eyes glow amber.",
+    "persona": "A craftsman of few words. Speaks through the beer, not words. Looks after the juniors.",
+    "home": "The workshop, the stout and porter taps",
+    "food": "Barbecue, brownies",
+    "dislike": "Chatter, treating beer lightly",
+    "zukan": "Clad in black armour made of deeply roasted malt. A craftsman who speaks through the beer rather than words. Fans never stop admiring how it wears dark beer like a suit.",
+    "ability": [
+     "Roast Armour",
+     "Armoured in roast, it stands up to even the richest food."
+    ],
+    "moves": [
+     [
+      "Drop of Jet Black",
+      "Strikes with deep bitterness"
+     ],
+     [
+      "Porter’s Hammer",
+      "Hits hard with a heavy body"
+     ],
+     [
+      "Peat Smoke",
+      "Wraps everyone in smoky aroma"
+     ]
+    ],
+    "kuchiguse": "……Drink, and you’ll see",
+    "kime": "Black takes on no other colour",
+    "lines": [
+     "……Good? Then that’s all that matters",
+     "Roasting leaves nowhere to hide"
+    ],
+    "trivia": "Afterglow Keeper’s senior. Troubled by rival Fruity Hunter chasing it around, but a little pleased when the coffee aroma gets praised.",
+    "neta": "……Say whether it’s good after you drink it"
+   },
+   "16": {
+    "cls": "Legendary beer character",
+    "me": "“yo” (regal)",
+    "look": "Sits on a great barrel as a throne. A body patterned like tree rings, a cloak of smoke, and deep amber eyes.",
+    "persona": "Dignified, yet very kind to anyone who makes it this far.",
+    "home": "The far end of the festival, the ageing cellar",
+    "food": "Smoked salmon, dark chocolate, aged cheese",
+    "dislike": "Rushing to a conclusion",
+    "zukan": "A legendary presence living at the deepest point of the craft beer rabbit hole. Sleeps long inside a barrel, and each time it wakes, its aroma and bitterness have deepened. They say it is only seen at the last beer of the festival.",
+    "ability": [
+     "Barrel Ageing",
+     "Aroma and bitterness grow deeper as time passes."
+    ],
+    "moves": [
+     [
+      "Imperial Smoke",
+      "A grand move that releases smoky aroma"
+     ],
+     [
+      "Barrel Sleep",
+      "Sleeps inside a barrel, storing up power"
+     ],
+     [
+      "The Last Beer",
+      "Appears only at the close of the festival"
+     ]
+    ],
+    "kuchiguse": "Well done making it this far",
+    "kime": "Share the last beer with me",
+    "lines": [
+     "I am in no hurry. I waited years inside a barrel",
+     "A strong one. Share it with friends and savour it"
+    ],
+    "trivia": "Some say rival Gentle Starter is actually what the Legend looked like when young. Late-night conversation partner of Malt Dandy.",
+    "neta": "I have never met anyone who left after the first beer"
+   }
+  },
+  "friends": [
+   "Both of the “my usual” school",
+   "Trade aroma intel",
+   "Bitterness fans who toast in silence",
+   "The Full-On Hop Alliance",
+   "Yeast aroma pals",
+   "Senior and junior of the dark beer school",
+   "Both of the slow-sipping school",
+   "Late-night conversation partners"
+  ],
+  "rivals": [
+   "The first beer and the last beer",
+   "Citrus aroma versus roasted aroma",
+   "The speed of one sip versus a slow afterglow",
+   "A loud live show versus quiet contemplation",
+   "Everyday calm versus all-out contest",
+   "Soft sweetness versus unshaken bitterness",
+   "Clear jet black versus hazy gold",
+   "An ensemble of character versus classic comfort"
+  ]
+ },
+ "story": [
+  {
+   "t": "Cover: How Does That Beer Reach You?",
+   "x": "TCBF2026 × Tsukuba University of Technology. How does that beer reach you? The making of Beer meets Design."
+  },
+  {
+   "t": "Hey, welcome to TCBF.",
+   "x": "My job is to pick the one track that fits everyone on the floor, and deliver it. Today, let me tell you the story of how beer met design."
+  },
+  {
+   "t": "About 40 breweries gather in Tsukuba.",
+   "x": "About 40 breweries, over 200 craft beers. TCBF is a festival that university students started in 2011. This year, the 13th, over 200 craft beers will be lined up. The theme is “beer meets ____”. It’s the year beer meets something new."
+  },
+  {
+   "t": "“Which one should I get…?”",
+   "x": "But you can only drink a few glasses a day. Not knowing the difference, plenty of people choose by the length of the queue or by “whatever”."
+  },
+  {
+   "t": "What’s missing isn’t the taste.",
+   "x": "Every brewery has its own passion and story. And yet people walk past before they ever meet it. What’s missing is the way that appeal gets across. “Even a great track won’t make anyone dance if it doesn’t reach them.”"
+  },
+  {
+   "t": "If it’s about getting across, ask those people.",
+   "x": "We wanted every brewery to have a chance to be discovered. So we asked people who think about how things get across. We visited Tsukuba University of Technology, where students study design while facing differences in how people see and hear."
+  },
+  {
+   "t": "The question we gave the students",
+   "x": "Out of about 40 breweries, how do we help each visitor meet “the beer that fits them”? Theme: “Meet it before you drink. Notice it after.” Ideas that reach touch and scent, not just the eyes, were welcome too."
+  },
+  {
+   "t": "July 27, 2026: eleven ideas arrived.",
+   "x": "The students presented one by one and talked with 22 judges from companies, Tsukuba City and universities. Questions and comments were also shared as text on screen. Whatever their hearing, everyone could talk while looking at the same information. The text was shared with Tsukuba University of Technology’s “ISeee TimeLine”."
+  },
+  {
+   "t": "Three ideas were chosen.",
+   "x": "The first: learn your taste type, and meet the opposite of what you like too. The second: cute characters that welcome first-timers. The third: meet beer through food, with pictures and English that cross the language barrier."
+  },
+  {
+   "t": "The chosen ideas come to the festival.",
+   "x": "The students’ ideas become real at TCBF2026. Take the Beer Type Quiz: answer 8 questions and find your beer personality among 16 types. It also suggests a beer close to your type from 32 breweries."
+  },
+  {
+   "t": "Now, enjoy the festival!",
+   "x": "What the students dreamed up is waiting for you at the festival. Once you know your type, try “the beer that fits” and “its complete opposite” side by side. Change how it gets across, and you change who meets whom. Enjoy every minute! Take the quiz on your phone any time. October 16 (Fri) to 18 (Sun), 2026, Tsukuba Center Plaza."
+  },
+  {
+   "t": "Back cover",
+   "x": "beer meets Design / Tsukuba Craft Beer Fest 2026. Organised by the Tsukuba Craft Beer Fest Executive Committee, co-organised by Tsukuba Machinaka Design Co., Ltd., with the cooperation of Tsukuba City and the Tsukuba Center District Revitalisation Council. Thinking alongside us: the students of Tsukuba University of Technology. tsukuba-craftbeerfest.com"
+  }
+ ],
+ "odai": [
+  "If this beer were an animal, what would it be?",
+  "If this beer were weather, what would it be?",
+  "What colour is this beer, in your mind?",
+  "If this beer were a music genre, what would it be?",
+  "What song goes with this beer?",
+  "Praise this beer in one word.",
+  "What time of day is this beer for?",
+  "Where would you love to drink this beer?",
+  "What snack goes with this beer?",
+  "Describe the aroma of this beer in one word.",
+  "Who would you recommend this beer to?",
+  "How did you feel on the first sip?",
+  "If this beer were a season, which one?",
+  "If this beer were a movie genre, what would it be?",
+  "Give this beer a tagline.",
+  "What would you talk about over this beer?",
+  "Score today’s beer out of 10.",
+  "Put the finish of this beer into words.",
+  "Who would you share this beer with?",
+  "Which festival food would you pair with this beer?",
+  "Does your beer character fit you? (yes/no, and why)",
+  "Which style do you want to try next?",
+  "Sum up this beer in a single word.",
+  "What memory did this beer bring back?",
+  "Describe this beer with a sound effect (e.g. fizz!)",
+  "One piece of advice for a beer beginner?",
+  "What do you love about Tsukuba Craft Beer Fest?",
+  "Which brewery impressed you most today?",
+  "A toast message for the person you are drinking with?"
+ ]
+}
