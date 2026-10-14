@@ -14,6 +14,7 @@
 | 16タイプ | 16 types | li |
 | ビールの質問は出ません | No beer knowledge needed | li |
 | 診断をはじめる | Start the quiz | button |
+| ビールの好みが分かっている人は、つまみで直接えらぶ → | Know your beer taste? Set it directly with sliders → | button |
 | 絵本 ｜ TCBF2026 × 筑波技術大学 | Picture book ｜ TCBF2026 × Tsukuba University of Technology | small |
 | その一杯は、どう届く？ | How Does That Beer Reach You? | b、h2 |
 | Beer meets Design ができるまでの12ページ。めくって読めます → | The 12-page story of how Beer meets Design came to be. Flip through it → | span |
@@ -72,6 +73,9 @@
 | 結果をシェア | Share | button |
 | 結果画像をつくる | Make a result image | button |
 | もう一度診断する | Take the quiz again | button |
+| 好みを調整しなおす | Adjust my taste again | button |
+| 診断（8問）でも確かめる | Also check with the 8-question quiz | button |
+| 好みを自分で調整する | Fine-tune my taste | button |
 | 協力ブルワリー | Breweries | button、JS |
 | みんなの結果 | Everyone’s results | button、JS |
 | 絵本 | Picture book | button、aria-roledescription div#bkBook、JS |
@@ -88,6 +92,11 @@
 | 16タイプ ランキング | Ranking of the 16 types | p |
 | 更新する | Refresh | button、JS |
 | 結果画面にもどる | Back to my result | button |
+| 好みを直接えらぶ | Choose your taste directly | h2 |
+| 診断に答えなくても、4つのつまみを動かして自分のタイプを決められます。真ん中はありません。左右どちらかに寄せてください。 | No need to answer the quiz: move the four sliders to set your type yourself. There is no middle, so lean each one to one side. | p |
+| いまのタイプ | Your type right now | p |
+| この結果を見る | See this result | button |
+| 診断（8問）で確かめる | Check with the 8-question quiz | button |
 | キャラ相関 | Character relationships | p |
 | ライバルは4文字すべてが反対の「真逆タイプ」。仲良しは好みの近いキャラ同士です。 | Rivals are complete opposites, with all four letters flipped. Buddies are characters with similar tastes. | p |
 | TCBF2026 × 筑波技術大学 | TCBF2026 × Tsukuba University of Technology | p |
@@ -147,12 +156,14 @@
 | かなり | strongly | JS |
 | わりと | fairly | JS |
 | やや | slightly | JS |
+| 好みでえらぶ | By taste | JS |
 | 質問 {i}、全 {n} 問。{q} | Question {i} of {n}. {q} | JS |
 | レーダーチャート。{t} | Radar chart. {t} | JS |
 | プレビュー | Preview | JS |
 | 結果 | Result | JS |
 | プレビュー（自分の結果ではありません） | Preview (not your own result) | JS |
 | 暫定結果（4問時点） | Interim result (after 4 questions) | JS |
+| 好みを直接えらんだ結果 | Chosen directly by taste | JS |
 | あなたのビールタイプは {code}、{name}。 | Your beer type is {code}, {name}. | JS |
 | 回答を入れてください | Please enter an answer | JS |
 | 飲んだビールを選ぶか、テイスティングコメントを入れてください | Pick a beer you had, or write a tasting comment | JS |
