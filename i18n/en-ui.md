@@ -14,7 +14,7 @@
 | 16タイプ | 16 types | li |
 | ビールの質問は出ません | No beer knowledge needed | li |
 | 診断をはじめる | Start the quiz | button |
-| ビールの好みが分かっている人は、つまみで直接えらぶ → | Know your beer taste? Set it directly with sliders → | button |
+| クラフトビールの好みが分かっている人（上級向け） | Know your craft beer taste? Set it yourself (advanced) | button |
 | 絵本 ｜ TCBF2026 × 筑波技術大学 | Picture book ｜ TCBF2026 × Tsukuba University of Technology | small |
 | その一杯は、どう届く？ | How Does That Beer Reach You? | b、h2 |
 | Beer meets Design ができるまでの12ページ。めくって読めます → | The 12-page story of how Beer meets Design came to be. Flip through it → | span |
