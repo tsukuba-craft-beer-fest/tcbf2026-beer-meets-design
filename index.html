@@ -597,6 +597,12 @@ html[lang="en"] .is-tag > span { margin-right: .35em; }
 .tune-code { margin: 0; font-family: var(--font-display); font-size: 13px; letter-spacing: .06em; color: var(--ink-2); }
 .tune-name { margin: 2px 0 0; font-family: var(--font-display); font-size: 22px; line-height: 1.3; font-weight: 400; }
 .tune-catch { margin: 4px 0 0; font-size: 13px; font-weight: 700; color: var(--brand); }
+.tune-radar { background: var(--surface); border-radius: 14px; padding: 6px 8px; }
+.tune-radar .radar { max-width: 280px; }
+.tune-radar .radar-data { animation: none; }   /* つまみに追従して描き直すので、出現のアニメーションは付けない */
+.tune-styles { display: grid; gap: 6px; }
+.tune-styles-label { margin: 0; font-size: 12px; font-weight: 700; color: var(--ink-2); }
+.tune-styles .chip { background: var(--surface); }
 .is-modes { display: grid; gap: 8px; }
 .is-mode-btn { appearance: none; margin: 0; text-align: left; cursor: pointer; font: inherit; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line-strong); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; }
 .is-mode-btn b { font-size: 15px; }
@@ -1217,10 +1223,12 @@ html[lang="en"] .is-tag > span { margin-right: .35em; }
     <div class="tune-preview" id="tunePreview">
       <p class="card-title">いまのタイプ</p>
       <div class="tiles" id="tuneTiles"></div>
+      <div class="tune-radar" id="tuneRadar"></div>
       <div class="tune-who">
         <div class="tune-frame"><img id="tuneChara" alt=""></div>
         <div><p class="tune-code" id="tuneCode"></p><p class="tune-name" id="tuneName"></p><p class="tune-catch" id="tuneCatch"></p></div>
       </div>
+      <div class="tune-styles"><p class="tune-styles-label">おすすめのスタイル</p><ul class="chips" id="tuneChips"></ul></div>
       <button class="btn btn-primary btn-lg" type="button" data-action="tune-go">この結果を見る</button>
     </div>
     <div class="actions-row">
@@ -1506,20 +1514,25 @@ html[lang="en"] .is-tag > span { margin-right: .35em; }
     });
     if (!per.every(p => p.main)) return { ok: false };
     const partial = !per.every(p => p.sub);
-    const axes = per.map((p, i) => {
-      const ax = AXES[i];
-      const side = p.score > 0 ? 'left' : 'right';
-      const pole = ax[side];
-      const mag = Math.abs(p.score);
-      return {
-        axis: ax, score: p.score, side,
-        letter: pole.code, word: pole.word,
-        // 8方向レーダー用：選んだ側が 50〜100%、反対側が 0〜50%（合計100%）。中心に集まることはない
-        left: Math.round(50 + p.score / 5 * 50), right: Math.round(50 - p.score / 5 * 50),
-        strength: mag >= 3.5 ? tr('かなり') : mag >= 2 ? tr('わりと') : tr('やや'),
-      };
-    });
+    const axes = per.map((p, i) => axisInfo(i, p.score));
     return { ok: true, partial, axes, code: axes.map(a => a.letter).join('') };
+  }
+  function axisInfo(i, score) {   // 軸スコア（−5〜+5、0 以外）→ 結果画面・レーダー用の情報
+    const ax = AXES[i];
+    const side = score > 0 ? 'left' : 'right';
+    const pole = ax[side];
+    const mag = Math.abs(score);
+    return {
+      axis: ax, score, side,
+      letter: pole.code, word: pole.word,
+      // 8方向レーダー用：選んだ側が 50〜100%、反対側が 0〜50%（合計100%）。中心に集まることはない
+      left: Math.round(50 + score / 5 * 50), right: Math.round(50 - score / 5 * 50),
+      strength: mag >= 3.5 ? tr('かなり') : mag >= 2 ? tr('わりと') : tr('やや'),
+    };
+  }
+  function resultFromScores(scores) {   // スライダーの値（連続）からそのまま結果を作る（プレビュー用）
+    const axes = scores.map((s, i) => axisInfo(i, s || 1));
+    return { ok: true, partial: false, axes, code: axes.map(a => a.letter).join('') };
   }
 
   // 一覧からのプレビュー用：そのタイプになる代表的な回答（主 ±2・補助 ±1 → 軸スコア ±4）
@@ -2292,8 +2305,10 @@ html[lang="en"] .is-tag > span { margin-right: .35em; }
     const t = typeData(res.code), wrap = $('#tunePreview');
     wrap.style.setProperty('--group', groupColor(res.code)); wrap.style.setProperty('--group-soft', groupTint(res.code));
     $('#tuneTiles').innerHTML = res.axes.map(a => `<div class="tile ${a.side}"><span class="axis">${esc(a.axis.name)}</span><span class="letter">${a.letter}</span><span class="word">${esc(a.word)}</span></div>`).join('');
+    $('#tuneRadar').innerHTML = radarSVG(resultFromScores(scores));   // レーダーはつまみの値そのままで描く
     const img = $('#tuneChara'); img.src = t.chara; img.alt = t.name;
     $('#tuneCode').textContent = res.code; $('#tuneName').textContent = t.name; $('#tuneCatch').textContent = t.catch;
+    $('#tuneChips').innerHTML = t.styles.map(s => `<li class="chip">${esc(s)}</li>`).join('');
   }
   function tuneGo() {
     const scores = tuneScores(); if (scores.length !== AXES.length) return;
