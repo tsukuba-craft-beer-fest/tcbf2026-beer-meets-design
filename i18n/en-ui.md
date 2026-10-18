@@ -123,6 +123,7 @@
 | コピーしてISeeeTLを開く | Copy and open ISeeeTL | a |
 | 開いた先の「投稿」で貼り付け、タグから同じキャラを選んでください。初めての投稿では利用ルールへの同意が表示されます。 | On ISeeeTL, tap “Post”, paste the text and pick the same character from the tag list. On your first post you will be asked to accept the rules. The tag is kept in Japanese to match ISeeeTL. | p |
 | フラッグシップ | Flagship beer | p |
+| 会場での場所 | Where to find it | h4 |
 | 香りの特徴 | Aroma | dt |
 | 合わせたいフード | Pairs well with | dt |
 | おすすめの注ぎ方 | How to serve | dt |
@@ -130,6 +131,8 @@
 | 地域との繋がり | Local ties | h4 |
 | 小ネタ | Fun facts | h4、JS |
 | 公式サイトを見る → | Official website → | a |
+| 会場マップ | Festival map | h2 |
+| 黄色い丸がブルワリーの場所です。下の番号をタップすると、その場所へ移動します。 | Yellow circles mark the breweries. Tap a number below to jump to that spot. | p |
 | ビールタイプ診断（beer meets Design） トップへ | Beer Type Quiz (beer meets Design). Go to the home screen | aria-label button.wordmark |
 | 絵本『その一杯は、どう届く？』を読む | Read the picture book “How Does That Beer Reach You?” | aria-label button.story-tease |
 | AとBのどちらに近いか | How close are you to A or B | aria-label div.scale |
@@ -149,6 +152,8 @@
 | それ以外に飲んだビール（自由記述） | Other beers you had (free text) | placeholder input#isOther |
 | 味や香り、気に入ったところなど（200文字まで） | Taste, aroma, what you liked (up to 200 characters) | placeholder textarea#isComment |
 | 投稿文 | Post text | aria-label textarea#isPreview |
+| 縮小 | Zoom out | aria-label button |
+| 拡大 | Zoom in | aria-label button |
 | 近いタイプ | Close type | JS |
 | くわしく → | Details → | JS |
 | {name} に近いフラッグシップです。当日はほかの銘柄も出るので、会場で探してみてください。 | Flagship beers close to {name}. Many more beers will be poured on the day, so go explore the festival. | JS |
@@ -164,12 +169,18 @@
 | プレビュー（自分の結果ではありません） | Preview (not your own result) | JS |
 | 暫定結果（4問時点） | Interim result (after 4 questions) | JS |
 | 好みを直接えらんだ結果 | Chosen directly by taste | JS |
+| 黄色い丸が、上のブルワリーの場所です。 | Yellow circles mark the breweries listed above. | JS |
 | あなたのビールタイプは {code}、{name}。 | Your beer type is {code}, {name}. | JS |
 | 回答を入れてください | Please enter an answer | JS |
 | 飲んだビールを選ぶか、テイスティングコメントを入れてください | Pick a beer you had, or write a tasting comment | JS |
 | 投稿文をコピーしました。投稿欄に貼り付けて、タグから同じキャラを選んでください | Copied your post. Paste it into the post box and pick the same character from the tag list | JS |
 | コピーできませんでした。投稿文を長押しでコピーしてください | Could not copy. Press and hold the post text to copy it | JS |
+| 黄色い丸が {brewery} のブースです。 | The yellow circle marks the {brewery} booth. | JS |
 | {brewery} の紹介を開きました | Opened the profile of {brewery} | JS |
+| ブース {n} | Booth {n} | JS |
+| 会場マップを拡大して見る（ブース {list}） | Open the festival map (booths {list}) | JS |
+| タップで拡大 → | Tap to enlarge → | JS |
+| 会場マップを開きました | Opened the festival map | JS |
 | 私のビールタイプは「{code}：{name}」でした！ | My beer type is “{code}: {name}”! | JS |
 | 本文とリンクをコピーしました | Copied the text and link | JS |
 | このブラウザでは共有できないため、結果画像を表示します | Sharing is not available in this browser, so here is your result image | JS |
