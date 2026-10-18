@@ -70,7 +70,7 @@
 | 残りの4問に答えて、くわしい結果を見る | Answer the last 4 questions for the full result | button |
 | 自分も診断してみる | Take the quiz myself | button |
 | 結果をシェアする | Share my result | button |
-| 結果をシェアする（ISeeeTL） | Share my result (ISeeeTL) | button |
+| 結果をシェアする（ISeeeTL） | Share my result (ISeeeTL) | a |
 | Xに投稿する | Post on X | a |
 | ISeeeTLに投稿する | Post on ISeeeTL | button、h2 |
 | 結果をシェア | Share | button |
@@ -178,13 +178,14 @@
 | 飲んだビールを選ぶか、テイスティングコメントを入れてください | Pick a beer you had, or write a tasting comment | JS |
 | 投稿文をコピーしました。投稿欄に貼り付けて、タグから同じキャラを選んでください | Copied your post. Paste it into the post box and pick the same character from the tag list | JS |
 | コピーできませんでした。投稿文を長押しでコピーしてください | Could not copy. Press and hold the post text to copy it | JS |
+| 私のビールタイプは「{code}：{name}」でした！ | My beer type is “{code}: {name}”! | JS |
+| コピーできませんでした。ISeeeTLの投稿欄に、自分のタイプを書いてください | Couldn’t copy. Please type your beer type in the ISeeeTL post box. | JS |
 | 黄色い丸が {brewery} のブースです。 | The yellow circle marks the {brewery} booth. | JS |
 | {brewery} の紹介を開きました | Opened the profile of {brewery} | JS |
 | ブース {n} | Booth {n} | JS |
 | 会場マップを拡大して見る（ブース {list}） | Open the festival map (booths {list}) | JS |
 | タップで拡大 → | Tap to enlarge → | JS |
 | 会場マップを開きました | Opened the festival map | JS |
-| 私のビールタイプは「{code}：{name}」でした！ | My beer type is “{code}: {name}”! | JS |
 | 本文とリンクをコピーしました | Copied the text and link | JS |
 | このブラウザでは共有できないため、結果画像を表示します | Sharing is not available in this browser, so here is your result image | JS |
 | 画像を作成できませんでした | Could not create the image | JS |
