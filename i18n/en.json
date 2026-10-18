@@ -1,12 +1,15 @@
 {
  "ui": {
   "ビールタイプ診断": "Beer Type Quiz",
+  "自分の結果": "My result",
   "つくばクラフトビアフェスト 2026": "Tsukuba Craft Beer Fest 2026",
   "ビールの知識はいりません。ふだんの「好み」をえらぶだけで、まだ出会っていないかもしれない「あなたに合うビール」のタイプが見つかります。質問は1問ずつ出てきます。": "No beer knowledge needed. Just pick your everyday preferences, and you will find the type of beer that fits you, maybe one you have never met. Questions come one at a time.",
   "8問": "8 questions",
   "約60秒": "About 60 sec",
   "16タイプ": "16 types",
   "ビールの質問は出ません": "No beer knowledge needed",
+  "あなたのビールタイプ": "Your beer type",
+  "自分の結果を見る →": "See my result →",
   "診断をはじめる": "Start the quiz",
   "クラフトビールの好みが分かっている人（上級向け）": "Know your craft beer taste? Set it yourself (advanced)",
   "絵本 ｜ TCBF2026 × 筑波技術大学": "Picture book ｜ TCBF2026 × Tsukuba University of Technology",
@@ -42,7 +45,6 @@
   "食欲をそそられるのは、どっちの瞬間？": "Which moment makes you hungry?",
   "カットしたレモンやハーブが、ぱっと弾ける瞬間": "A burst of fresh-cut lemon or herbs",
   "炊きたてごはんや焼きたてパンの、香ばしい湯気": "The toasty steam of fresh rice or warm bread",
-  "あなたのビールタイプ": "Your beer type",
   "みんなの診断結果を見る →": "See everyone’s results →",
   "いつものビールと違う結果でも、それが狙いです。この診断は「まだ試していない、合うかもしれないスタイル」に出会うためのもの。会場でぜひ1杯、試してみてください。": "If the result is different from your usual beer, that is the point. This quiz is about meeting styles you have not tried yet but might love. Go and try one at the festival.",
   "おすすめのスタイル": "Recommended styles",

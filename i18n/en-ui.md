@@ -8,11 +8,14 @@
 | JA | EN | 場所 |
 |---|---|---|
 | ビールタイプ診断 | Beer Type Quiz | b、JS |
+| 自分の結果 | My result | button |
 | つくばクラフトビアフェスト 2026 | Tsukuba Craft Beer Fest 2026 | p |
 | 8問 | 8 questions | li |
 | 約60秒 | About 60 sec | li |
 | 16タイプ | 16 types | li |
 | ビールの質問は出ません | No beer knowledge needed | li |
+| あなたのビールタイプ | Your beer type | small、p、JS |
+| 自分の結果を見る → | See my result → | span |
 | 診断をはじめる | Start the quiz | button |
 | クラフトビールの好みが分かっている人（上級向け） | Know your craft beer taste? Set it yourself (advanced) | button |
 | 絵本 ｜ TCBF2026 × 筑波技術大学 | Picture book ｜ TCBF2026 × Tsukuba University of Technology | small |
@@ -48,7 +51,6 @@
 | 食欲をそそられるのは、どっちの瞬間？ | Which moment makes you hungry? | h2 |
 | カットしたレモンやハーブが、ぱっと弾ける瞬間 | A burst of fresh-cut lemon or herbs | p |
 | 炊きたてごはんや焼きたてパンの、香ばしい湯気 | The toasty steam of fresh rice or warm bread | p |
-| あなたのビールタイプ | Your beer type | p、JS |
 | みんなの診断結果を見る → | See everyone’s results → | button |
 | おすすめのスタイル | Recommended styles | p、JS |
 | 会場でのヒント | Tip for the festival | strong、JS |
