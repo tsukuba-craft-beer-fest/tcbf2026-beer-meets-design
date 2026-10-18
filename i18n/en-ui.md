@@ -70,6 +70,7 @@
 | 残りの4問に答えて、くわしい結果を見る | Answer the last 4 questions for the full result | button |
 | 自分も診断してみる | Take the quiz myself | button |
 | 結果をシェアする | Share my result | button |
+| 結果をシェアする（ISeeeTL） | Share my result (ISeeeTL) | button |
 | Xに投稿する | Post on X | a |
 | ISeeeTLに投稿する | Post on ISeeeTL | button、h2 |
 | 結果をシェア | Share | button |
